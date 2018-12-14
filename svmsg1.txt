@@ -1,0 +1,520 @@
+so much
+Nov 26, 2018, 5:13 PM
+Sreya Vemuri
+THANK YOU
+Nov 26, 2018, 5:13 PM
+Sreya Vemuri
+I will try fixing these
+Nov 26, 2018, 5:13 PM
+Sreya Vemuri
+ahhh ok I get that
+Nov 26, 2018, 5:11 PM
+Nenya Edjah
+if you do it like in the example above, you only need to do it once
+Nov 26, 2018, 5:11 PM
+Sreya Vemuri
+oh ok but only after I fork
+Nov 26, 2018, 5:11 PM
+Nenya Edjah
+in make_child, you should be calling setpgid in the child process and in the parent process
+Nov 26, 2018, 5:11 PM
+Sreya Vemuri
+For the child
+Nov 26, 2018, 5:11 PM
+Sreya Vemuri
+wait so in the make child function do I only need to set pgid once?
+Nov 26, 2018, 5:11 PM
+Nenya Edjah
+```
+curr->pid = fork();
+if (pgid == 0) {
+pgid = curr->pid;
+}
+setpgid(pid, pgid);
+```
+Nov 26, 2018, 5:10 PM
+Nenya Edjah
+so what you could be doing there instead is something like:
+Nov 26, 2018, 5:10 PM
+Nenya Edjah
+in that function, you're calling setpgid before you fork, which doesn't really make sense since you can't set the pgid of a child which doesn't exist yet
+Nov 26, 2018, 5:10 PM
+Nenya Edjah
+you also need to do something similar in your make_child function
+Nov 26, 2018, 5:09 PM
+Nenya Edjah
+```
+if (pgid == 0) {
+pgid = npid;
+}
+```
+Nov 26, 2018, 5:09 PM
+Nenya Edjah
+what you should probably be doing instead is something like this:
+Nov 26, 2018, 5:09 PM
+Nenya Edjah
+but in your while loop in that funciton, you're always setting *pgid = npid*
+Nov 26, 2018, 5:08 PM
+Nenya Edjah
+the third issue is that you're not updating the pgid correctly in `run_pipeline`. the *pgid* of all of the processes in the pipeline should be the same as the *pid* of the first process in that pipeline
+Nov 26, 2018, 5:08 PM
+Nenya Edjah
+the second issue is that you're not calling claim_foreground (if you're not in the background) on line 235
+Nov 26, 2018, 5:06 PM
+Nenya Edjah
+this is because you should always be claiming the foreground for the main shell right before you're about to take in a new command.
+
+the `claim_foreground(0)` call in run_pipeline isn't necessary if you have the one in the `main()` while loop, and in fact it's actually wrong to call it if you're running the pipeline in the background
+Nov 26, 2018, 5:05 PM
+Nenya Edjah
+but that should really be outside of that if statement, i.e. right above the `while (waitpid(...))` loop
+Nov 26, 2018, 5:04 PM
+Nenya Edjah
+you had a commented out one in the `if (signal_status == SIGINT)` case at the bottom of your main while loop
+Nov 26, 2018, 5:03 PM
+Nenya Edjah
+the first is that you don't have claim_foreground in the right locations
+Nov 26, 2018, 5:03 PM
+Nenya Edjah
+but i figured out a couple of issues in your code
+Nov 26, 2018, 5:02 PM
+Nenya Edjah
+it's fine
+Nov 26, 2018, 5:02 PM
+Nenya Edjah
+sure
+Nov 26, 2018, 4:53 PM
+Nenya Edjah
+um
+Nov 26, 2018, 4:53 PM
+Sreya Vemuri
+omg was I not supposed to write that much
+Nov 26, 2018, 4:53 PM
+Nenya Edjah
+geez 500 lines of code?
+Nov 26, 2018, 4:52 PM
+Sreya Vemuri
+Ty!
+Nov 26, 2018, 4:43 PM
+Nenya Edjah
+i'll take a look at it
+😍Sreya Vemuri
+Nov 26, 2018, 4:43 PM
+Sreya Vemuri
+yeah
+Nov 26, 2018, 4:42 PM
+Nenya Edjah
+Have you pushed your code to github?
+Nov 26, 2018, 4:41 PM
+Sreya Vemuri
+once for parent and once for child
+Nov 26, 2018, 4:40 PM
+Sreya Vemuri
+I set them twice
+Nov 26, 2018, 4:40 PM
+Sreya Vemuri
+I think so
+Nov 26, 2018, 4:40 PM
+Nenya Edjah
+Are you setting pgids correctly?
+Nov 26, 2018, 4:40 PM
+Sreya Vemuri
+The first 3 interrupts
+Nov 26, 2018, 4:40 PM
+Nenya Edjah
+In the normal?
+Nov 26, 2018, 4:40 PM
+Nenya Edjah
+What tests are failing?
+Nov 26, 2018, 4:40 PM
+Nenya Edjah
+Yeah that's pretty tragic, but you'll probably be fine
+Nov 26, 2018, 4:39 PM
+Sreya Vemuri
+I cannot look at this pset any longer
+Nov 26, 2018, 4:39 PM
+Sreya Vemuri
+RIP
+Nov 26, 2018, 4:39 PM
+Sreya Vemuri
+It’s like 80/83 normally and 74/83 on mem leaks
+Nov 26, 2018, 4:39 PM
+Nenya Edjah
+Then I think you could do better
+Nov 26, 2018, 4:39 PM
+Sreya Vemuri
+yeah :(
+Nov 26, 2018, 4:39 PM
+Nenya Edjah
+Is your "best" still failing some tests?
+Nov 26, 2018, 4:39 PM
+Sreya Vemuri
+I have done my BEST
+Nov 26, 2018, 4:38 PM
+Sreya Vemuri
+lmao ok
+Nov 26, 2018, 4:38 PM
+Nenya Edjah
+Um, you should try to make it as correct as possible
+Nov 26, 2018, 4:37 PM
+Sreya Vemuri
+or do some of them count for more
+Nov 26, 2018, 4:33 PM
+Sreya Vemuri
+for 61 pset grading, do u take the lowest score out of check, check with sanitizers, and check leaks
+Nov 26, 2018, 4:33 PM
+Nenya Edjah
+Md125
+Nov 13, 2018, 1:18 PM
+Sreya Vemuri
+where is ur class
+Nov 13, 2018, 1:15 PM
+Nenya Edjah
+k
+😍Sreya Vemuri
+Nov 13, 2018, 12:09 PM
+Sreya Vemuri
+Same can I just get it from u at 1:15
+Nov 13, 2018, 12:09 PM
+Nenya Edjah
+yeah
+Nov 13, 2018, 12:09 PM
+Sreya Vemuri
+Is ur class in MD
+Nov 13, 2018, 12:09 PM
+Sreya Vemuri
+TY wait also
+Nov 13, 2018, 12:09 PM
+Nenya Edjah
+i'll leave it outside your door at pfoho
+Nov 13, 2018, 12:09 PM
+Sreya Vemuri
+omg what
+Nov 13, 2018, 12:09 PM
+Nenya Edjah
+oh wait nvm, he just went back and got it
+Nov 13, 2018, 12:08 PM
+Nenya Edjah
+:'(
+Nov 13, 2018, 12:05 PM
+Sreya Vemuri
+RIP
+Nov 13, 2018, 12:05 PM
+Sreya Vemuri
+oh no someone must have taken it
+Nov 13, 2018, 12:05 PM
+Nenya Edjah
+yeah
+Nov 13, 2018, 12:05 PM
+Sreya Vemuri
+in the section room??
+Nov 13, 2018, 12:05 PM
+Nenya Edjah
+He left it there
+Nov 13, 2018, 12:04 PM
+Sreya Vemuri
+OOO ty
+Nov 13, 2018, 12:04 PM
+Nenya Edjah
+I'm in the same class as him rn, I'll just ask him
+Nov 13, 2018, 12:04 PM
+Sreya Vemuri
+He has my umbrella
+Nov 13, 2018, 12:03 PM
+Sreya Vemuri
+Do u have Juan’s phone number
+Nov 13, 2018, 12:03 PM
+Sreya Vemuri
+Done
+Nov 11, 2018, 1:46 PM
+Sreya Vemuri
+Hehe
+Nov 11, 2018, 1:46 PM
+Nenya Edjah
+>:(
+Nov 11, 2018, 12:32 AM
+Nenya Edjah
+add me back to the group!
+Nov 11, 2018, 12:32 AM
+Sreya Vemuri
+for the help
+Nov 1, 2018, 10:43 PM
+Sreya Vemuri
+ty
+Nov 1, 2018, 10:43 PM
+Sreya Vemuri
+rip
+Nov 1, 2018, 10:43 PM
+Nenya Edjah
+you watch each lecture 5 times
+Nov 1, 2018, 10:42 PM
+Sreya Vemuri
+i watched each lecture like 4 times
+😢Nenya Edjah
+Nov 1, 2018, 10:41 PM
+Sreya Vemuri
+in CS
+Nov 1, 2018, 10:41 PM
+Sreya Vemuri
+do i understand anything
+Nov 1, 2018, 10:41 PM
+Sreya Vemuri
+how
+Nov 1, 2018, 10:41 PM
+Sreya Vemuri
+O
+Oct 28, 2018, 4:55 PM
+Nenya Edjah
+You probably would get a virus
+Oct 28, 2018, 4:55 PM
+Sreya Vemuri
+what if I connect to your Bluetooth
+Oct 28, 2018, 4:55 PM
+Nenya Edjah
+?
+Oct 28, 2018, 4:55 PM
+Sreya Vemuri
+You sent a photo.
+
+Oct 28, 2018, 4:55 PM
+Sreya Vemuri
+So bougie
+Oct 28, 2018, 4:54 PM
+Sreya Vemuri
+Ya!!!
+Oct 28, 2018, 4:54 PM
+Nenya Edjah
+Was fun anyway
+Oct 28, 2018, 4:53 PM
+Sreya Vemuri
+Rest In Peace
+Oct 28, 2018, 4:05 PM
+Sreya Vemuri
+We will have to sit at dif tables :(((
+Oct 28, 2018, 4:05 PM
+Nenya Edjah
+Yeah. I'll be heading down to high tea soon
+Oct 28, 2018, 4:04 PM
+Sreya Vemuri
+r u in ur room
+Oct 28, 2018, 3:53 PM
+Nenya Edjah
+thx i'm gonna need it
+Oct 23, 2018, 11:42 PM
+Sreya Vemuri
+GL
+Oct 23, 2018, 11:42 PM
+Sreya Vemuri
+oh rip
+Oct 23, 2018, 11:42 PM
+Nenya Edjah
+i need to study for two exams that i have tomorrow
+😢Sreya Vemuri
+Oct 23, 2018, 11:42 PM
+Sreya Vemuri
+hang out w cherri and me
+Oct 23, 2018, 11:41 PM
+Sreya Vemuri
+come to the dhall
+Oct 23, 2018, 11:41 PM
+Sreya Vemuri
+where u
+Oct 23, 2018, 11:41 PM
+Nenya Edjah
+Nenya sent a GIF from GIPHY.
+
+😍Sreya Vemuri
+Oct 23, 2018, 11:41 PM
+Sreya Vemuri
+will still be lit!!!
+Oct 23, 2018, 11:40 PM
+Sreya Vemuri
+awww ok
+Oct 23, 2018, 11:40 PM
+Nenya Edjah
+teddy can't make it since he's gonna be traveling back from NY
+Oct 23, 2018, 11:40 PM
+Nenya Edjah
+Nenya: 󰀀
+
+Oct 23, 2018, 11:32 PM
+Sreya Vemuri
+tell teddy also
+Oct 23, 2018, 11:32 PM
+Sreya Vemuri
+yay
+Oct 23, 2018, 11:32 PM
+Sreya Vemuri
+REALLY
+Oct 23, 2018, 11:32 PM
+Nenya Edjah
+aight
+Oct 23, 2018, 11:30 PM
+Sreya Vemuri
+sign up for pfoho high tea w me
+Oct 23, 2018, 11:28 PM
+Sreya Vemuri
+hi
+Oct 23, 2018, 11:28 PM
+Sreya Vemuri
+Forgot it was 4 bytes
+😢Nenya Edjah
+Oct 22, 2018, 9:35 AM
+Sreya Vemuri
+Lolol I am dumb
+Oct 22, 2018, 9:35 AM
+Sreya Vemuri
+OOOOOO
+Oct 22, 2018, 9:35 AM
+Nenya Edjah
+integers are 4 bytes long, so in little endian, the bytes that make up 4369 are
+0x11 0x11 0x00 0x00
+and in big endian, they are
+0x00 0x00 0x11 0x11
+Oct 22, 2018, 7:38 AM
+Nenya Edjah
+endianess has to do with the order of the sequence of bytes that make up an integer
+Oct 22, 2018, 7:38 AM
+Sreya Vemuri
+which is 0x1111 in hex
+Oct 22, 2018, 12:01 AM
+Sreya Vemuri
+why does the int 4369 not work
+Oct 22, 2018, 12:01 AM
+Sreya Vemuri
+on the first question where it asked for a value that was the same in big and little endian
+Oct 22, 2018, 12:01 AM
+Sreya Vemuri
+wait i have a question about the midterm when u get the chance
+Oct 22, 2018, 12:00 AM
+Sreya Vemuri
+lol ty
+Sep 23, 2018, 5:13 PM
+Nenya Edjah
+gl searching for the issue
+Sep 23, 2018, 5:09 PM
+Sreya Vemuri
+but can't find what
+Sep 23, 2018, 5:09 PM
+Sreya Vemuri
+probably D:
+Sep 23, 2018, 5:09 PM
+Nenya Edjah
+unclear
+Sep 23, 2018, 5:08 PM
+Nenya Edjah
+although, you may also be doing something wrong
+Sep 23, 2018, 5:08 PM
+Sreya Vemuri
+ooo ok
+Sep 23, 2018, 5:06 PM
+Nenya Edjah
+a small percent error is probably fine
+Sep 23, 2018, 5:06 PM
+Sreya Vemuri
+the frequent one
+Sep 23, 2018, 5:05 PM
+Sreya Vemuri
+no im using the algorithm in the paper
+Sep 23, 2018, 5:05 PM
+Nenya Edjah
+are you sampling?
+Sep 23, 2018, 5:04 PM
+Sreya Vemuri
+how accurate do i have to be for heavy hitters? mine are like 2% off from what they should be
+Sep 23, 2018, 5:04 PM
+Nenya Edjah
+i'm proud of you
+😍Sreya Vemuri
+Sep 22, 2018, 5:14 PM
+Nenya Edjah
+♥
+Sep 22, 2018, 5:14 PM
+Sreya Vemuri
+I wanted to share this moment w u bc u helped me so much hahahaha TY
+Sep 22, 2018, 5:12 PM
+Sreya Vemuri
+ALL MY TESTS PASSED
+Sep 22, 2018, 5:12 PM
+Sreya Vemuri
+NENYA
+Sep 22, 2018, 5:12 PM
+Nenya Edjah
+in some situations, it will cause a seg fault. in most others, it will write just fine
+👍Sreya Vemuri
+Sep 19, 2018, 9:43 PM
+Sreya Vemuri
+ok
+Sep 19, 2018, 9:43 PM
+Sreya Vemuri
+oh noo
+Sep 19, 2018, 9:43 PM
+Nenya Edjah
+it's nondeterministic undefined behavior
+Sep 19, 2018, 9:43 PM
+Sreya Vemuri
+or does it not get written at all
+Sep 19, 2018, 9:43 PM
+Sreya Vemuri
+does it get written into extra memory
+Sep 19, 2018, 9:43 PM
+Sreya Vemuri
+what happens if you don't allocate enough space for the \0 that ends a string?
+Sep 19, 2018, 9:43 PM
+Sreya Vemuri
+LOL kk
+Sep 16, 2018, 2:45 PM
+Nenya Edjah
+Yeah, we'll just be disappointed in you
+Sep 16, 2018, 2:20 PM
+Sreya Vemuri
+it is ungraded right
+Sep 16, 2018, 2:19 PM
+Sreya Vemuri
+is it fine if i have nothing done
+Sep 16, 2018, 2:19 PM
+Sreya Vemuri
+wait for the checkin today
+Sep 16, 2018, 2:19 PM
+Nenya Edjah
+you have 7 days. calm down
+😆Sreya Vemuri
+Sep 16, 2018, 2:13 PM
+Sreya Vemuri
+ahhHHHh
+Sep 16, 2018, 2:13 PM
+Sreya Vemuri
+i am RUNNING OUT OF TIME
+Sep 16, 2018, 2:13 PM
+Sreya Vemuri
+ok i will install after this pset
+Sep 16, 2018, 2:13 PM
+Sreya Vemuri
+omg
+Sep 16, 2018, 2:13 PM
+Nenya Edjah
+but you will need it for the next pset, so it might be good to have
+Sep 16, 2018, 2:13 PM
+Sreya Vemuri
+good to know
+Sep 16, 2018, 2:13 PM
+Sreya Vemuri
+ohhhhhh
+Sep 16, 2018, 2:13 PM
+Nenya Edjah
+the VM isn't necessary for this pset
+Sep 16, 2018, 2:13 PM
+Nenya Edjah
+bruh
+Sep 16, 2018, 2:13 PM
+Sreya Vemuri
+I CANT EVEN INSTALL THE VM
+Sep 16, 2018, 2:12 PM
+Sreya Vemuri
+CS
+Sep 16, 2018, 2:12 PM
+Nenya Edjah
+with?
+Sep 16, 2018, 2:12 PM
+Sreya Vemuri
+heLP
