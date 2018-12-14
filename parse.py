@@ -1,11 +1,11 @@
 import re
 
 # Parses messages
-infile = "svmsg4.txt"
+infile = "smmsg2.txt"
 outfile = "outfile.txt"
 f_read = open(infile, "r")
 f_write = open(outfile, "a")
-name = "Sreya"
+name = "Sid"
 write = False
 for line in f_read:
 	if write == True:
