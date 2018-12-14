@@ -1,0 +1,2474 @@
+Sreya Vemuri
+hahaha YAY ♥
+Nov 2, 2017, 5:32 PM
+Aaron Shi
+looks soooper lit
+Nov 2, 2017, 5:31 PM
+Aaron Shi
+LOOOOL i don't know what I'm doing saturday night but if i'm (likely) not doing anything i'm gonna come!!
+Nov 2, 2017, 5:31 PM
+Sreya Vemuri
+come to my RAGERR
+Nov 2, 2017, 5:30 PM
+Sreya Vemuri
+u tru
+Oct 25, 2017, 9:37 PM
+Aaron Shi
+he probs knows some ppl by now and can hook you up lul
+Oct 25, 2017, 9:37 PM
+Sreya Vemuri
+lolol
+Oct 25, 2017, 9:36 PM
+Sreya Vemuri
+he said "ill see what i can do"
+Oct 25, 2017, 9:36 PM
+Aaron Shi
+what did he say
+Oct 25, 2017, 9:36 PM
+Aaron Shi
+LOL
+Oct 25, 2017, 9:36 PM
+Aaron Shi
+who's anthony-OH ANTHONY
+Oct 25, 2017, 9:36 PM
+Sreya Vemuri
+i asked ANTHONY LMAO
+Oct 25, 2017, 9:36 PM
+Sreya Vemuri
+oh true
+Oct 25, 2017, 9:36 PM
+Aaron Shi
+you could stay with...jane?
+Oct 25, 2017, 9:36 PM
+Sreya Vemuri
+/she probably does not want me either
+Oct 25, 2017, 9:36 PM
+Sreya Vemuri
+i do not want to stay w cynthia yue
+Oct 25, 2017, 9:36 PM
+Sreya Vemuri
+LOL ya i want to but
+Oct 25, 2017, 9:36 PM
+Aaron Shi
+are you?
+Oct 25, 2017, 9:35 PM
+Aaron Shi
+but idk
+Oct 25, 2017, 9:35 PM
+Aaron Shi
+oh. I haven't thought about it yet..I wanna say probs not just bc I don't know yale people??
+Oct 25, 2017, 9:35 PM
+Sreya Vemuri
+uhh like 18th or something
+Oct 25, 2017, 9:35 PM
+Aaron Shi
+when is that
+Oct 25, 2017, 9:35 PM
+Sreya Vemuri
+yo r u going to harvard yale
+Oct 25, 2017, 9:35 PM
+Sreya Vemuri
+np!!
+Sep 21, 2017, 10:55 PM
+Aaron Shi
+thank you thank you
+Sep 21, 2017, 10:52 PM
+Aaron Shi
+okay I think I get it
+Sep 21, 2017, 10:52 PM
+Aaron Shi
+OH
+Sep 21, 2017, 10:52 PM
+Sreya Vemuri
+so u have proved that they r equal therefore
+Sep 21, 2017, 10:46 PM
+Sreya Vemuri
+and u can get both inequalities to equal this
+Sep 21, 2017, 10:46 PM
+Sreya Vemuri
+so P(A \intersect B ) = P(A)P(B)
+Sep 21, 2017, 10:46 PM
+Sreya Vemuri
+and P(B|A) = P(A intersect B)\P(A)
+Sep 21, 2017, 10:45 PM
+Sreya Vemuri
+so u can say P(A|B) = P(A intersect B)\P(B)
+Sep 21, 2017, 10:45 PM
+Sreya Vemuri
+u should just prove it algebraically
+Sep 21, 2017, 10:45 PM
+Sreya Vemuri
+wait ur logic is what i said but my blockmate is a tf and he was like
+Sep 21, 2017, 10:45 PM
+Sreya Vemuri
+well bc like
+Sep 21, 2017, 10:45 PM
+Aaron Shi
+and it doesn't matter if you switch them?
+Sep 21, 2017, 10:38 PM
+Aaron Shi
+A and B are arbirary
+Sep 21, 2017, 10:38 PM
+Aaron Shi
+P(A|B) > P(A) is equivalent to P(B|A) > P(B) because
+Sep 21, 2017, 10:38 PM
+Aaron Shi
+OK OK LAST THING
+Sep 21, 2017, 10:38 PM
+Aaron Shi
+thank you
+😍Sreya Vemuri
+Sep 21, 2017, 10:37 PM
+Aaron Shi
+okay!
+Sep 21, 2017, 10:37 PM
+Aaron Shi
+hmm
+Sep 21, 2017, 10:36 PM
+Sreya Vemuri
+so you just have to find P(C) and P(G) using like counting
+Sep 21, 2017, 10:35 PM
+Sreya Vemuri
+and then you know P(G|C) is 1
+Sep 21, 2017, 10:35 PM
+Sreya Vemuri
+and G is the event that Monty shows you a goat
+Sep 21, 2017, 10:35 PM
+Sreya Vemuri
+where C is the event that you initially pick a car
+Sep 21, 2017, 10:35 PM
+Sreya Vemuri
+You sent a photo.
+
+Sep 21, 2017, 10:35 PM
+Sreya Vemuri
+so
+Sep 21, 2017, 10:34 PM
+Sreya Vemuri
+i did like bayes thm um
+Sep 21, 2017, 10:34 PM
+Aaron Shi
+Part a...how did you set up your conditional probability?
+Sep 21, 2017, 10:33 PM
+Aaron Shi
+oh and for 7
+Sep 21, 2017, 10:32 PM
+Aaron Shi
+thanks!!
+Sep 21, 2017, 10:32 PM
+Aaron Shi
+oh I see it
+Sep 21, 2017, 10:32 PM
+Sreya Vemuri
+because you can use the def of conditional probability
+Sep 21, 2017, 10:31 PM
+Sreya Vemuri
+and its easier to show it if you write it this way
+Sep 21, 2017, 10:31 PM
+Sreya Vemuri
+so you can substitute
+Sep 21, 2017, 10:30 PM
+Sreya Vemuri
+P(A|B) > P(A|B^c) = P(A|B > P(A)
+Sep 21, 2017, 10:30 PM
+Sreya Vemuri
+because
+Sep 21, 2017, 10:30 PM
+Sreya Vemuri
+this is equivalent to P(A|B) > P(A) = P(B|A) > P(B)
+Sep 21, 2017, 10:30 PM
+Sreya Vemuri
+bc like u r trying to show that P(A|B) > P(A|B^c) = P(B|A) > P(B|A^c) but
+Sep 21, 2017, 10:30 PM
+Aaron Shi
+how does that relate to P(B|A) > P(B|A^C)?
+Sep 21, 2017, 10:30 PM
+Aaron Shi
+umm
+Sep 21, 2017, 10:29 PM
+Sreya Vemuri
+does that make sense?
+Sep 21, 2017, 10:29 PM
+Sreya Vemuri
+you just have to prove that P(A|B) > P(A) is equivalent to P(B|A) > P(B)
+Sep 21, 2017, 10:28 PM
+Sreya Vemuri
+this
+Sep 21, 2017, 10:28 PM
+Sreya Vemuri
+so now that youve shown thi
+Sep 21, 2017, 10:28 PM
+Sreya Vemuri
+ok and then u do the same for the 2nd inequality
+Sep 21, 2017, 10:28 PM
+Aaron Shi
+yes
+Sep 21, 2017, 10:28 PM
+Sreya Vemuri
+did u show that P(A|B) > P(A|B^c) = P(A|B) > P(A)
+Sep 21, 2017, 10:28 PM
+Aaron Shi
+but idk what to do after that
+Sep 21, 2017, 10:27 PM
+Aaron Shi
+yah so I showed that P(A|B) > P(A)
+Sep 21, 2017, 10:27 PM
+Sreya Vemuri
+do u get the part about like weighted averages
+Sep 21, 2017, 10:27 PM
+Sreya Vemuri
+oh ok yeah
+Sep 21, 2017, 10:27 PM
+Aaron Shi
+i read blitzstein's hint but it didn't really help
+Sep 21, 2017, 10:27 PM
+Sreya Vemuri
+wait did u c the hint that joe sent out in the email
+Sep 21, 2017, 10:27 PM
+Aaron Shi
+ok how do you do 5c?
+Sep 21, 2017, 10:27 PM
+Sreya Vemuri
+haha yeah np
+Sep 21, 2017, 10:26 PM
+Aaron Shi
+i'm sorry to bother u
+Sep 21, 2017, 10:26 PM
+Aaron Shi
+do you have time
+Sep 21, 2017, 10:26 PM
+Sreya Vemuri
+i finished lmao
+Sep 21, 2017, 10:25 PM
+Aaron Shi
+*how far are you
+Sep 21, 2017, 10:24 PM
+Aaron Shi
+wait
+Sep 21, 2017, 10:23 PM
+Aaron Shi
+how are you
+Sep 21, 2017, 10:23 PM
+Aaron Shi
+oh god
+Sep 21, 2017, 10:23 PM
+Sreya Vemuri
+lol yes
+Sep 21, 2017, 10:22 PM
+Aaron Shi
+hi are you in stat 110
+Sep 21, 2017, 10:22 PM
+Aaron Shi
+eh its whatever lmao
+Sep 8, 2017, 6:10 PM
+Sreya Vemuri
+Is Sunday dinner weird?
+Sep 8, 2017, 5:13 PM
+Aaron Shi
+Sunday?
+Sep 8, 2017, 4:37 PM
+Aaron Shi
+weekend?
+Sep 8, 2017, 4:37 PM
+Aaron Shi
+idk
+Sep 8, 2017, 4:37 PM
+Aaron Shi
+fuck
+Sep 8, 2017, 4:37 PM
+Aaron Shi
+uh
+Sep 8, 2017, 4:37 PM
+Sreya Vemuri
+When r u free for THAI FOOOOOD
+Sep 8, 2017, 2:55 PM
+Sreya Vemuri
+Tuesday 4-5!!!
+Sep 5, 2017, 9:53 PM
+Aaron Shi
+which one's his section??
+Sep 5, 2017, 9:29 PM
+Sreya Vemuri
+also come to david's stat section w me !!!
+Sep 5, 2017, 9:20 PM
+Sreya Vemuri
+and then next year we can make the freshmen do it
+Sep 5, 2017, 9:20 PM
+Sreya Vemuri
+but we should still make patrick and david do it
+Sep 5, 2017, 9:20 PM
+Sreya Vemuri
+LOL ya they do know we're stupid
+Sep 5, 2017, 9:20 PM
+Aaron Shi
+we'll show those kids
+Sep 5, 2017, 9:20 PM
+Aaron Shi
+JK JK
+Sep 5, 2017, 9:20 PM
+Aaron Shi
+they know we're stupid af
+Sep 5, 2017, 9:20 PM
+Aaron Shi
+would that be so terrible
+Sep 5, 2017, 9:20 PM
+Aaron Shi
+what if patrick keeps doing it
+Sep 5, 2017, 9:20 PM
+Aaron Shi
+LMAOO
+Sep 5, 2017, 9:19 PM
+Sreya Vemuri
+What about if WE make the freshman do it
+Sep 5, 2017, 8:41 PM
+Aaron Shi
+i dont wanna do ANYTHING
+Sep 5, 2017, 8:41 PM
+Aaron Shi
+i don't like it either
+Sep 5, 2017, 8:40 PM
+Aaron Shi
+LMAO
+Sep 5, 2017, 8:40 PM
+Aaron Shi
+i feel
+Sep 5, 2017, 8:40 PM
+Sreya Vemuri
+YES lol also I do not like their tone of voice !!!!
+Sep 5, 2017, 8:16 PM
+Aaron Shi
+LOL
+Sep 5, 2017, 7:48 PM
+Aaron Shi
+by them
+Sep 5, 2017, 7:48 PM
+Aaron Shi
+did you get triggered
+Sep 5, 2017, 7:48 PM
+Aaron Shi
+oh idk but he was there for the summer
+Sep 5, 2017, 1:06 PM
+Sreya Vemuri
+Omg he's working for NASA this semester??
+Sep 5, 2017, 1:05 PM
+Aaron Shi
+Why can't I work for NASA
+Sep 5, 2017, 1:02 PM
+Aaron Shi
+smhhh adit
+Sep 5, 2017, 1:02 PM
+Sreya Vemuri
+Ikr
+Sep 5, 2017, 12:42 PM
+Aaron Shi
+just smart ppl things
+Sep 5, 2017, 12:19 PM
+Aaron Shi
+LMAO I guess so????
+Sep 5, 2017, 12:18 PM
+Sreya Vemuri
+Wait wtf adit is also on a gap year ???
+Sep 5, 2017, 12:08 PM
+Sreya Vemuri
+Okkk
+Apr 23, 2017, 11:22 AM
+Aaron Shi
+Hi I'll be in front of pennypacker in 1 min
+Apr 23, 2017, 11:22 AM
+Sreya Vemuri
+You: 󰀀
+
+Apr 23, 2017, 11:06 AM
+Aaron Shi
+i'll leave at around 11:20 and I'll text u then
+Apr 23, 2017, 11:06 AM
+Sreya Vemuri
+Wait ya for sure I am still in bed
+Apr 23, 2017, 11:05 AM
+Aaron Shi
+but lemme shower first lmao
+Apr 23, 2017, 11:05 AM
+Aaron Shi
+yes
+Apr 23, 2017, 11:05 AM
+Sreya Vemuri
+/do u wanna walk to Zoe's together so I don't accidentally go to mit again
+Apr 23, 2017, 11:04 AM
+Sreya Vemuri
+R u at greenough rn
+Apr 23, 2017, 11:04 AM
+Aaron Shi
+where do you want to have it
+Apr 23, 2017, 10:04 AM
+Aaron Shi
+sreya
+Apr 23, 2017, 10:04 AM
+Sreya Vemuri
+WAIT decide a location other than berg ig
+Apr 23, 2017, 2:22 AM
+Sreya Vemuri
+IK SORRY I SAW DAVID AND PATRICK AT THIS PARTY WE ALL TURNT
+Apr 23, 2017, 1:52 AM
+Aaron Shi
+WHY THE FUCK CAN'T PEOPLE TAKE 1 SECOND OUT OF THEIR DAY TO RESPOND TO A MESSAGE
+Apr 23, 2017, 12:38 AM
+Aaron Shi
+SREYA IM GOING TO KILL PEOPLE
+Apr 23, 2017, 12:38 AM
+Aaron Shi
+when is eastbound
+Apr 23, 2017, 12:37 AM
+Sreya Vemuri
+Come to eastbound
+Apr 23, 2017, 12:02 AM
+Sreya Vemuri
+lol Patrick almost broke my wrist rn tbh
+Apr 23, 2017, 12:02 AM
+Aaron Shi
+WHY DOESNT ANYONE RESPOND
+Apr 22, 2017, 11:38 PM
+Aaron Shi
+why is everyone so annoying
+Apr 22, 2017, 10:04 PM
+Aaron Shi
+lol why tf are they being like this
+Apr 22, 2017, 10:04 PM
+Sreya Vemuri
+I want to say let's do ANNENBERG even tho upperclassman can't make it but prefrosh r the priority
+Apr 22, 2017, 9:02 PM
+Sreya Vemuri
+So passive agressive
+Apr 22, 2017, 8:59 PM
+Sreya Vemuri
+You sent a photo.
+
+Apr 22, 2017, 8:59 PM
+Sreya Vemuri
+I agree actually
+Apr 22, 2017, 8:23 PM
+Aaron Shi
+also why have friends when you can be a loner??
+Apr 22, 2017, 8:22 PM
+Aaron Shi
+it's trueeeee
+Apr 22, 2017, 8:22 PM
+Sreya Vemuri
+SURE
+Apr 22, 2017, 8:22 PM
+Aaron Shi
+I DIDNT PLAY LEAGUE LAST YEAR
+Apr 22, 2017, 8:21 PM
+Sreya Vemuri
+LOLOL and now ur a rebel because u play even more league
+Apr 22, 2017, 8:21 PM
+Aaron Shi
+goody two shoes
+Apr 22, 2017, 8:21 PM
+Aaron Shi
+i was kind of like ray last year
+Apr 22, 2017, 8:21 PM
+Aaron Shi
+lmao
+Apr 22, 2017, 8:20 PM
+Sreya Vemuri
+Can I alcohol poison him
+Apr 22, 2017, 8:20 PM
+Sreya Vemuri
+Do u think he will tho
+Apr 22, 2017, 8:20 PM
+Aaron Shi
+LOL
+Apr 22, 2017, 8:20 PM
+Aaron Shi
+he's gonna be so different by this time next year
+Apr 22, 2017, 8:20 PM
+Aaron Shi
+I KNOW
+Apr 22, 2017, 8:19 PM
+Sreya Vemuri
+EVEN DURING VISITAS
+Apr 22, 2017, 8:18 PM
+Sreya Vemuri
+WHY RAY
+Apr 22, 2017, 8:18 PM
+Aaron Shi
+omg RAY
+Apr 22, 2017, 8:17 PM
+Aaron Shi
+LOOOOOL
+Apr 21, 2017, 9:13 PM
+Aaron Shi
+LOL
+Apr 21, 2017, 9:13 PM
+Sreya Vemuri
+IM SO FUCKED
+Apr 21, 2017, 9:12 PM
+Sreya Vemuri
+OMFG
+Apr 21, 2017, 9:12 PM
+Sreya Vemuri
+HAHAHAHA I HAYE NYSELF
+Apr 21, 2017, 9:12 PM
+Aaron Shi
+what will the prefrosh think of you?????
+Apr 21, 2017, 9:10 PM
+Aaron Shi
+HAH UR TRASHED
+Apr 21, 2017, 9:10 PM
+Sreya Vemuri
+LOL
+Apr 20, 2017, 11:13 PM
+Aaron Shi
+idk what to tell u man
+Apr 20, 2017, 11:13 PM
+Aaron Shi
+um
+Apr 20, 2017, 11:13 PM
+Aaron Shi
+hahahaha
+Apr 20, 2017, 11:13 PM
+Sreya Vemuri
+I have $4 venmo balance
+Apr 20, 2017, 11:12 PM
+Sreya Vemuri
+Not pay for them
+Apr 20, 2017, 11:12 PM
+Sreya Vemuri
+Can we just like
+Apr 20, 2017, 11:12 PM
+Aaron Shi
+damn
+Apr 20, 2017, 11:11 PM
+Aaron Shi
+ofc lmao
+Apr 20, 2017, 11:11 PM
+Sreya Vemuri
+Attendance
+Apr 20, 2017, 11:08 PM
+Sreya Vemuri
+100% attrandance
+Apr 20, 2017, 11:08 PM
+Sreya Vemuri
+Lmao fuck me up
+Apr 20, 2017, 11:08 PM
+Aaron Shi
+she's coming
+Apr 20, 2017, 11:01 PM
+Aaron Shi
+fuck lol
+Apr 20, 2017, 11:01 PM
+Aaron Shi
+I have but she hasn't responded lol
+Apr 20, 2017, 8:18 PM
+Sreya Vemuri
+Did u already message Jane or should I
+Apr 20, 2017, 8:06 PM
+Sreya Vemuri
+Perf
+Apr 20, 2017, 8:04 PM
+Aaron Shi
+he says he can probably do sunday brunch
+Apr 20, 2017, 7:54 PM
+Sreya Vemuri
+Yay thanks
+Apr 20, 2017, 7:19 PM
+Aaron Shi
+sure
+Apr 20, 2017, 7:19 PM
+Aaron Shi
+swimmer boy's number
+Apr 20, 2017, 7:19 PM
+Sreya Vemuri
+u wanna text him?
+Apr 20, 2017, 7:19 PM
+Sreya Vemuri
+And I accidentally took us to MIT
+Apr 20, 2017, 7:19 PM
+Aaron Shi
++1 (765) 714-7049
+Apr 20, 2017, 7:19 PM
+Aaron Shi
+and david took us around and shit
+Apr 20, 2017, 7:19 PM
+Aaron Shi
+yeah that was nice haha
+Apr 20, 2017, 7:19 PM
+Sreya Vemuri
+They didn't flake on ours last year tho
+Apr 20, 2017, 7:18 PM
+Sreya Vemuri
+Hahaha probably
+Apr 20, 2017, 7:18 PM
+Aaron Shi
+i wonder if adit and kfei are gonna flake this one
+Apr 20, 2017, 7:18 PM
+Aaron Shi
+ugh
+Apr 20, 2017, 7:18 PM
+Aaron Shi
+I know
+Apr 20, 2017, 7:18 PM
+Sreya Vemuri
+Also we r going to need a huge ass place to fit all these ppl
+Apr 20, 2017, 7:18 PM
+Sreya Vemuri
+HAHAHA I can't believe u
+Apr 20, 2017, 7:16 PM
+Aaron Shi
+playing league of legends in my room all the time
+Apr 20, 2017, 7:16 PM
+Aaron Shi
+they need to be like me
+Apr 20, 2017, 7:16 PM
+Aaron Shi
+ur a BAD INFLUENCE
+Apr 20, 2017, 7:16 PM
+Aaron Shi
+actually true
+Apr 20, 2017, 7:16 PM
+Sreya Vemuri
+If u left them to me I would end up getting them rescinded for alcohol poisoning
+Apr 20, 2017, 7:16 PM
+Sreya Vemuri
+HAHAHA we most certainly will not
+Apr 20, 2017, 7:15 PM
+Aaron Shi
+I hope we raise them well
+Apr 20, 2017, 7:15 PM
+Aaron Shi
+looool
+Apr 20, 2017, 7:15 PM
+Sreya Vemuri
+FML
+Apr 20, 2017, 7:14 PM
+Aaron Shi
+"seen by Ray"
+Apr 20, 2017, 7:13 PM
+Sreya Vemuri
+LOLOL ty
+Apr 20, 2017, 7:13 PM
+Aaron Shi
+true true I'll take the shots
+Apr 20, 2017, 7:12 PM
+Aaron Shi
+who could hate me?????
+Apr 20, 2017, 7:12 PM
+Aaron Shi
+LOL
+Apr 20, 2017, 7:12 PM
+Sreya Vemuri
+But I'm fine w them hating u
+Apr 20, 2017, 7:11 PM
+Sreya Vemuri
+I don't want them to hate me
+Apr 20, 2017, 7:11 PM
+Sreya Vemuri
+Let us know soon
+Apr 20, 2017, 7:11 PM
+Sreya Vemuri
+Can u be like
+Apr 20, 2017, 7:11 PM
+Aaron Shi
+wtf
+Apr 20, 2017, 7:11 PM
+Sreya Vemuri
+They r prefrosh they have nothing going on
+Apr 20, 2017, 7:11 PM
+Sreya Vemuri
+The answer should just be yes
+Apr 20, 2017, 7:11 PM
+Sreya Vemuri
+Excuse MI Ray
+Apr 20, 2017, 7:10 PM
+Aaron Shi
+ray doesn't have a concrete schedule
+Apr 20, 2017, 7:10 PM
+Aaron Shi
+holy
+Apr 20, 2017, 7:10 PM
+Sreya Vemuri
+Love it
+Apr 20, 2017, 7:08 PM
+Sreya Vemuri
+Hahahaha
+Apr 20, 2017, 7:08 PM
+Aaron Shi
+need to scare them a little
+Apr 20, 2017, 7:08 PM
+Aaron Shi
+hahahaha
+Apr 20, 2017, 7:08 PM
+Aaron Shi
+i'm not this assertive I promise
+Apr 20, 2017, 7:08 PM
+Aaron Shi
+LOL
+Apr 20, 2017, 7:08 PM
+Sreya Vemuri
+V commanding
+Apr 20, 2017, 7:08 PM
+Sreya Vemuri
+I like the "your mission is"
+Apr 20, 2017, 7:08 PM
+Sreya Vemuri
+PPL
+Apr 20, 2017, 7:06 PM
+Sreya Vemuri
+OMG SO MANY PPP
+Apr 20, 2017, 7:06 PM
+Aaron Shi
+the swimmer guy is coming
+Apr 20, 2017, 7:06 PM
+Aaron Shi
+FUCK
+Apr 20, 2017, 7:06 PM
+Aaron Shi
+i know they're such hotshots xD
+Apr 20, 2017, 7:06 PM
+Sreya Vemuri
+Why r the prefrosh so bad at replying smh
+Apr 20, 2017, 7:06 PM
+Aaron Shi
+that would be cool
+Apr 20, 2017, 7:06 PM
+Sreya Vemuri
+Should we do like Sunday brunch again
+Apr 20, 2017, 7:05 PM
+Sreya Vemuri
+Ya they probably r
+Apr 20, 2017, 7:05 PM
+Sreya Vemuri
+LOL true
+Apr 20, 2017, 7:05 PM
+Aaron Shi
+but david and patrick are willing to pay probably
+Apr 20, 2017, 7:05 PM
+Aaron Shi
+but if we only invite claudia we'll have to pay for everyone lol
+Apr 20, 2017, 7:05 PM
+Aaron Shi
+ohhh
+Apr 20, 2017, 7:05 PM
+Sreya Vemuri
+All CHS ppl I think
+Apr 20, 2017, 7:05 PM
+Aaron Shi
+all chs ppl
+Apr 20, 2017, 7:05 PM
+Aaron Shi
+did they want us to take them out like just you and me with them or
+Apr 20, 2017, 7:05 PM
+Sreya Vemuri
+Omg haha agreed
+Apr 20, 2017, 7:04 PM
+Sreya Vemuri
+Let's invite CLAUDIA and not David and Patrick
+Apr 20, 2017, 7:04 PM
+Aaron Shi
+no one can hold u to high standards if you always underperform
+Apr 20, 2017, 7:04 PM
+Aaron Shi
+it's like that meme
+Apr 20, 2017, 7:04 PM
+Aaron Shi
+yeah I know
+Apr 20, 2017, 7:04 PM
+Sreya Vemuri
+we should've made a reputation as flakes
+Apr 20, 2017, 7:03 PM
+Aaron Shi
+they're flakes lol
+Apr 20, 2017, 7:03 PM
+Sreya Vemuri
+also why don't Kevin and adit ever do anything
+Apr 20, 2017, 7:03 PM
+Aaron Shi
+I KNOW FUCKKKKK
+Apr 20, 2017, 7:03 PM
+Sreya Vemuri
+THERES SO MANY THIS YEAR THO
+Apr 20, 2017, 7:03 PM
+Sreya Vemuri
+Ikr ugh
+Apr 20, 2017, 7:02 PM
+Aaron Shi
+I bet they want us to PAY for them too???!
+Apr 20, 2017, 7:02 PM
+Aaron Shi
+as if we didn't have enough work already
+Apr 20, 2017, 7:02 PM
+Aaron Shi
+damn
+Apr 20, 2017, 7:02 PM
+Aaron Shi
+ha ha yes
+Apr 20, 2017, 7:02 PM
+Sreya Vemuri
+We have to be as patronizing as David and Patrick were to us
+Apr 20, 2017, 7:02 PM
+Sreya Vemuri
+exactly
+Apr 20, 2017, 7:02 PM
+Aaron Shi
+and suffer as we have
+Apr 20, 2017, 7:02 PM
+Aaron Shi
+they need to know their place
+Apr 20, 2017, 7:02 PM
+Sreya Vemuri
+LMAO
+Apr 20, 2017, 7:02 PM
+Aaron Shi
+that's why I called them young'uns
+Apr 20, 2017, 7:02 PM
+Aaron Shi
+tru tru
+Apr 20, 2017, 7:02 PM
+Sreya Vemuri
+we must be pretentious Harvard students
+Apr 20, 2017, 7:02 PM
+Sreya Vemuri
+IKR but do not tell them this
+Apr 20, 2017, 7:01 PM
+Aaron Shi
+it's so ANNOYING
+Apr 20, 2017, 7:01 PM
+Aaron Shi
+why are they smarter than us
+Apr 20, 2017, 7:01 PM
+Aaron Shi
+cool
+Apr 20, 2017, 7:01 PM
+Sreya Vemuri
+I asked gayatri waiting for a reply
+Apr 20, 2017, 7:01 PM
+Sreya Vemuri
+yaa
+Apr 20, 2017, 7:01 PM
+Aaron Shi
+uhhhh should I ask?
+Apr 20, 2017, 7:01 PM
+Sreya Vemuri
+is jane coming
+Apr 20, 2017, 7:01 PM
+Sreya Vemuri
+but honestly idk if he's coming to visitas because recruits always have a dif visiting weekend
+Apr 20, 2017, 7:00 PM
+Sreya Vemuri
+I know this because I googled him haha
+Apr 20, 2017, 7:00 PM
+Sreya Vemuri
+It's Charles vaughan
+Apr 20, 2017, 7:00 PM
+Aaron Shi
+I don't even know his name
+Apr 20, 2017, 7:00 PM
+Sreya Vemuri
+LOL also I literally can't find the swimmer I have no way of contacting him
+Apr 20, 2017, 6:59 PM
+Sreya Vemuri
+ya let's just not invite them
+Apr 20, 2017, 6:59 PM
+Aaron Shi
+not a BIG thing
+Apr 20, 2017, 6:59 PM
+Aaron Shi
+it's just a thing
+Apr 20, 2017, 6:59 PM
+Aaron Shi
+idk why
+Apr 20, 2017, 6:59 PM
+Aaron Shi
+I knowwww
+Apr 20, 2017, 6:59 PM
+Sreya Vemuri
+I refused to reply to them BC they sounded so passive agressive
+Apr 20, 2017, 6:37 PM
+Sreya Vemuri
+David tryna push his work on me again
+Apr 20, 2017, 6:37 PM
+Aaron Shi
+lol whyyyyu do we have to do it
+Apr 20, 2017, 6:37 PM
+Sreya Vemuri
+Excited I love group chats
+Apr 20, 2017, 6:36 PM
+Sreya Vemuri
+YAY
+Apr 20, 2017, 6:36 PM
+Aaron Shi
+Yeee
+Apr 20, 2017, 6:36 PM
+Sreya Vemuri
+And ask them which ppl r coming
+Apr 20, 2017, 6:36 PM
+Sreya Vemuri
+Lol can we just make a prefrosh group chat
+Apr 20, 2017, 6:36 PM
+Sreya Vemuri
+That makes sense thanks
+Apr 11, 2017, 11:05 PM
+Sreya Vemuri
+Ohhh ok got it
+Apr 11, 2017, 11:05 PM
+Aaron Shi
+right now you're passing in a tuple
+Apr 11, 2017, 10:40 PM
+Aaron Shi
+which is like a list but it looks like this [| 1.0; 2.0; 3.0|]
+Apr 11, 2017, 10:39 PM
+Aaron Shi
+array
+Apr 11, 2017, 10:39 PM
+Aaron Shi
+draw_poly_line takes in an arry
+Apr 11, 2017, 10:39 PM
+Sreya Vemuri
+for the method
+Apr 11, 2017, 10:26 PM
+Sreya Vemuri
+method draw =
+let (x1, y1) as source = source#round in
+let (x2, y2) as target = target#round in
+let s1 = source in
+let t1 = target in
+set_line_width linewidth;
+set_color background;
+fill_poly_line s1 t1;
+set_color color;
+draw_poly_line s1 t1;
+set_color textcolor;
+draw_text_centered label source
+draw_text_centered label target
+Apr 11, 2017, 10:26 PM
+Sreya Vemuri
+wait is this correct
+Apr 11, 2017, 10:25 PM
+Sreya Vemuri
+haha yeah i will ty!!
+Apr 11, 2017, 10:13 PM
+Aaron Shi
+def lmk if you still can't get it
+Apr 11, 2017, 10:08 PM
+Aaron Shi
+okay
+Apr 11, 2017, 10:08 PM
+Aaron Shi
+oh
+Apr 11, 2017, 10:08 PM
+Sreya Vemuri
+but im at office hours now
+Apr 11, 2017, 10:05 PM
+Sreya Vemuri
+im just generally in a state of confusion
+Apr 11, 2017, 10:05 PM
+Sreya Vemuri
+yeah i got that part haha
+Apr 11, 2017, 10:05 PM
+Aaron Shi
+you need to use draw_poly_line
+Apr 11, 2017, 9:58 PM
+Aaron Shi
+uh....
+Apr 11, 2017, 9:57 PM
+Sreya Vemuri
+how tf do u implement edge
+Apr 11, 2017, 9:57 PM
+Aaron Shi
+i'm like 100% sure my masses.ml is wrong
+Apr 11, 2017, 9:55 PM
+Aaron Shi
+oh
+Apr 11, 2017, 9:55 PM
+Sreya Vemuri
+I just finished masses.ml
+Apr 11, 2017, 9:20 PM
+Sreya Vemuri
+omg I haven't even gotten there yet
+Apr 11, 2017, 9:20 PM
+Aaron Shi
+i don't know how
+Apr 11, 2017, 8:43 PM
+Aaron Shi
+dude how are you testing points and masses
+Apr 11, 2017, 8:43 PM
+Aaron Shi
+awesome haha
+Apr 9, 2017, 2:32 PM
+Sreya Vemuri
+Omg yes!! I'll message u when I'm about to work on it
+Apr 9, 2017, 1:47 PM
+Aaron Shi
+Lmk if u want to work on the pset together! i'm actually so fucked lmao
+Apr 9, 2017, 1:42 PM
+Sreya Vemuri
+You: 󰀀
+
+Nov 20, 2016, 6:22 PM
+Aaron Shi
+We're here
+Nov 20, 2016, 6:22 PM
+Sreya Vemuri
+Text me when ur outside?
+Nov 20, 2016, 6:22 PM
+Aaron Shi
+Coming
+Nov 20, 2016, 6:15 PM
+Aaron Shi
+Kk
+Nov 20, 2016, 6:15 PM
+Sreya Vemuri
+Haha ok give me like 5 min
+Nov 20, 2016, 6:10 PM
+Aaron Shi
+we'll meet you outside pennypacker
+Nov 20, 2016, 6:09 PM
+Aaron Shi
+is now okay?
+Nov 20, 2016, 6:09 PM
+Sreya Vemuri
+What time are we going
+Nov 20, 2016, 6:07 PM
+Sreya Vemuri
+I'm down
+Nov 20, 2016, 6:05 PM
+Sreya Vemuri
+😂😂😂 adventure
+Nov 20, 2016, 6:05 PM
+Aaron Shi
+i believe in us
+Nov 20, 2016, 6:05 PM
+Aaron Shi
+a dangerous mission
+Nov 20, 2016, 6:05 PM
+Aaron Shi
+we just have to follow the crowd
+Nov 20, 2016, 6:05 PM
+Aaron Shi
+I don't think so..
+Nov 20, 2016, 6:05 PM
+Sreya Vemuri
+Hahaha is there a back entrance
+Nov 20, 2016, 6:04 PM
+Aaron Shi
+Okkk we have to sneak him into quincy xD
+Nov 20, 2016, 6:04 PM
+Sreya Vemuri
+Yeah sure! LOL I am broke as well
+Nov 20, 2016, 6:04 PM
+Aaron Shi
+I wanna show him one of the d halls and we ran out of money lol
+Nov 20, 2016, 6:01 PM
+Aaron Shi
+do you wanna have dinner with matthew and me at quincy or another d hall tonight
+Nov 20, 2016, 6:01 PM
+Sreya Vemuri
+Ohhh
+Aug 8, 2016, 8:55 PM
+Aaron Shi
+He's friendly but he has a personality that's pretty similar to Joe Philleo's
+Aug 8, 2016, 8:55 PM
+Sreya Vemuri
+Is he chill
+Aug 8, 2016, 8:54 PM
+Aaron Shi
+I responded
+Aug 8, 2016, 8:54 PM
+Aaron Shi
+I met him at visitas
+Aug 8, 2016, 8:54 PM
+Aaron Shi
+Oh lol yeah Trey Rogers
+Aug 8, 2016, 8:54 PM
+Sreya Vemuri
+Who wanted to start a IN Harvard group chat
+Aug 8, 2016, 7:30 PM
+Sreya Vemuri
+Lol did u reply to that one guy
+Aug 8, 2016, 7:30 PM
+Aaron Shi
+ughh
+Aug 7, 2016, 11:12 PM
+Aaron Shi
+GENIUS
+Aug 7, 2016, 11:12 PM
+Sreya Vemuri
+Fulfill
+Aug 7, 2016, 11:12 PM
+Sreya Vemuri
+LOL full fill gen eds ig
+Aug 7, 2016, 11:12 PM
+Aaron Shi
+How am I supposed to pick classes if I'm undecided
+Aug 7, 2016, 11:11 PM
+Aaron Shi
+Mm yeah
+Aug 7, 2016, 11:11 PM
+Sreya Vemuri
+Yeah like it's easier to meet ppl or something
+Aug 7, 2016, 11:10 PM
+Aaron Shi
+I also heard that people in union dorms are closer, which is nice
+Aug 7, 2016, 11:10 PM
+Aaron Shi
+I only have one
+Aug 7, 2016, 11:09 PM
+Aaron Shi
+Ah nice
+Aug 7, 2016, 11:09 PM
+Sreya Vemuri
+3 haha
+Aug 7, 2016, 11:08 PM
+Aaron Shi
+How many roommates do you have?
+Aug 7, 2016, 11:08 PM
+Aaron Shi
+oh lol xD
+Aug 7, 2016, 11:08 PM
+Sreya Vemuri
+Rip
+Aug 7, 2016, 11:08 PM
+Sreya Vemuri
+She doesn't have fb
+Aug 7, 2016, 11:08 PM
+Sreya Vemuri
+Ugh lol I can't find one my roommates
+Aug 7, 2016, 11:08 PM
+Aaron Shi
+I haven't contacted him yet...
+Aug 7, 2016, 11:08 PM
+Aaron Shi
+Have you talked with your roommate yet?
+Aug 7, 2016, 11:08 PM
+Sreya Vemuri
+Yeah they're p spacious I think
+Aug 7, 2016, 11:07 PM
+Aaron Shi
+I heard union dorms are generally nicer
+Aug 7, 2016, 11:07 PM
+Aaron Shi
+Oh really? haha
+Aug 7, 2016, 11:06 PM
+Sreya Vemuri
+Lmao at least the froyo place is near
+Aug 7, 2016, 11:05 PM
+Aaron Shi
+Gg walking to annenberg and science center :(
+Aug 7, 2016, 11:05 PM
+Sreya Vemuri
+Hype 💯
+Aug 7, 2016, 11:04 PM
+Aaron Shi
+AYY CRIMSON YARD
+Aug 7, 2016, 11:03 PM
+Sreya Vemuri
+Oh lol nice I'm in pennypacker
+Aug 7, 2016, 11:03 PM
+Aaron Shi
+Greenough lol
+Aug 7, 2016, 11:03 PM
+Sreya Vemuri
+Yo what dorm r u in
+Aug 7, 2016, 10:32 PM
+Aaron Shi
+dude yass
+Jul 20, 2016, 5:55 PM
+Sreya Vemuri
+Rowing would be hella hype tho
+Jul 20, 2016, 5:33 PM
+Sreya Vemuri
+Hm yeah I feel
+Jul 20, 2016, 5:33 PM
+Aaron Shi
+My parents want me to do the orchestra but I want to try new things lol...plus the time comittment is like several hours a week
+Jul 20, 2016, 4:11 PM
+Aaron Shi
+I really want to do rowing
+Jul 20, 2016, 4:10 PM
+Sreya Vemuri
+Do u
+Jul 20, 2016, 4:07 PM
+Sreya Vemuri
+I have no idea
+Jul 20, 2016, 4:07 PM
+Sreya Vemuri
+Nooooo there's so many clubs
+Jul 20, 2016, 4:07 PM
+Aaron Shi
+have you thought about what clubs you want to do
+Jul 20, 2016, 4:07 PM
+Aaron Shi
+oh wow
+Jul 20, 2016, 4:06 PM
+Sreya Vemuri
+I heard if u do above average u can p easily get an A in any class
+Jul 20, 2016, 4:06 PM
+Aaron Shi
+idk
+Jul 20, 2016, 4:05 PM
+Aaron Shi
+bc isn't all you have to do is pass with a C- or better?
+Jul 20, 2016, 4:05 PM
+Aaron Shi
+do grades really matter at Harvard
+Jul 20, 2016, 4:05 PM
+Aaron Shi
+:O lool
+Jul 20, 2016, 4:04 PM
+Sreya Vemuri
+Yup I'll probably bring like a shit ton of suitcases
+Jul 20, 2016, 4:02 PM
+Aaron Shi
+are your parents going with you?
+Jul 20, 2016, 4:02 PM
+Sreya Vemuri
+Oh my gosh maybe just like ship some things straight to Harvard haha¿
+Jul 20, 2016, 4:01 PM
+Aaron Shi
+So my parents will have to bring everything when they fly in the following week
+Jul 20, 2016, 4:01 PM
+Aaron Shi
+I'm not even bringing anything when I fly in on the 17th I think. Only fop gear
+Jul 20, 2016, 4:00 PM
+Aaron Shi
+how is it even physically possible for me to bring everything in my dorm
+Jul 20, 2016, 4:00 PM
+Sreya Vemuri
+I think I'm flying in on the 21st
+Jul 20, 2016, 3:59 PM
+Aaron Shi
+what day?
+Jul 20, 2016, 3:57 PM
+Sreya Vemuri
+Yeaa
+Jul 20, 2016, 3:56 PM
+Aaron Shi
+Are you flying in
+Jul 20, 2016, 3:55 PM
+Sreya Vemuri
+Omg hahahaha gl
+Jul 20, 2016, 3:54 PM
+Aaron Shi
+that was due like two weeks ago
+Jul 20, 2016, 3:53 PM
+Aaron Shi
+I haven't even given them my medical form GG
+Jul 20, 2016, 3:53 PM
+Aaron Shi
+I'll be backpacking dear god
+Jul 20, 2016, 3:53 PM
+Aaron Shi
+Yes
+Jul 20, 2016, 3:53 PM
+Sreya Vemuri
+Did u end up doing fop
+Jul 20, 2016, 3:52 PM
+Sreya Vemuri
+Ohhhh
+Jul 20, 2016, 3:51 PM
+Aaron Shi
+on the 17
+Jul 20, 2016, 3:51 PM
+Aaron Shi
+I'm flying early for preorientation
+Jul 20, 2016, 3:51 PM
+Sreya Vemuri
+Or flying
+Jul 20, 2016, 3:51 PM
+Sreya Vemuri
+Wait r u driving
+Jul 20, 2016, 3:51 PM
+Sreya Vemuri
+Yeah how many suitcases will I even need omg
+Jul 20, 2016, 3:51 PM
+Aaron Shi
+wtf
+Jul 20, 2016, 3:51 PM
+Aaron Shi
+I don't think my parents are driving
+Jul 20, 2016, 3:50 PM
+Aaron Shi
+How am I even going to transport things
+Jul 20, 2016, 3:50 PM
+Aaron Shi
+Oh lol same
+Jul 20, 2016, 3:50 PM
+Sreya Vemuri
+Idek what I need to buy
+Jul 20, 2016, 3:49 PM
+Sreya Vemuri
+I haven't even bought any dorm stuff yet
+Jul 20, 2016, 3:49 PM
+Sreya Vemuri
+True I am not prepared at all
+Jul 20, 2016, 3:49 PM
+Aaron Shi
+so summer is more than halfway over and I haven't done shit
+Jul 20, 2016, 3:48 PM
+Aaron Shi
+HAHAHA SAMMEEE
+Jul 20, 2016, 3:48 PM
+Sreya Vemuri
+I get nothing done
+Jul 20, 2016, 3:48 PM
+Sreya Vemuri
+Yeah I'm literally so lazy I start reading the requirements for graduation and I need a break after 2 min
+Jul 20, 2016, 3:48 PM
+Aaron Shi
+but I don't...
+Jul 20, 2016, 3:47 PM
+Aaron Shi
+but I still feel like I should know what classes I'm gonna take first year
+Jul 20, 2016, 3:47 PM
+Aaron Shi
+i'm undecided
+Jul 20, 2016, 3:47 PM
+Aaron Shi
+I don't know what I'm going to major in
+Jul 20, 2016, 3:47 PM
+Sreya Vemuri
+Wbu
+Jul 20, 2016, 3:45 PM
+Sreya Vemuri
+I only know what I'm taking first semester haha
+Jul 20, 2016, 3:45 PM
+Sreya Vemuri
+I WISH
+Jul 20, 2016, 3:45 PM
+Aaron Shi
+does that mean you've already planned out what classes to take and such
+Jul 20, 2016, 3:45 PM
+Aaron Shi
+Ah nicee
+Jul 20, 2016, 3:45 PM
+Sreya Vemuri
+Until I get there and it's too hard
+Jul 20, 2016, 3:44 PM
+Sreya Vemuri
+Rn I'm probably gonna do like applied math and CS
+Jul 20, 2016, 3:44 PM
+Aaron Shi
+do you already know your major?
+Jul 20, 2016, 3:43 PM
+Sreya Vemuri
+No thx
+Jul 20, 2016, 3:43 PM
+Sreya Vemuri
+"Requires 3 papers"
+Jul 20, 2016, 3:43 PM
+Sreya Vemuri
+LOL yea sameee
+Jul 20, 2016, 3:43 PM
+Aaron Shi
+I still have senioritis so i'm not about to do that
+Jul 20, 2016, 3:43 PM
+Aaron Shi
+there are some that are really interesting but sound like they require work...like writing papers
+Jul 20, 2016, 3:43 PM
+Sreya Vemuri
+OMF I wanna take that
+Jul 20, 2016, 3:42 PM
+Aaron Shi
+There's one about Spanish food and you get to cook and eat
+Jul 20, 2016, 3:42 PM
+Sreya Vemuri
+Because I'm down
+Jul 20, 2016, 3:42 PM
+Sreya Vemuri
+Does the class involve sleeping
+Jul 20, 2016, 3:42 PM
+Sreya Vemuri
+One*
+Jul 20, 2016, 3:42 PM
+Sreya Vemuri
+Hahahaha and the SLEEP ome
+Jul 20, 2016, 3:42 PM
+Aaron Shi
+The science of cats xDD
+Jul 20, 2016, 3:41 PM
+Aaron Shi
+Yeah seriously
+Jul 20, 2016, 3:41 PM
+Sreya Vemuri
+And I just get overwhelmed like half way through the descriptions
+Jul 20, 2016, 3:40 PM
+Sreya Vemuri
+It's so hard to decide they all seem super interesting
+Jul 20, 2016, 3:40 PM
+Aaron Shi
+but he highly recommends it
+Jul 20, 2016, 3:40 PM
+Aaron Shi
+It doesn't
+Jul 20, 2016, 3:39 PM
+Aaron Shi
+Oh yeahh I had to ask Patrick about it
+Jul 20, 2016, 3:39 PM
+Sreya Vemuri
+Like does it count towards gen Ed or nah
+Jul 20, 2016, 3:38 PM
+Sreya Vemuri
+Lol yea and also this freshman seminar thing is super vague
+Jul 20, 2016, 3:38 PM
+Aaron Shi
+I feel like there are just so many resources that you don't really know where to start lol
+Jul 20, 2016, 3:38 PM
+Aaron Shi
+Oh...okay I think I'll research some more
+Jul 20, 2016, 3:37 PM
+Sreya Vemuri
+4 classes per semester is the norm tho
+Jul 20, 2016, 3:36 PM
+Sreya Vemuri
+I just googled it but it's still kinda confusing
+Jul 20, 2016, 3:36 PM
+Sreya Vemuri
+And major requirements
+Jul 20, 2016, 3:35 PM
+Sreya Vemuri
+LOLOL did u read the stuff online about like gen ed
+Jul 20, 2016, 3:35 PM
+Aaron Shi
+and like how many courses we can take and like what goes toward your major and stuff like that...
+Jul 20, 2016, 3:35 PM
+Aaron Shi
+um speaking of that, I have no idea how Harvard's course system works
+Jul 20, 2016, 3:34 PM
+Aaron Shi
+oh
+Jul 20, 2016, 3:34 PM
+Sreya Vemuri
+Like to know which class to take
+Jul 20, 2016, 3:33 PM
+Aaron Shi
+like helpful for them to review?
+Jul 20, 2016, 3:33 PM
+Sreya Vemuri
+I think it's just helpful for the students
+Jul 20, 2016, 3:32 PM
+Sreya Vemuri
+I don't think it rly matters
+Jul 20, 2016, 3:32 PM
+Aaron Shi
+do you know if its' bad if you don't take it?
+Jul 20, 2016, 3:32 PM
+Sreya Vemuri
+Ty
+Jul 20, 2016, 3:32 PM
+Sreya Vemuri
+Probably just review ig haha
+Jul 20, 2016, 3:32 PM
+Aaron Shi
+good luck on spanish
+Jul 20, 2016, 3:32 PM
+Aaron Shi
+haven't taken them either
+Jul 20, 2016, 3:31 PM
+Aaron Shi
+I'm wondering if I should study or something
+Jul 20, 2016, 3:31 PM
+Aaron Shi
+Oh lol okay xD
+Jul 20, 2016, 3:31 PM
+Sreya Vemuri
+I need to take Spanish
+Jul 20, 2016, 3:30 PM
+Sreya Vemuri
+I probably won't take bio chem tho
+Jul 20, 2016, 3:30 PM
+Sreya Vemuri
+Lol not yet
+Jul 20, 2016, 3:30 PM
+Aaron Shi
+placement exams
+Jul 20, 2016, 3:30 PM
+Aaron Shi
+Lol have you taken bio/chem yet
+Jul 20, 2016, 3:30 PM
+Sreya Vemuri
+HAHA yeah it's rly small lol I just changed the size of the original
+Jun 21, 2016, 4:12 PM
+Aaron Shi
+that's nothing xD
+Jun 21, 2016, 4:09 PM
+Aaron Shi
+how do you get it to not exceed 50 kb
+Jun 21, 2016, 4:09 PM
+Aaron Shi
+lol
+Jun 21, 2016, 4:08 PM
+Aaron Shi
+yeah
+Jun 21, 2016, 4:08 PM
+Sreya Vemuri
+L
+Jun 21, 2016, 4:08 PM
+Sreya Vemuri
+Haha did they reject the first one
+Jun 21, 2016, 4:08 PM
+Aaron Shi
+shit i haven't done my id photo
+Jun 21, 2016, 4:07 PM
+Aaron Shi
+:)
+Jun 15, 2016, 12:01 PM
+Sreya Vemuri
+Lovely ty
+Jun 15, 2016, 12:00 PM
+Aaron Shi
+So yahh bs away
+Jun 15, 2016, 12:00 PM
+Aaron Shi
+Legit don't try is what I was told
+Jun 15, 2016, 12:00 PM
+Sreya Vemuri
+Ok ok good I'll just write some trashy thing then haha
+Jun 15, 2016, 12:00 PM
+Aaron Shi
+Only foreign students get put in expos 10
+Jun 15, 2016, 11:59 AM
+Aaron Shi
+hey Patrick and David told me not to worry about it
+Jun 15, 2016, 11:59 AM
+Aaron Shi
+oh
+Jun 15, 2016, 11:59 AM
+Sreya Vemuri
+Ugh fuck I still gotta start
+Jun 15, 2016, 11:57 AM
+Aaron Shi
+i finished but it's trasche
+Jun 15, 2016, 9:30 AM
+Aaron Shi
+FUCK
+Jun 14, 2016, 9:26 PM
+Aaron Shi
+i haven't started writing my essay
+Jun 14, 2016, 9:26 PM
+Aaron Shi
+Mmk
+Jun 14, 2016, 9:26 PM
+Sreya Vemuri
+Lmao I will let u know tonight I still haven't even looked at it
+Jun 14, 2016, 8:54 PM
+Aaron Shi
+posner
+Jun 14, 2016, 8:05 PM
+Aaron Shi
+what did u even get from the second source
+Jun 14, 2016, 8:05 PM
+Sreya Vemuri
+Wonderful
+Jun 14, 2016, 5:16 PM
+Aaron Shi
+I think you have time
+Jun 14, 2016, 5:16 PM
+Aaron Shi
+yah
+Jun 14, 2016, 5:16 PM
+Sreya Vemuri
+Omg
+Jun 14, 2016, 5:15 PM
+Sreya Vemuri
+Ohhhhh
+Jun 14, 2016, 5:15 PM
+Aaron Shi
+no Thursday by 2
+Jun 14, 2016, 5:15 PM
+Sreya Vemuri
+Lol and it ends tmrw at 2 right
+Jun 14, 2016, 5:15 PM
+Aaron Shi
+I literally have to finish by today bc I have work tomorrow
+Jun 14, 2016, 5:15 PM
+Aaron Shi
+I just finished reading lol but I don't know what to write about
+Jun 14, 2016, 5:15 PM
+Sreya Vemuri
+I haven't even read the sources yet
+Jun 14, 2016, 5:14 PM
+Sreya Vemuri
+Omg same lol
+Jun 14, 2016, 5:14 PM
+Aaron Shi
+Still haven't started writing
+Jun 14, 2016, 4:30 PM
+Aaron Shi
+proud :')
+Jun 13, 2016, 8:34 PM
+Sreya Vemuri
+So proud
+Jun 13, 2016, 8:28 PM
+Sreya Vemuri
+With v elaborate details
+Jun 13, 2016, 8:28 PM
+Sreya Vemuri
+Lol no I made the entire story up
+Jun 13, 2016, 8:28 PM
+Aaron Shi
+gg too honest
+Jun 13, 2016, 8:28 PM
+Sreya Vemuri
+Omg I got carried away with my honesty story I wrote way too much HAHA
+Jun 13, 2016, 8:27 PM
+Aaron Shi
+same lemme know how it goes
+Jun 13, 2016, 8:02 PM
+Sreya Vemuri
+Ok imma work now good luck
+Jun 13, 2016, 8:02 PM
+Sreya Vemuri
+aw shit
+Jun 13, 2016, 8:02 PM
+Aaron Shi
+it's fucking boring yo
+Jun 13, 2016, 8:02 PM
+Sreya Vemuri
+Is it interesting
+Jun 13, 2016, 8:01 PM
+Sreya Vemuri
+How long is the reading
+Jun 13, 2016, 8:01 PM
+Aaron Shi
+I work so I don't have time but u got this!!
+Jun 13, 2016, 8:01 PM
+Aaron Shi
+ITS OK U GOT TIME
+Jun 13, 2016, 8:01 PM
+Sreya Vemuri
+I don't even have a full 72 hours
+Jun 13, 2016, 8:01 PM
+Sreya Vemuri
+I literally just started
+Jun 13, 2016, 8:01 PM
+Sreya Vemuri
+AGH
+Jun 13, 2016, 8:01 PM
+Sreya Vemuri
+Nooo I'm still on honor code !!!!!!!
+Jun 13, 2016, 8:01 PM
+Aaron Shi
+I haven't even finished reading
+Jun 13, 2016, 8:01 PM
+Aaron Shi
+have you read yet
+Jun 13, 2016, 8:01 PM
+Sreya Vemuri
+How do I write multiple paragraphs on it omg
+Jun 13, 2016, 8:01 PM
+Aaron Shi
+THIS IS BULLSHIT
+Jun 13, 2016, 8:01 PM
+Aaron Shi
+I KNOW FFFFF
+Jun 13, 2016, 8:00 PM
+Sreya Vemuri
+Omg this fucking honor code !!
+Jun 13, 2016, 8:00 PM
+Aaron Shi
+I hate Harvard some times
+Jun 12, 2016, 9:17 PM
+Aaron Shi
+Oh gg
+Jun 12, 2016, 9:17 PM
+Sreya Vemuri
+My internet stopped working
+Jun 12, 2016, 8:20 PM
+Sreya Vemuri
+I tried to google the answers but
+Jun 12, 2016, 8:20 PM
+Sreya Vemuri
+Haha yeah I think I answered like 1 question right
+Jun 12, 2016, 8:20 PM
+Aaron Shi
+I was like wtf is a taylor polynomial
+Jun 12, 2016, 8:20 PM
+Aaron Shi
+lol I failed the last math part
+Jun 12, 2016, 8:20 PM
+Sreya Vemuri
+I didn't remember any Calc 2
+Jun 12, 2016, 8:03 PM
+Sreya Vemuri
+I failed the math one tho
+Jun 12, 2016, 8:03 PM
+Sreya Vemuri
+Lmao I haven't started yet
+Jun 12, 2016, 8:03 PM
+Aaron Shi
+this writing thing is cancer
+Jun 12, 2016, 7:03 PM
+Aaron Shi
+I hope the dorms are nice then lol xD
+Jun 8, 2016, 7:12 PM
+Aaron Shi
+Mmk
+Jun 8, 2016, 7:12 PM
+Sreya Vemuri
+There's like 3 dorms in Crimson yard
+Jun 8, 2016, 7:11 PM
+Sreya Vemuri
+General location
+Jun 8, 2016, 7:11 PM
+Aaron Shi
+or just general location
+Jun 8, 2016, 7:11 PM
+Aaron Shi
+so is this like our housing assignment or what
+Jun 8, 2016, 7:11 PM
+Sreya Vemuri
+Truuuu
+Jun 8, 2016, 7:10 PM
+Sreya Vemuri
+Also it's close to the fro yo place
+Jun 8, 2016, 7:10 PM
+Aaron Shi
+oh well at least we'll be together YAY
+Jun 8, 2016, 7:10 PM
+Aaron Shi
+UGHHH
+Jun 8, 2016, 7:10 PM
+Sreya Vemuri
+Cuz they're so far HAHA
+Jun 8, 2016, 7:10 PM
+Sreya Vemuri
+I think dorms are like spacious or something
+Jun 8, 2016, 7:10 PM
+Aaron Shi
+i put 1-2
+Jun 8, 2016, 7:10 PM
+Sreya Vemuri
+Wait did u put quad
+Jun 8, 2016, 7:10 PM
+Aaron Shi
+and the pro???
+Jun 8, 2016, 7:09 PM
+Aaron Shi
+:(
+Jun 8, 2016, 7:09 PM
+Sreya Vemuri
+Haha
+Jun 8, 2016, 7:09 PM
+Sreya Vemuri
+From everything
+Jun 8, 2016, 7:09 PM
+Sreya Vemuri
+V far
+Jun 8, 2016, 7:09 PM
+Sreya Vemuri
+Crimson is like
+Jun 8, 2016, 7:09 PM
+Sreya Vemuri
+I think there's pros and cons for each
+Jun 8, 2016, 7:09 PM
+Aaron Shi
+OH NICEEE
+Jun 8, 2016, 7:09 PM
+Aaron Shi
+are some yards better than others
+Jun 8, 2016, 7:09 PM
+Sreya Vemuri
+Oh nice same lol
+Jun 8, 2016, 7:09 PM
+Aaron Shi
+lol yeah I'm crimson
+Jun 8, 2016, 7:09 PM
+Sreya Vemuri
+Hey the yards we're in are up at myharvard.edu btw
+Jun 8, 2016, 7:09 PM
+Aaron Shi
+Okk
+Jun 7, 2016, 5:01 PM
+Sreya Vemuri
+And then writing this weekend
+Jun 7, 2016, 2:46 PM
+Sreya Vemuri
+I'll probably do math tmrw or something
+Jun 7, 2016, 2:46 PM
+Aaron Shi
+when are you doing it
+Jun 7, 2016, 1:22 PM
+Sreya Vemuri
+And writing is like 3 days long
+Jun 7, 2016, 12:09 PM
+Sreya Vemuri
+Haha yeah u need to take writing and math by June 16th
+Jun 7, 2016, 12:09 PM
+Aaron Shi
+I have no idea what's going on
+Jun 7, 2016, 11:41 AM
+Aaron Shi
+wait do we need to take placement exams now or something
+Jun 7, 2016, 11:41 AM
+Aaron Shi
+Ah okay :(
+May 30, 2016, 12:12 PM
+Sreya Vemuri
+It's ok dumplings r better
+May 30, 2016, 12:11 PM
+Sreya Vemuri
+Awww
+May 30, 2016, 12:11 PM
+Sreya Vemuri
+Agh no I have this Indian thing all day
+May 30, 2016, 12:11 PM
+Aaron Shi
+We're not doing Indian food anymore :(
+May 30, 2016, 12:11 PM
+Aaron Shi
+Are u coming to make dumplings
+May 30, 2016, 12:11 PM
+Sreya Vemuri
+But idk how fast they can make it
+May 30, 2016, 12:10 PM
+Sreya Vemuri
+You probably have to call them and like tell them how much u need
+May 30, 2016, 12:10 PM
+Sreya Vemuri
+Wait did u figure it out
+May 30, 2016, 12:10 PM
+Aaron Shi
+How do you order like a big tub of like a dish?
+May 30, 2016, 8:55 AM
+Aaron Shi
+So I was thinking of amber
+May 30, 2016, 8:55 AM
+Aaron Shi
+Lol so India sizzling isn't open today
+May 30, 2016, 8:55 AM
+Aaron Shi
+Heyo
+May 30, 2016, 8:55 AM
+Aaron Shi
+SHIT
+May 27, 2016, 11:44 PM
+Sreya Vemuri
+56 minutes !!
+May 27, 2016, 11:04 PM
+Aaron Shi
+Still need to do pic
+May 27, 2016, 11:03 PM
+Aaron Shi
+Ugh
+May 27, 2016, 11:03 PM
+Sreya Vemuri
+that happened to me earlier today
+May 27, 2016, 6:48 PM
+Sreya Vemuri
+omg what if i submit at like 11 and then theres an error and everything UNSAVES
+May 27, 2016, 6:48 PM
+Aaron Shi
+what if I submit this like at 11
+May 27, 2016, 6:43 PM
+Aaron Shi
+the advising thing is hell
+May 27, 2016, 6:40 PM
+Aaron Shi
+then put it down i guess
+May 27, 2016, 6:40 PM
+Aaron Shi
+lol
+May 27, 2016, 6:40 PM
+Sreya Vemuri
+if the extracurricular experience is academic
+May 27, 2016, 6:38 PM
+Sreya Vemuri
+what's the dif between academic and extracurricular experience
+May 27, 2016, 6:38 PM
+Sreya Vemuri
+idk if its good but idc anymore
+May 27, 2016, 6:38 PM
+Sreya Vemuri
+yeah i just finished the essay lol
+May 27, 2016, 6:38 PM
+Sreya Vemuri
+HAHA the trash can thing
+May 27, 2016, 6:38 PM
+Aaron Shi
+are u done w the essay
+May 27, 2016, 6:35 PM
+Aaron Shi
+hahaha
+May 27, 2016, 6:35 PM
+Aaron Shi
+but i cdon't want to look like i crawled out of a trash can in my ID photo
+May 27, 2016, 6:35 PM
+Aaron Shi
+lol no you don't
+May 27, 2016, 6:35 PM
+Sreya Vemuri
+Shit I haven't even looked at the requirements yet
+May 27, 2016, 6:33 PM
+Sreya Vemuri
+Do we have to be dressed up in it
+May 27, 2016, 6:33 PM
+Sreya Vemuri
+Ohhhh lmao WAIT
+May 27, 2016, 6:33 PM
+Aaron Shi
+my photo is nonexistent rn
+May 27, 2016, 6:33 PM
+Aaron Shi
+ugh i have to like get dressed and everything
+May 27, 2016, 6:33 PM
+Aaron Shi
+no like the photo assignment
+May 27, 2016, 6:33 PM
+Sreya Vemuri
+Omg show me
+May 27, 2016, 6:32 PM
+Aaron Shi
+UGH this photo is literally the worst
+May 27, 2016, 6:32 PM
+Aaron Shi
+I know right
+May 27, 2016, 6:32 PM
+Sreya Vemuri
+So much procrastination
+May 27, 2016, 6:31 PM
+Sreya Vemuri
+I c why Harvard picked us both
+May 27, 2016, 6:31 PM
+Sreya Vemuri
+We r v similar tho
+May 27, 2016, 6:31 PM
+Sreya Vemuri
+HAHAHA omg no don't say that 😂
+May 27, 2016, 6:31 PM
+Aaron Shi
+except ur just smarter
+May 27, 2016, 6:30 PM
+Aaron Shi
+omg sreya i feel like we're really similar
+May 27, 2016, 6:30 PM
+Aaron Shi
+Oh...same
+May 27, 2016, 6:30 PM
+Sreya Vemuri
+And my parents r yelling at me for not doing stuff for my open house tmrw
+May 27, 2016, 6:29 PM
+Sreya Vemuri
+Omg idk there's too many deadlines today lmao
+May 27, 2016, 6:29 PM
+Aaron Shi
+what the hell is the freshman register
+May 27, 2016, 6:29 PM
+Aaron Shi
+Yeah definitely
+May 27, 2016, 6:25 PM
+Sreya Vemuri
+Most ppl do
+May 27, 2016, 6:25 PM
+Sreya Vemuri
+BC we'll probably end up ok
+May 27, 2016, 6:25 PM
+Sreya Vemuri
+Not stressing about
+May 27, 2016, 6:25 PM
+Sreya Vemuri
+I think it's still worth doing but like
+May 27, 2016, 6:25 PM
+Sreya Vemuri
+LOL yeah ur probably right actually
+May 27, 2016, 6:24 PM
+Aaron Shi
+bc i realize that literally everyone is going to say the same thing
+May 27, 2016, 6:24 PM
+Aaron Shi
+bc i feel like this isn't that big of a deal anymore
+May 27, 2016, 6:24 PM
+Aaron Shi
+are you still gonna work on it
+May 27, 2016, 6:24 PM
+Sreya Vemuri
+Yeah I wrote about that stuff too basically
+May 27, 2016, 6:23 PM
+Sreya Vemuri
+Hahaha yeah I wrote personality traits but I feel like they're v generic
+May 27, 2016, 6:23 PM
+Aaron Shi
+like just important stuff like being clean and like not being a partier and stuff
+May 27, 2016, 6:23 PM
+Aaron Shi
+i wrote personality traits but i don't think they gaf about that
+May 27, 2016, 6:22 PM
+Aaron Shi
+i actually think concise is better...
+May 27, 2016, 6:22 PM
+Aaron Shi
+oh don't worry
+May 27, 2016, 6:22 PM
+Sreya Vemuri
+Idk what else to say
+May 27, 2016, 6:22 PM
+Sreya Vemuri
+I thought it'd be way more
+May 27, 2016, 6:22 PM
+Sreya Vemuri
+Omg mine is 1091 so far UGH
+May 27, 2016, 6:22 PM
+Aaron Shi
+my essay thing is only like 2700 characters
+May 27, 2016, 6:21 PM
+Sreya Vemuri
+HAHA ill probably do that too
+May 27, 2016, 5:47 PM
+Aaron Shi
+ew
+May 27, 2016, 5:47 PM
+Aaron Shi
+i'm just doing bullets for the essay
+May 27, 2016, 5:47 PM
+Aaron Shi
+it is omg
+May 27, 2016, 5:46 PM
+Sreya Vemuri
+this is impossible
+May 27, 2016, 5:46 PM
+Aaron Shi
+i said like video games
+May 27, 2016, 5:46 PM
+Sreya Vemuri
+hahahaha truuu
+May 27, 2016, 5:46 PM
+Aaron Shi
+gg
+May 27, 2016, 5:46 PM
+Aaron Shi
+lol 15 characters tho
+May 27, 2016, 5:46 PM
+Sreya Vemuri
+idk!!
+May 27, 2016, 5:46 PM
+Sreya Vemuri
+or should i be creative and go with like "instagram filtering"
+May 27, 2016, 5:46 PM
+Sreya Vemuri
+should i keep it tame and say something like "tennis"
+May 27, 2016, 5:45 PM
+Sreya Vemuri
+omg what do i put for hobbies
+May 27, 2016, 5:45 PM
+Sreya Vemuri
+U TO WE GOT THIS
+May 27, 2016, 4:07 PM
+Aaron Shi
+YES OK GOOD LUCK
+May 27, 2016, 4:07 PM
+Sreya Vemuri
+yes ok lets go freaking finish this thing rn
+May 27, 2016, 4:07 PM
+Aaron Shi
+i'm gonna ACTUALLY try worknig on it now
+May 27, 2016, 4:07 PM
+Aaron Shi
+FFF ok I feel better about myself
+May 27, 2016, 4:07 PM
+Aaron Shi
+HAHAHA agreed
+May 27, 2016, 4:07 PM
+Sreya Vemuri
+yeah this is harder than applying to harvard
+May 27, 2016, 4:06 PM
+Sreya Vemuri
+fucking white background
+May 27, 2016, 4:06 PM
+Aaron Shi
+this is too much
+May 27, 2016, 4:06 PM
+Aaron Shi
+OMG SAME
+May 27, 2016, 4:06 PM
+Aaron Shi
+i still have to upload that pic
+May 27, 2016, 4:06 PM
+Sreya Vemuri
+this is so stressful
+May 27, 2016, 4:06 PM
+Sreya Vemuri
+haha yeah also i need to find a good pic
+May 27, 2016, 4:06 PM
+Aaron Shi
+oh god at least i'm not alone
+May 27, 2016, 4:06 PM
+Sreya Vemuri
+PERF lmao
+May 27, 2016, 4:06 PM
+Aaron Shi
+YEAH LETS ROOM
+May 27, 2016, 4:05 PM
+Sreya Vemuri
+MARRIED COUPLED DORMS FTW
+May 27, 2016, 4:05 PM
+Aaron Shi
+YEAH
+May 27, 2016, 4:05 PM
+Sreya Vemuri
+HAHAHA yeah like actually same idk i don't want to end up with shitty af roommates
+May 27, 2016, 4:05 PM
+Aaron Shi
+and now i'm lowkey freaking
+May 27, 2016, 4:05 PM
+Aaron Shi
+i was reflecting on what extracurriculars i would do but then i was like f that i'm watching tv
+May 27, 2016, 4:05 PM
+Aaron Shi
+well i've been trying to work on this but i literally didn't change anything
+May 27, 2016, 4:05 PM
+Aaron Shi
+dude niceeee
+May 27, 2016, 4:04 PM
+Sreya Vemuri
+and falling asleep again
+May 27, 2016, 4:04 PM
+Sreya Vemuri
+tv
+May 27, 2016, 4:04 PM
+Sreya Vemuri
+then waking up and watching v
+May 27, 2016, 4:04 PM
+Sreya Vemuri
+I've just been sleeping all day
+May 27, 2016, 4:04 PM
+Sreya Vemuri
+oh gosh
+May 27, 2016, 4:04 PM
+Sreya Vemuri
+HAHA on this?
+May 27, 2016, 4:04 PM
+Aaron Shi
+but just...youtube
+May 27, 2016, 4:04 PM
+Aaron Shi
+the senioritis is so real i've been trying to work the whole day
+May 27, 2016, 4:04 PM
+Sreya Vemuri
+shoulda known
+May 27, 2016, 4:04 PM
+Sreya Vemuri
+but like lol
+May 27, 2016, 4:04 PM
+Sreya Vemuri
+omg yea i was like I'm def gonna spend a lot of time on this and have amazing suitemates
+May 27, 2016, 4:04 PM
+Aaron Shi
+i'm gonna end up with a stoner
+May 27, 2016, 4:04 PM
+Aaron Shi
+Lol so much for my college experience
+May 27, 2016, 4:03 PM
+Aaron Shi
+oh god i'm gonna have to write this in like 2 hours bc i have do something tonight
+May 27, 2016, 4:03 PM
+Sreya Vemuri
+YEAH!!!!
+May 27, 2016, 4:03 PM
+Aaron Shi
+N0NE
+May 27, 2016, 4:03 PM
+Sreya Vemuri
+WHAT EXTRACURRICULARS DO I DO
+May 27, 2016, 4:03 PM
+Aaron Shi
+SAME GIRL
+May 27, 2016, 4:03 PM
+Sreya Vemuri
+IDEK HOW TO DESCRIBE MYSELF
+May 27, 2016, 4:03 PM
+Aaron Shi
+LITERALLYYY
+May 27, 2016, 4:02 PM
+Aaron Shi
+LITERALLY SAME
+May 27, 2016, 4:02 PM
+Aaron Shi
+NO SREYA
+May 27, 2016, 4:02 PM
+Sreya Vemuri
+I HAVENT EVEN STARTED
+May 27, 2016, 4:02 PM
+Sreya Vemuri
+ITS SO MUCH
+May 27, 2016, 4:02 PM
+Aaron Shi
+WHAT THE F I CANT DO THIS
+May 27, 2016, 2:32 PM
+Aaron Shi
+UGHHH
+May 27, 2016, 1:51 AM
+Sreya Vemuri
+ITS DUE TMRW
+May 27, 2016, 1:49 AM
+Sreya Vemuri
+SAME OMGOMG
+May 27, 2016, 1:49 AM
+Aaron Shi
+I HAVENT STARTED
+May 27, 2016, 1:25 AM
+Aaron Shi
+NO IDEA
+May 27, 2016, 1:25 AM
+Sreya Vemuri
+HOUSING
+May 26, 2016, 9:05 PM
+Sreya Vemuri
+WHAT TIME IS THE HOSUING APP DUE TMRW
+May 26, 2016, 9:05 PM
+Aaron Shi
+Okay
+May 14, 2016, 9:26 PM
+Sreya Vemuri
+Is
+May 14, 2016, 9:10 PM
+Sreya Vemuri
+I don't think it
+May 14, 2016, 9:10 PM
+Aaron Shi
+do you know if it's too late to do fcu
+May 14, 2016, 2:14 PM
+Sreya Vemuri
+HAHAHA Felipe's
+May 10, 2016, 12:08 PM
+Aaron Shi
+you can get like 35 burritos at felipe's
+May 10, 2016, 12:08 PM
+Aaron Shi
+yes i am glad you understand me
+May 10, 2016, 12:07 PM
+Sreya Vemuri
+Real money is measured in terms of food
+May 10, 2016, 12:07 PM
+Sreya Vemuri
+Ayyy h square my bae
+May 10, 2016, 12:07 PM
+Aaron Shi
+no that's good u can get so much food at harvard sq for 200
+May 10, 2016, 12:06 PM
+Sreya Vemuri
+Idt that counts tho
+May 10, 2016, 12:06 PM
+Sreya Vemuri
+Lol I'm getting paid like $200 this summer to TA for a week
+May 10, 2016, 12:06 PM
+Sreya Vemuri
+Oh niice haha that's better than mcD
+May 10, 2016, 12:05 PM
+Aaron Shi
+ughhh
+May 10, 2016, 12:05 PM
+Aaron Shi
+i'm looking at interning at a place called telamon that pays $10/hr
+May 10, 2016, 12:05 PM
+Aaron Shi
+mcdonalds $9/hour ;)
+May 10, 2016, 12:05 PM
+Sreya Vemuri
+Like involving my hands HAHA
+May 10, 2016, 12:04 PM
+Aaron Shi
+doubt it man
+May 10, 2016, 12:04 PM
+Aaron Shi
+going to harvard but zero skills???
+May 10, 2016, 12:04 PM
+Sreya Vemuri
+But I have zero skills
+May 10, 2016, 12:03 PM
+Sreya Vemuri
+My parents rly want me to get a job
+May 10, 2016, 12:03 PM
+Sreya Vemuri
+Omg it's soooo expensive lol
+May 10, 2016, 12:03 PM
+Aaron Shi
+i feel soo guilty for making my parents pay for college
+May 10, 2016, 12:02 PM
+Aaron Shi
+lol i need to get a summer job
+May 10, 2016, 12:02 PM
+Sreya Vemuri
+Hahahahaha
+May 10, 2016, 12:01 PM
+Aaron Shi
+WOWW i actually respect you so much
+May 10, 2016, 12:01 PM
+Sreya Vemuri
+My teachers hate me hehe
+May 10, 2016, 12:01 PM
+Sreya Vemuri
+I still have finals to make up from 2 weeks ago
+May 10, 2016, 12:01 PM
+Sreya Vemuri
+LOLOL
+May 10, 2016, 12:00 PM
+Aaron Shi
+lol you're ok it's so easy
+May 10, 2016, 12:00 PM
+Aaron Shi
+she gave it to us today but there were literally 5 ppl in class
+May 10, 2016, 12:00 PM
+Sreya Vemuri
+Lmao I've missed so much class
+May 10, 2016, 12:00 PM
+Sreya Vemuri
+Omgggg has it even been assigned yet
+May 10, 2016, 12:00 PM
+Aaron Shi
+lol joe, me, akshar, and allen already finished our multi project xD
+May 10, 2016, 12:00 PM
+Aaron Shi
+you will! and if u don't find me bc i will also be strugglin
+May 10, 2016, 12:00 PM
+Sreya Vemuri
+I hope I find the right ppl tho
+May 10, 2016, 11:58 AM
+Sreya Vemuri
+Me too haha like I think Harvard has this rep of being like super competitive and cutthroat but I've heard it depends on who u hangout with
+May 10, 2016, 11:58 AM
+Aaron Shi
+that's actually really true I'm just scared I guess haha
+May 10, 2016, 11:57 AM
+Sreya Vemuri
+Hm yeah I think there will be some ppl like that but the majority of ppl I've met so far have been super humble
+May 10, 2016, 11:51 AM
+Aaron Shi
+who think they're gods
+May 10, 2016, 11:50 AM
+Aaron Shi
+aren't all jerks
+May 10, 2016, 11:50 AM
+Aaron Shi
+i hope harvard ppl aren'
+May 10, 2016, 11:50 AM
+Aaron Shi
+same dude samee
+May 10, 2016, 11:50 AM
+Sreya Vemuri
+I need to get my shit together before college lol
+May 10, 2016, 11:47 AM
+Sreya Vemuri
+Omg yeah like I can't even focus for more than 2 min without checking fb or something
+May 10, 2016, 11:47 AM
+Aaron Shi
+how am I even going to survive at harvard of all places
+May 10, 2016, 11:47 AM
+Aaron Shi
+same tho...i legit don't know the feeling of studying for something anymore
+May 10, 2016, 11:47 AM
+Sreya Vemuri
+I can't do school anymore
+May 10, 2016, 11:46 AM
+Sreya Vemuri
+Lol yeah I left after my AP exam
+May 10, 2016, 11:46 AM
+Aaron Shi
+haha are you at home?
+May 10, 2016, 11:46 AM
+Aaron Shi
+ugh harvard
+May 10, 2016, 11:46 AM
+Sreya Vemuri
+Haha nooo
+May 10, 2016, 11:46 AM
+Aaron Shi
+righttt...does it help at all if ur not doing advanced standing??
+May 10, 2016, 11:46 AM
+Sreya Vemuri
+Lol yeah it was p confusing but I think they only count if ur doing advanced standing which is like graduating in 3 years
+May 10, 2016, 11:45 AM
+Aaron Shi
+yeah just ap lang tomorrow
+May 10, 2016, 11:44 AM
+Aaron Shi
+i dont even know harvard's system with ap exams and stuff i'm worried they might actually count and i missed a chance
+May 10, 2016, 11:44 AM
+Sreya Vemuri
+Are u?
+May 10, 2016, 11:43 AM
+Sreya Vemuri
+Yeah and idk why!! Because they don't count
+May 10, 2016, 11:43 AM
+Aaron Shi
+are you taking any ap exams
+May 10, 2016, 11:42 AM
+Aaron Shi
+true true
+May 10, 2016, 11:42 AM
+Sreya Vemuri
+But cleaning ew
+May 10, 2016, 11:42 AM
+Aaron Shi
+gg
+May 10, 2016, 11:42 AM
+Aaron Shi
+$500 :'(
+May 10, 2016, 11:41 AM
+Sreya Vemuri
+U won't be missing out on much
+May 10, 2016, 11:41 AM
+Sreya Vemuri
+I think ur fine tho
+May 10, 2016, 11:41 AM
+Sreya Vemuri
+Lolol yeah I'm not sure
+May 10, 2016, 11:41 AM
+Aaron Shi
+whatever
+May 10, 2016, 11:41 AM
+Aaron Shi
+oh is it?? i thought the window was still open
+May 10, 2016, 11:41 AM
+Sreya Vemuri
+Or did u sign up for them all
+May 10, 2016, 11:40 AM
+Sreya Vemuri
+Haha wait isn't it too late to sign up tho
+May 10, 2016, 11:40 AM
+Aaron Shi
+idk dorm crew tho...at least i can make money
+May 10, 2016, 11:40 AM
+Aaron Shi
+what the heckkk
+May 10, 2016, 11:40 AM
+Sreya Vemuri
+Last summer I had to sit on a tarp for 36 hr straight and I still have PTSD
+May 10, 2016, 11:39 AM
+Sreya Vemuri
+LOL yeah and like I hate outdoors stuff in general
+May 10, 2016, 11:39 AM
+Aaron Shi
+you can't even poop in a proper bathroom
+May 10, 2016, 11:39 AM
+Aaron Shi
+i'm not surprised
+May 10, 2016, 11:39 AM
+Sreya Vemuri
+Yeah that's why I considered doing it too but like I read this one article that said it can be p traumatic for some ppl
+May 10, 2016, 11:38 AM
+Aaron Shi
+i honestly didn't want to do it but everyone was like fop changed my life and even patrick and david recommended it
+May 10, 2016, 11:38 AM
+Sreya Vemuri
+HAHA such little persuasion was required 😂
+May 10, 2016, 11:38 AM
+Aaron Shi
+thanks for the persuasion loll
+May 10, 2016, 11:37 AM
+Aaron Shi
+yeah I probably won't do it xD
+May 10, 2016, 11:37 AM
+Aaron Shi
+i know right...
+May 10, 2016, 11:37 AM
+Sreya Vemuri
+*what are the chances
+May 10, 2016, 11:36 AM
+Sreya Vemuri
+Haha yeah like I think the only reason to do it would be to meet ppl but are they chances that you'll even see them again
+May 10, 2016, 11:36 AM
+Aaron Shi
+it seems kinda dumb
+May 10, 2016, 11:35 AM
+Aaron Shi
+idk if I want to do pre-orientation stuff.. :/
+May 10, 2016, 11:35 AM
