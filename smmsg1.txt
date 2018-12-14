@@ -1,0 +1,2191 @@
+Varun Tekur
+thats what you do
+Dec 9, 2018, 2:48 PM
+Varun Tekur
+yeah
+Dec 9, 2018, 2:48 PM
+Sidharth Menon
+and then usleep that amount
+Dec 8, 2018, 10:26 PM
+Sidharth Menon
+just read from the buffer the number of seconds if there's a plus in front
+Dec 8, 2018, 10:26 PM
+Sidharth Menon
+this doesn't work
+Dec 8, 2018, 10:26 PM
+Sidharth Menon
+originally
+Dec 8, 2018, 10:26 PM
+Varun Tekur
+what are you doing to handle phase 4?
+Dec 8, 2018, 8:02 PM
+Varun Tekur
+Yeah thats what you are trying to prevent, could be for many reasons. I'm getting that same error, but its always minutes in to the program
+Dec 8, 2018, 8:02 PM
+Sidharth Menon
+getting this thing 9.359 sec: server returned error: -1 request sent to STOPped server (0.218 sec into STOP period, 1.559 sec remaining)
+Dec 8, 2018, 7:09 PM
+Sidharth Menon
+after a while
+Dec 8, 2018, 6:51 PM
+Sidharth Menon
+i changed it and now it’ll have this like catastrophic error lolll
+Dec 8, 2018, 6:51 PM
+Sidharth Menon
+I think it’s wrong tho
+Dec 8, 2018, 6:49 PM
+Varun Tekur
+Sometimes that is just due to a slow network
+Dec 8, 2018, 6:29 PM
+Sidharth Menon
+it keeps saying that “expected move at (__, __), you skipped to (__, __)”
+Dec 8, 2018, 6:13 PM
+Sidharth Menon
+have a little trouble with step 4
+Dec 8, 2018, 6:12 PM
+Sidharth Menon
+yo
+Dec 8, 2018, 6:12 PM
+Varun Tekur
+of course
+Dec 8, 2018, 3:11 PM
+Sidharth Menon
+thanks buddy
+Dec 8, 2018, 3:09 PM
+Sidharth Menon
+that makes sense
+Dec 8, 2018, 3:09 PM
+Sidharth Menon
+Oh ok
+Dec 8, 2018, 3:09 PM
+Varun Tekur
+yeah you need to do more stuff to change it to a condition variable in step 3
+Dec 8, 2018, 3:04 PM
+Sidharth Menon
+what the hell lol
+Dec 8, 2018, 3:02 PM
+Sidharth Menon
+Oh
+Dec 8, 2018, 3:02 PM
+Varun Tekur
+and then move that line to the appropriate place earlier in the function
+Dec 8, 2018, 3:02 PM
+Varun Tekur
+that is what signals other threads to continue
+Dec 8, 2018, 3:02 PM
+Varun Tekur
+look at where move_done is set to true
+Dec 8, 2018, 3:02 PM
+Varun Tekur
+yeah I was confused for a while but this step is stupid
+Dec 8, 2018, 3:02 PM
+Sidharth Menon
+pset
+Dec 8, 2018, 3:01 PM
+Sidharth Menon
+do you know what we have to do for this part
+Dec 8, 2018, 3:01 PM
+Sidharth Menon
+hey I’m a little confused on phase 2
+Dec 8, 2018, 3:01 PM
+Sidharth Menon
+Thanks buddy!! Appreciate it
+Nov 28, 2018, 3:16 PM
+Varun Tekur
+Happy Birthday man!
+👍Sidharth Menon
+Nov 28, 2018, 2:46 PM
+Varun Tekur
+calling it a day on this pset
+👍Sidharth Menon
+Nov 21, 2018, 8:47 PM
+Varun Tekur
+haha np man I just switched it back
+Nov 21, 2018, 8:47 PM
+Sidharth Menon
+I don’t want to cause u any problems lolll
+Nov 21, 2018, 8:33 PM
+Sidharth Menon
+that’s fair lol
+Nov 21, 2018, 8:33 PM
+Sidharth Menon
+right
+Nov 21, 2018, 8:32 PM
+Varun Tekur
+I might just leave it how it was bc it worked fairly well lol
+Nov 21, 2018, 8:32 PM
+Varun Tekur
+generally
+Nov 21, 2018, 8:32 PM
+Sidharth Menon
+or just generally
+Nov 21, 2018, 8:32 PM
+Sidharth Menon
+Does yours fail INTR3 with LSAN stuff
+Nov 21, 2018, 8:32 PM
+Varun Tekur
+yeah I think we are
+Nov 21, 2018, 8:32 PM
+Sidharth Menon
+we might be doing a pretty similar thing
+Nov 21, 2018, 8:32 PM
+Sidharth Menon
+And return the child’s pid
+Nov 21, 2018, 8:31 PM
+Sidharth Menon
+I set the pgids, then close relevant pipe fds, and then set pid to the child’s pid
+Nov 21, 2018, 8:31 PM
+Sidharth Menon
+In the parent
+Nov 21, 2018, 8:31 PM
+Varun Tekur
+I think I'm doing basically the same thing
+Nov 21, 2018, 8:30 PM
+Sidharth Menon
+then I exec
+Nov 21, 2018, 8:30 PM
+Sidharth Menon
+then I perform redirects (since these have higher precedence I think)
+Nov 21, 2018, 8:30 PM
+Sidharth Menon
+then I do my forking stuff
+Nov 21, 2018, 8:30 PM
+Sidharth Menon
+In child: I set pid to the child’s pid. Then i do the same setpgid stuff as u
+Nov 21, 2018, 8:30 PM
+Sidharth Menon
+Then I fork
+Nov 21, 2018, 8:29 PM
+Sidharth Menon
+Then I set up the file descriptors for forking (but I think that’s just implementation specific)
+Nov 21, 2018, 8:29 PM
+Sidharth Menon
+so basically first I do the same c str stuff as u
+Nov 21, 2018, 8:29 PM
+Sidharth Menon
+I do it a little differently
+Nov 21, 2018, 8:29 PM
+Varun Tekur
+yeah
+Nov 21, 2018, 8:27 PM
+Sidharth Menon
+in make_child, right?
+Nov 21, 2018, 8:27 PM
+Varun Tekur
+is that what you do?
+Nov 21, 2018, 8:26 PM
+Varun Tekur
+Varun sent a photo.
+
+Nov 21, 2018, 8:26 PM
+Sidharth Menon
+& the rest of child
+Nov 21, 2018, 8:26 PM
+Sidharth Menon
+what does your run look like?
+Nov 21, 2018, 8:25 PM
+Sidharth Menon
+weird
+Nov 21, 2018, 8:25 PM
+Varun Tekur
+lol
+Nov 21, 2018, 8:25 PM
+Varun Tekur
+now my intr3 just broke
+Nov 21, 2018, 8:25 PM
+Varun Tekur
+Varun sent a photo.
+
+Nov 21, 2018, 8:25 PM
+Sidharth Menon
+and that was the only time it failed
+Nov 21, 2018, 8:25 PM
+Sidharth Menon
+But I’ve run it like 8? Times now
+Nov 21, 2018, 8:24 PM
+Sidharth Menon
+my INTR 5 failed once with leaks
+Nov 21, 2018, 8:24 PM
+Varun Tekur
+wait that messed up my intr3
+Nov 21, 2018, 8:23 PM
+Varun Tekur
+let me check
+Nov 21, 2018, 8:23 PM
+Sidharth Menon
+right exactly
+Nov 21, 2018, 8:22 PM
+Varun Tekur
+not its own
+Nov 21, 2018, 8:22 PM
+Varun Tekur
+bc it needs to actually set the childs pgid
+Nov 21, 2018, 8:22 PM
+Varun Tekur
+yeah that makes sense
+Nov 21, 2018, 8:22 PM
+Sidharth Menon
+The highlighted stuff is the parent’s stuff
+Nov 21, 2018, 8:22 PM
+Sidharth Menon
+You sent a photo.
+
+Nov 21, 2018, 8:22 PM
+Varun Tekur
+wait so in the parent, set forkpid, pgid
+Nov 21, 2018, 8:21 PM
+Sidharth Menon
+the point of the race condition is to ensure that the child (the executing process) is part of the group
+Nov 21, 2018, 8:20 PM
+Sidharth Menon
+Since it’s the child’s pgid
+Nov 21, 2018, 8:20 PM
+Sidharth Menon
+You should be using forkPid for the parent
+Nov 21, 2018, 8:20 PM
+Sidharth Menon
+Oh
+Nov 21, 2018, 8:20 PM
+Varun Tekur
+thats what I'm doing for set pgid
+Nov 21, 2018, 8:19 PM
+Varun Tekur
+Varun sent a photo.
+
+Nov 21, 2018, 8:19 PM
+Varun Tekur
+it seems like the grading server is really slow
+Nov 21, 2018, 8:18 PM
+Varun Tekur
+sure
+Nov 21, 2018, 8:18 PM
+Sidharth Menon
+I can run it again if you want tho
+Nov 21, 2018, 8:18 PM
+Sidharth Menon
+I was talking about the leak haha
+Nov 21, 2018, 8:18 PM
+Sidharth Menon
+yeah I did
+Nov 21, 2018, 8:18 PM
+Varun Tekur
+can you check your leak check output
+Nov 21, 2018, 8:17 PM
+Varun Tekur
+hmm
+Nov 21, 2018, 8:17 PM
+Sidharth Menon
+I haven’t had an issue with anything failing since we made the fix
+Nov 21, 2018, 8:17 PM
+Sidharth Menon
+No I don’t think so?
+Nov 21, 2018, 8:17 PM
+Varun Tekur
+My stuff seems to be performing worse on the server. Did you find that as well?
+Nov 21, 2018, 8:16 PM
+Sidharth Menon
+but it’s not really graded anyways
+Nov 21, 2018, 8:16 PM
+Sidharth Menon
+To figure it out
+Nov 21, 2018, 8:16 PM
+Sidharth Menon
+You can call me if you want
+Nov 21, 2018, 8:16 PM
+Sidharth Menon
+Weird
+Nov 21, 2018, 8:16 PM
+Varun Tekur
+That change didn't end up fixing the bux unfortunately
+Nov 21, 2018, 8:07 PM
+Varun Tekur
+Varun called you.
+Duration: 4 minutes
+Nov 21, 2018, 7:43 PM
+Sidharth Menon
+easier to talk through it I think haha
+Nov 21, 2018, 7:38 PM
+Sidharth Menon
+give me a call if you’re free
+Nov 21, 2018, 7:38 PM
+Sidharth Menon
+Varun missed a call from you.
+Nov 21, 2018, 7:38 PM
+Varun Tekur
+what was the problem
+Nov 21, 2018, 7:37 PM
+Sidharth Menon
+ours was as well
+Nov 21, 2018, 7:33 PM
+Sidharth Menon
+your run is probably slightly wrong
+Nov 21, 2018, 7:33 PM
+Sidharth Menon
+we fixed it
+Nov 21, 2018, 7:33 PM
+Sidharth Menon
+Oh interesting
+Nov 21, 2018, 7:13 PM
+Varun Tekur
+I might also do it during reading period when they open up the psets allegedly
+Nov 21, 2018, 6:30 PM
+Varun Tekur
+how long did the extra credit take you?
+Nov 21, 2018, 6:30 PM
+Varun Tekur
+Like the intr5 and pipe5
+Nov 21, 2018, 6:30 PM
+Sidharth Menon
+the TFs say it’s ok
+Nov 21, 2018, 6:30 PM
+Sidharth Menon
+Looks like the bugs are probably fine
+Nov 21, 2018, 6:29 PM
+Sidharth Menon
+and variables
+Nov 21, 2018, 6:29 PM
+Sidharth Menon
+like the command “history”
+Nov 21, 2018, 6:29 PM
+Sidharth Menon
+yeah we just chose easy stuff lol
+Nov 21, 2018, 6:27 PM
+Varun Tekur
+is the extra credit easy to do?
+Nov 21, 2018, 6:27 PM
+Varun Tekur
+Varun called you.
+Duration: 5 minutes
+Nov 21, 2018, 6:25 PM
+Sidharth Menon
+Varun missed a call from you.
+Nov 21, 2018, 6:15 PM
+Varun Tekur
+I'm just saying that
+Nov 21, 2018, 4:19 PM
+Varun Tekur
+Varun sent a photo.
+
+Nov 21, 2018, 4:19 PM
+Varun Tekur
+yeah I may just mention that it works locally but occasionally fails on server
+Nov 21, 2018, 4:17 PM
+Sidharth Menon
+that’s wicked smaht
+Nov 21, 2018, 4:06 PM
+Sidharth Menon
+Yeah I think that’s a good call
+Nov 21, 2018, 4:06 PM
+Varun Tekur
+are you going to put something in grading notes about it or nah?
+Nov 21, 2018, 3:59 PM
+Varun Tekur
+not other checks
+Nov 21, 2018, 3:54 PM
+Varun Tekur
+plus its only on Lsan
+Nov 21, 2018, 3:54 PM
+Varun Tekur
+yeah I don't think its worth trying to fix
+Nov 21, 2018, 3:54 PM
+Sidharth Menon
+like wtf does that mean hhahaha
+Nov 21, 2018, 3:54 PM
+Sidharth Menon
+the error message is just like “its too slow”
+Nov 21, 2018, 3:54 PM
+Varun Tekur
+yeah it generally passes
+Nov 21, 2018, 3:53 PM
+Sidharth Menon
+and it passed each time
+Nov 21, 2018, 3:53 PM
+Sidharth Menon
+and I ran it again like 5 times
+Nov 21, 2018, 3:53 PM
+Sidharth Menon
+I have 0 idea how to fix it lol
+Nov 21, 2018, 3:53 PM
+Sidharth Menon
+I mean I guess?
+Nov 21, 2018, 3:53 PM
+Varun Tekur
+are you gonna just leave it?
+Nov 21, 2018, 3:52 PM
+Sidharth Menon
+freaking L
+Nov 21, 2018, 3:27 PM
+Sidharth Menon
+but nah no one has responded
+Nov 21, 2018, 3:27 PM
+Sidharth Menon
+I just woke up lol
+Nov 21, 2018, 3:27 PM
+Sidharth Menon
+I guess it wasn’t a quick nap
+Nov 21, 2018, 3:27 PM
+Varun Tekur
+any updates on Intr 5
+Nov 21, 2018, 3:01 PM
+Varun Tekur
+haha definitely makes sense
+Nov 21, 2018, 11:12 AM
+Sidharth Menon
+also imma take a quick nap rn haha I took at flight home at like 6:30 am
+Nov 21, 2018, 10:49 AM
+Sidharth Menon
+so weird
+Nov 21, 2018, 10:49 AM
+Sidharth Menon
+weird
+Nov 21, 2018, 10:49 AM
+Varun Tekur
+never
+Nov 21, 2018, 10:48 AM
+Sidharth Menon
+never fails on your VM though?
+Nov 21, 2018, 10:48 AM
+Sidharth Menon
+that’s interesting
+Nov 21, 2018, 10:48 AM
+Sidharth Menon
+oh what lol
+Nov 21, 2018, 10:48 AM
+Varun Tekur
+it says hello bye 0 instead of hello bye 1
+Nov 21, 2018, 10:48 AM
+Sidharth Menon
+What happens for your pipe 5
+Nov 21, 2018, 10:47 AM
+Sidharth Menon
+I bumped that question
+Nov 21, 2018, 10:47 AM
+Sidharth Menon
+and that they “think they fixed it”
+Nov 21, 2018, 10:47 AM
+Sidharth Menon
+And a TF said that the grading server has issues
+Nov 21, 2018, 10:47 AM
+Sidharth Menon
+If you scroll down someone said the same thing on Monday
+Nov 21, 2018, 10:47 AM
+Sidharth Menon
+it looks like that -might- be a problem with the grading server
+Nov 21, 2018, 10:46 AM
+Varun Tekur
+someone on piazza was complaining that they didn't make the timeouts reasonable or something
+Nov 21, 2018, 10:46 AM
+Varun Tekur
+yeah that happens sometimes to me too
+Nov 21, 2018, 10:46 AM
+Sidharth Menon
+but i haven't had problems with pipe 5
+Nov 21, 2018, 10:12 AM
+Sidharth Menon
+super weird, INTR5 fails in grading server only with memory sanitization & leak detection with no error code other than "should've passed in 0.150 seconds"
+Nov 21, 2018, 10:12 AM
+Sidharth Menon
+and ok will look at that...will probably do that after I finish cd
+Nov 21, 2018, 4:59 AM
+Sidharth Menon
+I ended up figuring out something for step 8 similar to that
+Nov 21, 2018, 4:59 AM
+Sidharth Menon
+ok let me check
+Nov 21, 2018, 4:58 AM
+Varun Tekur
+the TF said its fine, but idk
+Nov 21, 2018, 12:39 AM
+Varun Tekur
+me and this other kid are getting that
+Nov 21, 2018, 12:38 AM
+Varun Tekur
+also lmk if pipe 5 occasionally fails on the grading server for you
+Nov 21, 2018, 12:38 AM
+Varun Tekur
+do that at the beginning of main
+Nov 21, 2018, 12:38 AM
+Varun Tekur
+reset the global signal, set need prompt equal to true, and print a newline
+Nov 21, 2018, 12:38 AM
+Sidharth Menon
+just like if the global is SIGINT then just reset the global signal thing and continue?
+Nov 20, 2018, 11:56 PM
+Sidharth Menon
+and like next to the shit from the zombie process
+Nov 20, 2018, 11:56 PM
+Sidharth Menon
+and set that to the signal from the signal handler
+Nov 20, 2018, 11:55 PM
+Sidharth Menon
+Do you have a global signal_status
+Nov 20, 2018, 11:54 PM
+Sidharth Menon
+What do you do to make a command line print somethin new
+Nov 20, 2018, 11:54 PM
+Sidharth Menon
+For part 8
+Nov 20, 2018, 11:54 PM
+Sidharth Menon
+also
+Nov 20, 2018, 11:54 PM
+Varun Tekur
+np man
+Nov 20, 2018, 10:16 PM
+Varun Tekur
+exactly
+Nov 20, 2018, 10:16 PM
+Sidharth Menon
+right I get that part I think because you don’t want parent to do some shit that child doesn’t receive
+Nov 20, 2018, 10:14 PM
+Sidharth Menon
+thanks dude
+Nov 20, 2018, 10:13 PM
+Varun Tekur
+and you do that in both the parent and the child
+Nov 20, 2018, 10:13 PM
+Sidharth Menon
+that’s so smart
+Nov 20, 2018, 10:13 PM
+Sidharth Menon
+Holy snap I see
+Nov 20, 2018, 10:13 PM
+Varun Tekur
+you get the correct pgid by passing it into the function. for the first process in a pipeline, you pass 0 in, therefore setting its pgid to its pid. this is setpid(getpid,0) for all other processes in the pipeline, you have to set its pgid to the same thing, which is the pid of the first process. the function returns that, so you save it, and then you pass it in to make child for all subsequent processes in the pipeline
+Nov 20, 2018, 10:12 PM
+Sidharth Menon
+(If pgid is 0 to begin with)
+Nov 20, 2018, 10:11 PM
+Sidharth Menon
+or does that automatically happen if you call setpgid(x, 0)
+Nov 20, 2018, 10:11 PM
+Sidharth Menon
+what about the bs in the hint to do if pgid == 0?
+Nov 20, 2018, 10:11 PM
+Varun Tekur
+if forkpid = 0, you are in the child. you set the pgid of getpid to the correct value. if forkpid is not equal to 0, you are in the parent and you do the same thing
+Nov 20, 2018, 10:10 PM
+Varun Tekur
+lets call this forkpid
+Nov 20, 2018, 10:09 PM
+Varun Tekur
+the fork returns a pid
+Nov 20, 2018, 10:09 PM
+Varun Tekur
+no
+Nov 20, 2018, 10:09 PM
+Sidharth Menon
+Wait maybe that’s wrong loll that’s 4 calls?
+Nov 20, 2018, 10:08 PM
+Sidharth Menon
+U set child’s pid to pgid if pgid != 0, otherwise you give it a new pgid (by calling setpgid(0,0))
+Nov 20, 2018, 10:07 PM
+Sidharth Menon
+in both parent and child
+Nov 20, 2018, 10:07 PM
+Sidharth Menon
+so just checking
+Nov 20, 2018, 10:07 PM
+Sidharth Menon
+ohh I think I get it now haha
+Nov 20, 2018, 10:06 PM
+Varun Tekur
+we all need a break
+😍Sidharth Menon
+Nov 20, 2018, 10:03 PM
+Varun Tekur
+lol dude don't worry about it, I am so tired as well
+Nov 20, 2018, 10:03 PM
+Sidharth Menon
+ok sorry lol I’m super tired that was such a dumb question
+Nov 20, 2018, 10:01 PM
+Sidharth Menon
+LOL
+Nov 20, 2018, 9:52 PM
+Sidharth Menon
+I be dumb to
+Nov 20, 2018, 9:52 PM
+Sidharth Menon
+nvm
+Nov 20, 2018, 9:52 PM
+Sidharth Menon
+*pid of fork
+Nov 20, 2018, 9:51 PM
+Sidharth Menon
+isn’t that like a kernel thing??
+Nov 20, 2018, 9:51 PM
+Sidharth Menon
+when would the pgid of fork return 0
+Nov 20, 2018, 9:51 PM
+Sidharth Menon
+wait what
+Nov 20, 2018, 9:51 PM
+Varun Tekur
+yeah set the pgid of process (which you can get with getpid) to the correct pgid
+Nov 20, 2018, 9:51 PM
+Sidharth Menon
+the same update in both?
+Nov 20, 2018, 9:49 PM
+Sidharth Menon
+I seeee
+Nov 20, 2018, 9:49 PM
+Sidharth Menon
+oohhh
+Nov 20, 2018, 9:49 PM
+Varun Tekur
+because that indicates if you are in the parent or child
+Nov 20, 2018, 9:49 PM
+Varun Tekur
+no, when the pid returned by fork is 0 or not 0
+Nov 20, 2018, 9:48 PM
+Varun Tekur
+yeah you just need to make sure that the parent and the child are both updates because you don't want to have the parent do something without updated info
+Nov 20, 2018, 9:48 PM
+Sidharth Menon
+when the pid is 0 or the pgid is 0?
+Nov 20, 2018, 9:48 PM
+Sidharth Menon
+but no idea what it actually means lolll
+Nov 20, 2018, 9:47 PM
+Sidharth Menon
+Kind of slept through the race conditions part so I vaguely understand it
+Nov 20, 2018, 9:47 PM
+Varun Tekur
+also I found my bug with list 8 and zombie 2
+Nov 20, 2018, 9:47 PM
+Varun Tekur
+so when the pid is 0 or when it is not 0
+Nov 20, 2018, 9:47 PM
+Varun Tekur
+set it in the child and the parent
+Nov 20, 2018, 9:47 PM
+Sidharth Menon
+in make_child
+Nov 20, 2018, 9:46 PM
+Sidharth Menon
+what does it mean we need to call setpgid at two different points
+Nov 20, 2018, 9:46 PM
+Sidharth Menon
+For sure
+Nov 20, 2018, 9:45 PM
+Varun Tekur
+lmk if you ever get any issues with pipe 5 or list 8 failing occasionally on grading server
+Nov 20, 2018, 5:51 PM
+Varun Tekur
+dude I'm so excited
+Nov 20, 2018, 5:50 PM
+Sidharth Menon
+I definitely couldn’t handle another month of straight school lolll
+Nov 20, 2018, 2:57 PM
+Sidharth Menon
+excited for break haha?
+Nov 20, 2018, 2:57 PM
+Sidharth Menon
+For sure
+Nov 20, 2018, 2:57 PM
+Varun Tekur
+I will be working at home today after I get home
+Nov 20, 2018, 2:52 PM
+Varun Tekur
+we can def text tho
+Nov 20, 2018, 2:52 PM
+Varun Tekur
+dang ok
+Nov 20, 2018, 2:52 PM
+Sidharth Menon
+And I can’t leave here at least for the next 10 minutes
+Nov 20, 2018, 2:50 PM
+Sidharth Menon
+I have class starting at 4
+Nov 20, 2018, 2:50 PM
+Sidharth Menon
+Probably not worth coming there then
+Nov 20, 2018, 2:50 PM
+Sidharth Menon
+damn
+Nov 20, 2018, 2:49 PM
+Varun Tekur
+ok I'll be working in northwest probably
+Nov 20, 2018, 1:36 PM
+Sidharth Menon
+I have to miss class for a doctor’s appt
+Nov 20, 2018, 1:30 PM
+Sidharth Menon
+I’m free from like 3-4
+Nov 20, 2018, 1:30 PM
+Sidharth Menon
+Cool
+Nov 20, 2018, 1:30 PM
+Varun Tekur
+I am leaving at like 4 30 but I want to get this done asap
+Nov 20, 2018, 1:23 PM
+Varun Tekur
+I can work right after class
+Nov 20, 2018, 1:23 PM
+Sidharth Menon
+If you’re still here this afternoon do you wanna work together
+Nov 20, 2018, 1:12 PM
+Sidharth Menon
+When are you going home for break
+Nov 20, 2018, 1:11 PM
+Varun Tekur
+I didn't do way too much yesterday
+Nov 20, 2018, 1:07 PM
+Varun Tekur
+no I'm doing 8
+Nov 20, 2018, 1:07 PM
+Sidharth Menon
+/are you done?
+Nov 20, 2018, 1:05 PM
+Sidharth Menon
+What part are you on?
+Nov 20, 2018, 1:05 PM
+Sidharth Menon
+yeah haha
+Nov 20, 2018, 1:04 PM
+Varun Tekur
+so are you on redirection now?
+Nov 20, 2018, 11:29 AM
+Varun Tekur
+haha nice
+Nov 20, 2018, 11:29 AM
+Sidharth Menon
+Just kidding LMAO figured it out
+Nov 20, 2018, 3:55 AM
+Sidharth Menon
+I’ve tried everything LMAO
+Nov 20, 2018, 3:45 AM
+Sidharth Menon
+I feel so dumb
+Nov 20, 2018, 3:44 AM
+Sidharth Menon
+The zombie thing
+Nov 20, 2018, 3:44 AM
+Sidharth Menon
+Dude lol what was the loop condition for part 6
+Nov 20, 2018, 3:44 AM
+Sidharth Menon
+appreciate it
+Nov 20, 2018, 3:03 AM
+Sidharth Menon
+I think I got it
+Nov 20, 2018, 3:03 AM
+Sidharth Menon
+Thanks dude
+Nov 20, 2018, 3:03 AM
+Varun Tekur
+this diagram may help
+Nov 20, 2018, 1:50 AM
+Varun Tekur
+Varun sent a photo.
+
+Nov 20, 2018, 1:50 AM
+Varun Tekur
+first and last pipes are handled slightly differently than middle ones
+Nov 20, 2018, 1:50 AM
+Varun Tekur
+and so on and so forth
+Nov 20, 2018, 1:49 AM
+Varun Tekur
+then you create a new pipe and set stdout to be the write fd of the new pipe
+Nov 20, 2018, 1:49 AM
+Varun Tekur
+meaning set stdin to the old read fd using dup2
+Nov 20, 2018, 1:49 AM
+Varun Tekur
+you basically need to save the read file descriptior of the pipe created in the previous process and connect that to the next process
+Nov 20, 2018, 1:48 AM
+Varun Tekur
+but then you need to generalize the process for many pipes
+Nov 20, 2018, 1:48 AM
+Varun Tekur
+that shows how to do a pipe b
+Nov 20, 2018, 1:47 AM
+Varun Tekur
+for pipes I would recommend looking at shell lecture notes 2
+Nov 20, 2018, 1:47 AM
+Sidharth Menon
+*pipes
+Nov 20, 2018, 1:47 AM
+Sidharth Menon
+Popes
+Nov 20, 2018, 1:47 AM
+Varun Tekur
+or for redirections
+Nov 20, 2018, 12:52 AM
+Varun Tekur
+is this for pipes
+Nov 20, 2018, 12:52 AM
+Sidharth Menon
+do you have to store the previous file’s file descriptors
+Nov 20, 2018, 12:36 AM
+Sidharth Menon
+*stdin
+Nov 20, 2018, 12:19 AM
+Sidharth Menon
+how do u access the stdout of another process
+Nov 20, 2018, 12:19 AM
+Varun Tekur
+yeah I did it in run
+Nov 19, 2018, 11:31 PM
+Sidharth Menon
+or did you do that in eval_line
+Nov 19, 2018, 5:44 PM
+Sidharth Menon
+did you do that in run?
+Nov 19, 2018, 5:43 PM
+Sidharth Menon
+let me give that a crack
+Nov 19, 2018, 5:40 PM
+Sidharth Menon
+oh interesting
+Nov 19, 2018, 5:40 PM
+Sidharth Menon
+we didn’t do that so it’s an issue lol
+Nov 19, 2018, 5:40 PM
+Varun Tekur
+I think after running each conditional I exit the child process
+Nov 19, 2018, 5:40 PM
+Sidharth Menon
+ok that would make sense
+Nov 19, 2018, 5:40 PM
+Varun Tekur
+i remember exiting somewhere
+Nov 19, 2018, 5:39 PM
+Sidharth Menon
+do you exit the parent process after forking for background stuff?
+Nov 19, 2018, 5:36 PM
+Sidharth Menon
+We just realized we have a bug from like step 2 maybe?
+Nov 19, 2018, 5:36 PM
+Sidharth Menon
+question
+Nov 19, 2018, 5:36 PM
+Sidharth Menon
+Nice
+Nov 19, 2018, 12:08 PM
+Sidharth Menon
+😤😤
+Nov 19, 2018, 12:07 PM
+Varun Tekur
+I'm on 7 and at office hours rn
+Nov 19, 2018, 12:07 PM
+Sidharth Menon
+how is it for you?
+Nov 19, 2018, 12:05 PM
+Sidharth Menon
+Milan and I are on step 4
+Nov 19, 2018, 12:05 PM
+Varun Tekur
+how has it been going?
+Nov 18, 2018, 11:37 PM
+Sidharth Menon
+lol probably
+Nov 18, 2018, 10:02 PM
+Varun Tekur
+I think its fine
+Nov 18, 2018, 10:02 PM
+Sidharth Menon
+The BG tests do
+Nov 18, 2018, 10:02 PM
+Varun Tekur
+compare it with what the normal shell does
+Nov 18, 2018, 10:02 PM
+Sidharth Menon
+I mean the tests pass I guess
+Nov 18, 2018, 10:02 PM
+Varun Tekur
+does the test pass?
+Nov 18, 2018, 10:01 PM
+Sidharth Menon
+Is that ok/bc other stuff isn’t implemented yet
+Nov 18, 2018, 9:51 PM
+Sidharth Menon
+(not as if you had called echo or something or printed something)
+Nov 18, 2018, 9:51 PM
+Sidharth Menon
+but if you call sleep 1 & it prints the output right on the old shell prompt
+Nov 18, 2018, 9:51 PM
+Sidharth Menon
+hey so I think? it works
+Nov 18, 2018, 9:50 PM
+Sidharth Menon
+*shot loll
+Nov 18, 2018, 9:22 PM
+Sidharth Menon
+Ok let me give that a shit
+Nov 18, 2018, 9:22 PM
+Sidharth Menon
+Ohhh
+Nov 18, 2018, 9:22 PM
+Varun Tekur
+you get an & when token is token_background in eval line
+Nov 18, 2018, 9:22 PM
+Sidharth Menon
+Ok
+Nov 18, 2018, 9:22 PM
+Varun Tekur
+then, when a process needs to be run in background, fork a process and run it in the forked process. otherwise, run it in normally
+Nov 18, 2018, 9:21 PM
+Sidharth Menon
+How do you know when you get an ‘&’
+Nov 18, 2018, 9:21 PM
+Varun Tekur
+you need to change eval line to set the is_background flag when necessary
+Nov 18, 2018, 9:20 PM
+Varun Tekur
+ok good
+Nov 18, 2018, 9:20 PM
+Sidharth Menon
+fuck a linked list lol
+Nov 18, 2018, 9:19 PM
+Varun Tekur
+and I may come by at like 1030ish
+Nov 18, 2018, 9:19 PM
+Sidharth Menon
+tree
+Nov 18, 2018, 9:19 PM
+Varun Tekur
+are u using a tree or linked list
+Nov 18, 2018, 9:19 PM
+Sidharth Menon
+feel free to come thru
+Nov 18, 2018, 9:17 PM
+Sidharth Menon
+Milan and I just started in Lowell
+Nov 18, 2018, 9:17 PM
+Sidharth Menon
+For step 2
+Nov 18, 2018, 9:17 PM
+Sidharth Menon
+yo how do you detect control operators
+Nov 18, 2018, 9:17 PM
+Varun Tekur
+definitely use a tree and not a linked list as well
+Nov 18, 2018, 7:48 PM
+Varun Tekur
+haha ok, I'm trying to finish pipes tonight
+Nov 18, 2018, 7:48 PM
+Sidharth Menon
+I met with him earlier to review the stuff from the unit
+Nov 18, 2018, 7:47 PM
+Sidharth Menon
+I’m meeting Milan st like 8 to work
+Nov 18, 2018, 7:46 PM
+Sidharth Menon
+Lol
+Nov 18, 2018, 7:46 PM
+Varun Tekur
+have you made any progress on the pset?
+Nov 18, 2018, 5:21 PM
+Varun Tekur
+ok sweek lmk
+Nov 18, 2018, 1:51 PM
+Sidharth Menon
+but will let u know soon
+Nov 18, 2018, 1:44 PM
+Sidharth Menon
+idk when specifically
+Nov 18, 2018, 1:44 PM
+Sidharth Menon
+Yeah me and Milan are gonna
+Nov 18, 2018, 1:44 PM
+Varun Tekur
+Are you gonna work on CS today?
+Nov 18, 2018, 1:43 PM
+Varun Tekur
+lmk if you want to work on it whenever you start
+Nov 14, 2018, 9:41 PM
+Varun Tekur
+This is like the worst possible week to have this
+Nov 14, 2018, 9:41 PM
+Varun Tekur
+dude it fing sucks
+Nov 14, 2018, 9:41 PM
+Sidharth Menon
+I haven’t started it
+Nov 14, 2018, 9:39 PM
+Sidharth Menon
+God damn it lol
+Nov 14, 2018, 9:39 PM
+Varun Tekur
+its like way harder than the others lol
+Nov 14, 2018, 9:37 PM
+Varun Tekur
+Have u started this next pset?
+Nov 14, 2018, 7:09 PM
+Varun Tekur
+the worst part is that after I'm done, I have to comment all of this code 😂
+Nov 6, 2018, 5:25 PM
+Varun Tekur
+I might have to go out and take a walk and come back or something
+Nov 6, 2018, 5:25 PM
+Sidharth Menon
+Set it to 1
+Nov 6, 2018, 5:23 PM
+Sidharth Menon
+Lol
+Nov 6, 2018, 5:23 PM
+Varun Tekur
+hopefully it holds up
+Nov 6, 2018, 5:22 PM
+Varun Tekur
+I turned my slowdown constant to 1 and am about to let this sit for a while
+Nov 6, 2018, 5:22 PM
+Sidharth Menon
+and I did my pset with him
+Nov 6, 2018, 5:20 PM
+Sidharth Menon
+Milan did his for an hour and it was ok
+Nov 6, 2018, 5:20 PM
+Sidharth Menon
+I can test mine for longer but I think it’s fine
+Nov 6, 2018, 5:20 PM
+Sidharth Menon
+Like 5 minutes
+Nov 6, 2018, 5:20 PM
+Varun Tekur
+mine just ran a solid few minutes and was fine but I should probably test a few more times
+Nov 6, 2018, 5:20 PM
+Varun Tekur
+how long did you run yours for?
+Nov 6, 2018, 5:19 PM
+Sidharth Menon
+You: 󰀀
+
+Nov 6, 2018, 5:09 PM
+Varun Tekur
+thanks
+Nov 6, 2018, 5:02 PM
+Varun Tekur
+ok I may text you later today
+Nov 6, 2018, 5:02 PM
+Sidharth Menon
+I think mine works fine now
+Nov 6, 2018, 5:01 PM
+Sidharth Menon
+I’m happy to talk to you about it lol
+Nov 6, 2018, 5:01 PM
+Sidharth Menon
+Ok lol
+Nov 6, 2018, 5:01 PM
+Varun Tekur
+I've made mine significantly better but now I also have a single memory leak in the top row lol
+Nov 6, 2018, 4:48 PM
+Varun Tekur
+I might hit you up later if you are free
+Nov 6, 2018, 4:09 PM
+Varun Tekur
+nice
+Nov 6, 2018, 4:08 PM
+Sidharth Menon
+I think I forgot a kfree somewhere
+Nov 6, 2018, 4:06 PM
+Sidharth Menon
+idk
+Nov 6, 2018, 4:06 PM
+Sidharth Menon
+I just rewrote fork and it’s good now
+Nov 6, 2018, 4:06 PM
+Sidharth Menon
+Fixed that memory leak lol
+Nov 6, 2018, 4:06 PM
+Sidharth Menon
+Not sure tho
+Nov 6, 2018, 12:41 PM
+Sidharth Menon
+we threw a ptiter in there for the maps (I think)
+Nov 6, 2018, 12:41 PM
+Sidharth Menon
+Uh I think we did?
+Nov 6, 2018, 12:40 PM
+Varun Tekur
+along with kalloc?
+Nov 6, 2018, 12:21 PM
+Varun Tekur
+do you also have to account for the fact that map allocates pages?
+Nov 6, 2018, 12:21 PM
+Varun Tekur
+I was being stupid and using va instead of pa in a place
+Nov 6, 2018, 11:53 AM
+Varun Tekur
+out
+Nov 6, 2018, 11:53 AM
+Varun Tekur
+figured it our
+Nov 6, 2018, 11:53 AM
+Varun Tekur
+so it may not be an exit problem
+👎Varun Tekur
+Nov 6, 2018, 11:47 AM
+Varun Tekur
+this is happening in my normal fork too not just forkexit
+Nov 6, 2018, 11:47 AM
+Varun Tekur
+look
+Nov 6, 2018, 11:43 AM
+Varun Tekur
+ok I'll take a loom
+Nov 6, 2018, 11:43 AM
+Sidharth Menon
+If forknfails
+Nov 6, 2018, 11:43 AM
+Sidharth Menon
+And after two? (I don’t remember) of the cases in fork
+Nov 6, 2018, 11:43 AM
+Sidharth Menon
+In the free function
+Nov 6, 2018, 11:42 AM
+Varun Tekur
+like just in the free function?
+Nov 6, 2018, 11:42 AM
+Sidharth Menon
+*everywhere
+Nov 6, 2018, 11:42 AM
+Sidharth Menon
+Everuwhere
+Nov 6, 2018, 11:42 AM
+Sidharth Menon
+make sure that you’re kfreeing the last page table
+Nov 6, 2018, 11:42 AM
+Sidharth Menon
+yeah I had that too
+Nov 6, 2018, 11:42 AM
+Varun Tekur
+just one address
+Nov 6, 2018, 11:42 AM
+Varun Tekur
+no errors, but every time in fork, this one specific spot is always skipped
+Nov 6, 2018, 11:42 AM
+Sidharth Menon
+oh no
+Nov 6, 2018, 11:41 AM
+Varun Tekur
+I think I'm getting a memory leak now
+Nov 6, 2018, 11:41 AM
+Sidharth Menon
+You: 󰀀
+
+Nov 6, 2018, 11:38 AM
+Varun Tekur
+thanks
+Nov 6, 2018, 11:38 AM
+Varun Tekur
+makes sense
+Nov 6, 2018, 11:38 AM
+Sidharth Menon
+no place should be systematically empty
+Nov 6, 2018, 11:38 AM
+Sidharth Menon
+but it should be filled up after
+Nov 6, 2018, 11:38 AM
+Varun Tekur
+yeah
+Nov 6, 2018, 11:38 AM
+Sidharth Menon
+When a process is freed
+Nov 6, 2018, 11:38 AM
+Sidharth Menon
+I mean there can be gaps occasionally
+Nov 6, 2018, 11:37 AM
+Varun Tekur
+like with no gaps?
+Nov 6, 2018, 11:37 AM
+Sidharth Menon
+like it’s going sequentially
+Nov 6, 2018, 11:19 AM
+Sidharth Menon
+Make sure that it’s filling in physical memory correctly tho
+Nov 6, 2018, 11:19 AM
+Sidharth Menon
+ya
+Nov 6, 2018, 11:19 AM
+Varun Tekur
+so basically its just supposed to do random stuff forever
+Nov 6, 2018, 11:19 AM
+Varun Tekur
+I think I figured it out
+Nov 6, 2018, 11:19 AM
+Varun Tekur
+awesome thanks so much
+Nov 5, 2018, 12:07 PM
+Sidharth Menon
+easier to explain in person probably
+Nov 5, 2018, 12:01 PM
+Sidharth Menon
+it’s kind of weird so I’d be happy to walk you through it
+Nov 5, 2018, 12:01 PM
+Sidharth Menon
+good luck on that
+Nov 5, 2018, 12:00 PM
+Sidharth Menon
+Yeah no problem
+Nov 5, 2018, 12:00 PM
+Varun Tekur
+I have a math midterm tomorrow morning but I may hit you up after that
+Nov 5, 2018, 12:00 PM
+Varun Tekur
+thanks a lot man
+Nov 5, 2018, 12:00 PM
+Varun Tekur
+yeah I did the second part, but I think that makes sense, so I'll give it a try
+Nov 5, 2018, 12:00 PM
+Sidharth Menon
+so u gotta delete that yourself with kfree
+Nov 5, 2018, 11:58 AM
+Sidharth Menon
+ptiter doesn’t traverse the last page table
+Nov 5, 2018, 11:58 AM
+Sidharth Menon
+This took me awhile
+Nov 5, 2018, 11:58 AM
+Sidharth Menon
+oh AND
+Nov 5, 2018, 11:58 AM
+Sidharth Menon
+And note that map also kallocs additional pages implicitly
+Nov 5, 2018, 11:57 AM
+Sidharth Menon
+right
+Nov 5, 2018, 11:56 AM
+Varun Tekur
+so basically you just have to free the pages returned by kalloc that were never mapped instead of freeing the whole process?
+Nov 5, 2018, 11:56 AM
+Sidharth Menon
+but that’s the basic idea
+Nov 5, 2018, 11:56 AM
+Sidharth Menon
+I can walk you through it in more depth later if you want
+Nov 5, 2018, 11:56 AM
+Sidharth Menon
+but everything else is mostly ok
+Nov 5, 2018, 11:55 AM
+Sidharth Menon
+you should just stop giving it memory and clean up what you’ve given it (if like map fails or something you need to clean up the memory that map gave it)
+Nov 5, 2018, 11:55 AM
+Sidharth Menon
+You shouldn’t kill the process
+Nov 5, 2018, 11:55 AM
+Sidharth Menon
+And it doesn’t work
+Nov 5, 2018, 11:54 AM
+Sidharth Menon
+basically if a process asks for more memory
+Nov 5, 2018, 11:54 AM
+Sidharth Menon
+in the fork case you have to be careful about how much memory you’re freeing
+Nov 5, 2018, 11:54 AM
+Varun Tekur
+oh shit ok, thats what I have now basically
+Nov 5, 2018, 11:54 AM
+Sidharth Menon
+which was wrong
+Nov 5, 2018, 11:54 AM
+Sidharth Menon
+but we just plugged that in everywhere
+Nov 5, 2018, 11:54 AM
+Sidharth Menon
+we had a function that basically did what system - exit was supposed to do
+Nov 5, 2018, 11:54 AM
+Sidharth Menon
+you have to treat it casewise and be a little more careful
+Nov 5, 2018, 11:53 AM
+Sidharth Menon
+it was with being lazy with the third step (like cleaning up if fork screws up and there’s not enough memory)
+Nov 5, 2018, 11:53 AM
+Varun Tekur
+what was the problem specifically?
+Nov 5, 2018, 11:52 AM
+Sidharth Menon
+would be happy to help you at any time
+Nov 5, 2018, 11:52 AM
+Sidharth Menon
+yeah I’m pretty sure my step 7 works
+Nov 5, 2018, 11:52 AM
+Varun Tekur
+really?
+Nov 5, 2018, 9:21 AM
+Sidharth Menon
+he had a stroke of genius
+Nov 5, 2018, 2:18 AM
+Sidharth Menon
+Milan and I finished it
+Nov 5, 2018, 2:18 AM
+Varun Tekur
+and then messes up
+Nov 4, 2018, 11:45 PM
+Varun Tekur
+Yes
+Nov 4, 2018, 11:45 PM
+Sidharth Menon
+Does it run for like 30 seconds for you too
+Nov 4, 2018, 11:45 PM
+Varun Tekur
+ugh
+Nov 4, 2018, 11:45 PM
+Sidharth Menon
+exact same thing
+Nov 4, 2018, 11:45 PM
+Sidharth Menon
+yeah haha
+Nov 4, 2018, 11:45 PM
+Varun Tekur
+does it also have that kernel user error
+Nov 4, 2018, 11:45 PM
+Varun Tekur
+devastating
+Nov 4, 2018, 11:44 PM
+Sidharth Menon
+it be like that sometimes
+Nov 4, 2018, 11:33 PM
+Sidharth Menon
+I have the red stars rn
+Nov 4, 2018, 11:33 PM
+Sidharth Menon
+LOL
+Nov 4, 2018, 11:33 PM
+Varun Tekur
+and also if you ever see red stars with white background in the virtual memory
+Nov 4, 2018, 10:58 PM
+Varun Tekur
+lmk if you ever end up getting the error that I'm getting
+Nov 4, 2018, 10:57 PM
+Varun Tekur
+yeah set the owner to 0 when the counter is 0
+Nov 4, 2018, 10:22 PM
+Sidharth Menon
+and set the owner to 0
+Nov 4, 2018, 10:22 PM
+Varun Tekur
+yeah I did the same thing
+Nov 4, 2018, 10:22 PM
+Sidharth Menon
+we just decremented a counter for shared pages
+Nov 4, 2018, 10:21 PM
+Sidharth Menon
+what did you do for kfree?
+Nov 4, 2018, 10:21 PM
+Sidharth Menon
+wait we just got a “Unexpected exception 13!”
+Nov 4, 2018, 10:14 PM
+Sidharth Menon
+nah it’s just undefined behavior lol
+Nov 4, 2018, 10:14 PM
+Sidharth Menon
+oh shit
+Nov 4, 2018, 10:14 PM
+Varun Tekur
+does yours display any error messages?
+Nov 4, 2018, 10:13 PM
+Varun Tekur
+and then sometimes, the entire thing just decides to restart
+Nov 4, 2018, 10:13 PM
+Varun Tekur
+I'm getting "Kernel allocated page mapped for user"
+Nov 4, 2018, 10:13 PM
+Sidharth Menon
+%rip
+Nov 4, 2018, 10:12 PM
+Sidharth Menon
+the operating system just crashes lol
+Nov 4, 2018, 10:12 PM
+Varun Tekur
+What error are you getting?
+Nov 4, 2018, 10:12 PM
+Sidharth Menon
+it really is
+Nov 4, 2018, 10:12 PM
+Sidharth Menon
+Yeah I’m on step 7 rn
+Nov 4, 2018, 10:12 PM
+Sidharth Menon
+Oh shit lmao
+Nov 4, 2018, 10:12 PM
+Varun Tekur
+step 7 is really a process
+Nov 4, 2018, 10:12 PM
+Varun Tekur
+I figured out that error but some other stuff came up as well
+Nov 4, 2018, 10:11 PM
+Sidharth Menon
+I’ll let u know if we run in to them
+Nov 4, 2018, 12:54 PM
+Sidharth Menon
+No I don’t think so?
+Nov 4, 2018, 12:54 PM
+Varun Tekur
+do you ever specifically remember having any problems with page faults at the address 0xb8f00?
+Nov 4, 2018, 11:53 AM
+Sidharth Menon
+Oh ok will do haha
+Nov 4, 2018, 11:09 AM
+Varun Tekur
+it possibly caused problems in step 7
+Nov 3, 2018, 11:30 PM
+Varun Tekur
+also, never use set_pagetable
+Nov 3, 2018, 11:30 PM
+Varun Tekur
+Np man
+Nov 3, 2018, 11:30 PM
+Sidharth Menon
+just figured it out haha thanks my dude
+Nov 3, 2018, 5:51 PM
+Sidharth Menon
+*try
+Nov 3, 2018, 5:48 PM
+Sidharth Menon
+Let me give that a turn
+Nov 3, 2018, 5:48 PM
+Sidharth Menon
+I forgot about the system call part
+Nov 3, 2018, 5:48 PM
+Sidharth Menon
+Uhhh
+Nov 3, 2018, 5:47 PM
+Sidharth Menon
+Oh shit my bad
+Nov 3, 2018, 5:47 PM
+Varun Tekur
+There is also a lot of really good stuff on piazza so check that out
+Nov 3, 2018, 5:47 PM
+Varun Tekur
+I have to head out really soon for a thing at 6 but I can message you later
+Nov 3, 2018, 5:47 PM
+Sidharth Menon
+Varun missed a call from you.
+Nov 3, 2018, 5:46 PM
+Varun Tekur
+and then you have to change the sys page alloc system call to use the new pagetable you just created for process allocs
+Nov 3, 2018, 5:44 PM
+Varun Tekur
+just create a new pagetable, make the pagetabe in ptable for that process equal to it, and then do mappings with that new pagetable
+Nov 3, 2018, 5:43 PM
+Sidharth Menon
+Oh ok haha
+Nov 3, 2018, 5:42 PM
+Varun Tekur
+Actually don't worry about setpagetable for this step
+Nov 3, 2018, 5:42 PM
+Sidharth Menon
+I can’t see that function lol
+Nov 3, 2018, 5:41 PM
+Sidharth Menon
+wait where is setpagetable?
+Nov 3, 2018, 5:41 PM
+Varun Tekur
+Lol basically do all of that in process setup
+Nov 3, 2018, 5:41 PM
+Sidharth Menon
+no wonder
+Nov 3, 2018, 5:40 PM
+Sidharth Menon
+oh shit I’m doing this completely wrong LOL
+Nov 3, 2018, 5:40 PM
+Varun Tekur
+and make sure the pagetable is also set equal to that, not the kernel one
+Nov 3, 2018, 5:40 PM
+Varun Tekur
+You basically have to make sure that only the kernel memory is mapped, then create a pagetable using kalloc, set the pagetable to that using the setpagetable function, and then map the process stuff using that pagetable
+Nov 3, 2018, 5:40 PM
+Sidharth Menon
+do you just have to do the 2 vmiter map for the kernel mappings & then map after the “allocated & map all memory” part & one vmiter.map after the “allocate stack” part
+Nov 3, 2018, 4:09 PM
+Sidharth Menon
+yo I’m a little stuck on step 2
+Nov 3, 2018, 4:07 PM
+Sidharth Menon
+oof
+Nov 3, 2018, 4:07 PM
+Varun Tekur
+step 5
+Nov 1, 2018, 10:17 PM
+Varun Tekur
+I'm on fork but I'm having a problem
+Nov 1, 2018, 10:17 PM
+Sidharth Menon
+wbu
+Nov 1, 2018, 8:46 PM
+Sidharth Menon
+I started part 1 but am not done
+Nov 1, 2018, 8:46 PM
+Sidharth Menon
+not really haha
+Nov 1, 2018, 8:46 PM
+Varun Tekur
+Have you started the pset?
+Nov 1, 2018, 8:22 PM
+Varun Tekur
+Haha I'm sure we will both learn from each other
+Oct 23, 2018, 12:40 PM
+Sidharth Menon
+I wanna learn from you haha!
+Oct 23, 2018, 12:03 AM
+Sidharth Menon
+rip
+Oct 23, 2018, 12:03 AM
+Sidharth Menon
+yeah pset 4 supposed to be the hardest one right
+Oct 23, 2018, 12:03 AM
+Sidharth Menon
+you definitely have a lot of natural talent
+Oct 23, 2018, 12:02 AM
+Varun Tekur
+unfortunately its supposedly harder
+Oct 23, 2018, 12:02 AM
+Sidharth Menon
+for sure
+Oct 23, 2018, 12:02 AM
+Varun Tekur
+we can definitely find some time to work together if you want
+Oct 23, 2018, 12:02 AM
+Sidharth Menon
+Hope to repay the favor next pset!
+Oct 23, 2018, 12:01 AM
+Varun Tekur
+on to the next pset
+Oct 23, 2018, 12:01 AM
+Varun Tekur
+np at all man
+Oct 23, 2018, 12:01 AM
+Sidharth Menon
+thanks for all your help dude
+Oct 23, 2018, 12:01 AM
+Sidharth Menon
+honestly doesn’t really matter lol
+Oct 23, 2018, 12:01 AM
+Sidharth Menon
+possible haha but not likely
+Oct 23, 2018, 12:01 AM
+Varun Tekur
+yeah sure, it could also be variance on different VMs also
+Oct 23, 2018, 12:01 AM
+Sidharth Menon
+but doesn’t matter I already turned it in hahah
+Oct 23, 2018, 12:01 AM
+Sidharth Menon
+I think I must’ve fed it the wrong flags lol
+Oct 23, 2018, 12:00 AM
+Sidharth Menon
+If we ever get a chance I wanna see what you did with mmap haha
+Oct 23, 2018, 12:00 AM
+Varun Tekur
+similar to what I have
+Oct 23, 2018, 12:00 AM
+Sidharth Menon
+I think it gets the job done
+Oct 23, 2018, 12:00 AM
+Sidharth Menon
+idk it’s probably fine lol
+Oct 23, 2018, 12:00 AM
+Varun Tekur
+yeah that seems good
+Oct 23, 2018, 12:00 AM
+Sidharth Menon
+And if I lose it’s like .98 or something like that
+Oct 23, 2018, 12:00 AM
+Sidharth Menon
+oh like 24 beating, 7 losing
+Oct 23, 2018, 12:00 AM
+Varun Tekur
+how many are you usually beating stdio?
+Oct 22, 2018, 11:59 PM
+Sidharth Menon
+yeah I mean it boosted performance
+Oct 22, 2018, 11:59 PM
+Sidharth Menon
+idk I probably did mmap in a bad way or used the wrong flags lol
+Oct 22, 2018, 11:59 PM
+Varun Tekur
+thats probably ok then
+Oct 22, 2018, 11:59 PM
+Sidharth Menon
+it’s similar for sequential but the max is like 19x instead of 70x
+Oct 22, 2018, 11:59 PM
+Sidharth Menon
+I’m not sure why
+Oct 22, 2018, 11:58 PM
+Sidharth Menon
+hmm I think mine isn’t as fast
+Oct 22, 2018, 11:58 PM
+Varun Tekur
+basically much faster for all but sequential, and then similar for sequential
+Oct 22, 2018, 11:57 PM
+Varun Tekur
+on average i think the number was like 6.5
+Oct 22, 2018, 11:57 PM
+Sidharth Menon
+how much faster is your implementation as a whole?
+Oct 22, 2018, 9:40 PM
+Sidharth Menon
+mine isn’t as fast as yours? I think I might’ve done mmap wrong
+Oct 22, 2018, 9:40 PM
+Sidharth Menon
+nvm I figured it out lol
+Oct 22, 2018, 9:40 PM
+Sidharth Menon
+Or is it automatically done when you call munmap in close?
+Oct 22, 2018, 9:21 PM
+Sidharth Menon
+did you have to flush anything
+Oct 22, 2018, 9:21 PM
+Sidharth Menon
+ok haha good to know
+Oct 22, 2018, 9:20 PM
+Varun Tekur
+I don't think I ran into that error
+Oct 22, 2018, 9:20 PM
+Sidharth Menon
+or modify io61_flush?
+Oct 22, 2018, 9:18 PM
+Sidharth Menon
+/did you have to modify io61_open-check
+Oct 22, 2018, 9:18 PM
+Sidharth Menon
+Did you run into an error “input file is not seekabke”
+Oct 22, 2018, 9:17 PM
+Varun Tekur
+its all good, is it working well?
+Oct 22, 2018, 9:17 PM
+Sidharth Menon
+for mmap
+Oct 22, 2018, 9:16 PM
+Sidharth Menon
+sorry for all of these questions
+Oct 22, 2018, 9:16 PM
+Sidharth Menon
+hey haha
+Oct 22, 2018, 9:16 PM
+Varun Tekur
+np problem man
+Oct 22, 2018, 7:27 PM
+Sidharth Menon
+You’re the man!
+Oct 22, 2018, 4:07 PM
+Sidharth Menon
+Thanks dude
+Oct 22, 2018, 4:07 PM
+Sidharth Menon
+yeah haha ok
+Oct 22, 2018, 4:07 PM
+Varun Tekur
+and I believe the lecture is storage 3 but not 100 percent sure
+Oct 22, 2018, 4:07 PM
+Varun Tekur
+thats why its so fast lol
+Oct 22, 2018, 4:06 PM
+Varun Tekur
+yeah thats the point, you only need to mmap it once and then you are done
+Oct 22, 2018, 4:06 PM
+Sidharth Menon
+that’s so neat
+Oct 22, 2018, 4:06 PM
+Varun Tekur
+Look at the lecture notes for when we went over mmap to see exactly what parameters to put in and how to error check
+Oct 22, 2018, 4:06 PM
+Sidharth Menon
+so you map the whole freaking file?
+Oct 22, 2018, 4:06 PM
+Sidharth Menon
+dope haha
+Oct 22, 2018, 4:06 PM
+Sidharth Menon
+I didn’t see that
+Oct 22, 2018, 4:06 PM
+Sidharth Menon
+Oh shit
+Oct 22, 2018, 4:06 PM
+Varun Tekur
+which you can get using the file size function provided at the bottom
+Oct 22, 2018, 4:05 PM
+Varun Tekur
+you set the length for what you want to read as the file size
+Oct 22, 2018, 4:05 PM
+Sidharth Menon
+or is there some special flag for other stuff haha
+Oct 22, 2018, 4:03 PM
+Sidharth Menon
+or whatever we set it as
+Oct 22, 2018, 4:03 PM
+Sidharth Menon
+should we use the length as 4096
+Oct 22, 2018, 4:03 PM
+Sidharth Menon
+in mmap
+Oct 22, 2018, 4:02 PM
+Sidharth Menon
+haha u right
+Oct 22, 2018, 4:02 PM
+Varun Tekur
+so even more generous than high school lol
+👍Sidharth Menon
+Oct 22, 2018, 3:05 PM
+Sidharth Menon
+but those typically are like 85-90 or 85-92
+Oct 22, 2018, 3:03 PM
+Sidharth Menon
+yeah because there are A-s as well
+Oct 22, 2018, 3:03 PM
+Varun Tekur
+oh ok, so just like high school grading
+Oct 22, 2018, 3:03 PM
+Sidharth Menon
+in terms of total score not on the midterm I guess haha
+Oct 22, 2018, 3:02 PM
+Sidharth Menon
+Just depends on the professor
+Oct 22, 2018, 3:02 PM
+Sidharth Menon
+sometimes above a 90
+Oct 22, 2018, 3:02 PM
+Sidharth Menon
+normally I think you shoot shoot for like a 92-93 curved
+Oct 22, 2018, 3:02 PM
+Varun Tekur
+I wonder how far above the mean you need to get an A tho
+Oct 22, 2018, 2:58 PM
+Sidharth Menon
+that’s smaht
+Oct 22, 2018, 2:58 PM
+Sidharth Menon
+word
+Oct 22, 2018, 2:58 PM
+Sidharth Menon
+Oh that’s true
+Oct 22, 2018, 2:58 PM
+Varun Tekur
+so if exams get curved to a B, then the median grade will prob be around like a B+/A- like you said
+Oct 22, 2018, 2:57 PM
+Varun Tekur
+45
+Oct 22, 2018, 2:57 PM
+Varun Tekur
+psets are 44
+Oct 22, 2018, 2:57 PM
+Varun Tekur
+20
+Oct 22, 2018, 2:57 PM
+Sidharth Menon
+as a %?
+Oct 22, 2018, 2:56 PM
+Sidharth Menon
+how much are midterms worth
+Oct 22, 2018, 2:56 PM
+Varun Tekur
+and those are basically As
+Oct 22, 2018, 2:56 PM
+Varun Tekur
+oh dang, but psets are half of the grade
+Oct 22, 2018, 2:56 PM
+Sidharth Menon
+grade inflation lol
+Oct 22, 2018, 2:56 PM
+Sidharth Menon
+normally stuff is a B+/A- curve
+Oct 22, 2018, 2:56 PM
+Varun Tekur
+really?
+Oct 22, 2018, 2:56 PM
+Sidharth Menon
+wow that’s actually pretty rough
+Oct 22, 2018, 2:56 PM
+Varun Tekur
+And they said the median on the midterm gets curved to a B, which is super generous imo
+Oct 22, 2018, 2:55 PM
+Varun Tekur
+oh good
+Oct 22, 2018, 2:55 PM
+Sidharth Menon
+I figured it out haha
+Oct 22, 2018, 2:52 PM
+Sidharth Menon
+yeah haha sorry I forgot to text u lol
+Oct 22, 2018, 2:52 PM
+Varun Tekur
+pos is where you should move your postag to
+Oct 22, 2018, 2:48 PM
+Varun Tekur
+you should be seeking to the aligned position, not pos
+Oct 22, 2018, 2:48 PM
+Sidharth Menon
+where the out differs on byte 1, line 1
+Oct 22, 2018, 12:50 AM
+Sidharth Menon
+I’m having this error on tears 20 and 21 for random seek order
+Oct 22, 2018, 12:50 AM
+Sidharth Menon
+or the pos - pos%bufsize
+Oct 22, 2018, 12:44 AM
+Sidharth Menon
+should you be lseeking to pos
+Oct 22, 2018, 12:44 AM
+Sidharth Menon
+yo
+Oct 22, 2018, 12:44 AM
+Sidharth Menon
+or something idk
+👍Varun Tekur
+Oct 21, 2018, 11:51 PM
+Sidharth Menon
+more likely like an 87
+Oct 21, 2018, 11:51 PM
+Sidharth Menon
+I mean yeah
+Oct 21, 2018, 11:51 PM
+Varun Tekur
+thats pretty generous
+Oct 21, 2018, 11:51 PM
+Sidharth Menon
+depends
+Oct 21, 2018, 11:50 PM
+Sidharth Menon
+so I’d guess that a 108 raw score (mean) would be curved to like a...89? Maybe like a 91 or something
+Oct 21, 2018, 11:50 PM
+Varun Tekur
+that makes me feel a lot better
+Oct 21, 2018, 11:49 PM
+Sidharth Menon
+classes here normally get curved to a B+/A-
+Oct 21, 2018, 11:49 PM
+Varun Tekur
+haha yeah
+Oct 21, 2018, 11:48 PM
+Sidharth Menon
+but like if you studied you studied you know
+Oct 21, 2018, 11:48 PM
+Sidharth Menon
+I didn’t do well either lol
+Oct 21, 2018, 11:48 PM
+Sidharth Menon
+hahaha you’ll be fine
+Oct 21, 2018, 11:48 PM
+Varun Tekur
+I mean I didn't completely bomb it, I'm just not used to seeing such low raw scores lol
+Oct 21, 2018, 11:40 PM
+Varun Tekur
+ok, I'm sure it'll be fine
+Oct 21, 2018, 11:40 PM
+Sidharth Menon
+probably curved at the end but not sure
+Oct 21, 2018, 11:38 PM
+Varun Tekur
+does the class get curved at the end, or does each test get curved?
+Oct 21, 2018, 11:38 PM
+Sidharth Menon
+it be like that sometimes 😩
+Oct 21, 2018, 11:37 PM
+Sidharth Menon
+me too lol and I studied for this
+Oct 21, 2018, 11:37 PM
+Sidharth Menon
+Classes are normally curved to a B+, A-
+Oct 21, 2018, 11:37 PM
+Varun Tekur
+I sure hope so lol
+Oct 21, 2018, 11:37 PM
+Sidharth Menon
+They probably will haha
+Oct 21, 2018, 11:37 PM
+Sidharth Menon
+lmao word
+Oct 21, 2018, 11:37 PM
+Varun Tekur
+any chance these get scaled?
+Oct 21, 2018, 11:36 PM
+Varun Tekur
+midterm grades also just came out
+Oct 21, 2018, 11:35 PM
+Sidharth Menon
+I know lmao so clutch
+Oct 21, 2018, 11:35 PM
+Varun Tekur
+Lol everyone gets a one day extension on the assignment
+Oct 21, 2018, 11:23 PM
+Sidharth Menon
+are you here big guy?
+Oct 21, 2018, 8:46 PM
+Sidharth Menon
+thanks dude 😩
+Oct 21, 2018, 8:30 PM
+Sidharth Menon
+be there in a few
+Oct 21, 2018, 8:29 PM
+Sidharth Menon
+I will roll there
+Oct 21, 2018, 8:11 PM
+Sidharth Menon
+Ok word
+Oct 21, 2018, 8:11 PM
+Varun Tekur
+I'm prob gonna go to cabot soon to work if you want to talk about CS
+Oct 21, 2018, 8:05 PM
+Varun Tekur
+like test 1-3 say character i/o
+Oct 21, 2018, 7:42 PM
+Varun Tekur
+You can check the files, but when doing make check, it also lists what type of test it is
+Oct 21, 2018, 7:42 PM
+Sidharth Menon
+where do you find the code for these tests haha? cat61?
+Oct 21, 2018, 6:52 PM
+Sidharth Menon
+ok word let me change these and lll check
+Oct 21, 2018, 6:52 PM
+Varun Tekur
+like more than 1x
+Oct 21, 2018, 6:51 PM
+Varun Tekur
+at least for the first 3 tests
+Oct 21, 2018, 6:51 PM
+Varun Tekur
+It should be fast for those
+Oct 21, 2018, 6:51 PM
+Sidharth Menon
+but should it still be slow?
+Oct 21, 2018, 6:51 PM
+Sidharth Menon
+and then it should not “fail” for readc and writec
+Oct 21, 2018, 6:51 PM
+Sidharth Menon
+so we have to change that
+Oct 21, 2018, 6:50 PM
+Varun Tekur
+yeah np
+Oct 21, 2018, 6:50 PM
+Varun Tekur
+lol yeah you should be able to implement that quickly though
+Oct 21, 2018, 6:50 PM
+Sidharth Menon
+thank you haha I was getting so confused why it was only doing 1 byte at a time
+Oct 21, 2018, 6:50 PM
+Sidharth Menon
+ohhh man oh man
+Oct 21, 2018, 6:50 PM
+Sidharth Menon
+that would make sense that those fail then haha
+Oct 21, 2018, 6:50 PM
+Varun Tekur
+Yes
+Oct 21, 2018, 6:49 PM
+Sidharth Menon
+so you need to change those too?
+Oct 21, 2018, 6:49 PM
+Sidharth Menon
+Oh ohhhhh
+Oct 21, 2018, 6:49 PM
+Varun Tekur
+you basically just need to use the same code as read/write but for only one character
+Oct 21, 2018, 6:49 PM
+Sidharth Menon
+that makes so much more sense lmao
+Oct 21, 2018, 6:49 PM
+Sidharth Menon
+ohhh
+Oct 21, 2018, 6:48 PM
+Varun Tekur
+so if you didnt change those, it would still be doing character at a time
+Oct 21, 2018, 6:48 PM
+Varun Tekur
+ok, the first three tests use those
+Oct 21, 2018, 6:48 PM
+Sidharth Menon
+I didn’t use readc and writec
+Oct 21, 2018, 6:48 PM
+Sidharth Menon
+no
+Oct 21, 2018, 6:48 PM
+Sidharth Menon
+I’m so confused haha
+Oct 21, 2018, 6:48 PM
+Varun Tekur
+Did you change the readc and writec functions
+Oct 21, 2018, 6:48 PM
+Sidharth Menon
+I copy and pasted lol?
+Oct 21, 2018, 6:48 PM
+Varun Tekur
+And you implemented them the same exact way as the section video?
+Oct 21, 2018, 6:48 PM
+Sidharth Menon
+basically (I had a case to return -1 if the system call in flush doesn’t work)
+Oct 21, 2018, 6:40 PM
+Sidharth Menon
+and if read I just returned 0
+Oct 21, 2018, 6:39 PM
+Sidharth Menon
+and for flush checked the mode and if it was write I did the stuff in the section notes
+Oct 21, 2018, 6:39 PM
+Sidharth Menon
+but returned n (the result of the system call) for fill
+Oct 21, 2018, 6:39 PM
+Sidharth Menon
+I hope so? I just did the same stuff as the section notes
+Oct 21, 2018, 6:39 PM
+Varun Tekur
+did you implement fill and flush correctly?
+Oct 21, 2018, 6:38 PM
+Varun Tekur
+I'll prob be free after like 8
+Oct 21, 2018, 6:38 PM
+Sidharth Menon
+are you free anytime after 6:30?
+Oct 21, 2018, 6:04 PM
+Sidharth Menon
+for some reason if I look at the strace from my implementation it’s calling system calls 1 byte at a time and I’m not sure why ://
+Oct 21, 2018, 5:34 PM
+Sidharth Menon
+ah shit I still am having some trouble
+Oct 21, 2018, 5:32 PM
+Sidharth Menon
+haha hoping chatting with you later will clear this up!!
+Oct 21, 2018, 4:42 PM
+Sidharth Menon
+hmm right which makes sense
+Oct 21, 2018, 4:42 PM
+Varun Tekur
+dang thats annoying
+Oct 21, 2018, 4:42 PM
+Varun Tekur
+which is what I did
+Oct 21, 2018, 4:41 PM
+Varun Tekur
+also, after translating the section notes, you can change read and write to use memcpy instead of character at a time to make it better
+Oct 21, 2018, 4:41 PM
+Sidharth Menon
+when translating from the section notes haha
+Oct 21, 2018, 4:40 PM
+Sidharth Menon
+I’m so confused lol I think I fucked up something with the reads and writes somehow W
+Oct 21, 2018, 4:40 PM
+Sidharth Menon
+I’m just studying in Smith
+Oct 21, 2018, 4:40 PM
+Sidharth Menon
+for sure
+Oct 21, 2018, 4:40 PM
+Varun Tekur
+but yeah def lmk if you want to talk later
+Oct 21, 2018, 4:40 PM
+Sidharth Menon
+fair enough haha
+Oct 21, 2018, 4:39 PM
+Sidharth Menon
+oh
+Oct 21, 2018, 4:39 PM
+Sidharth Menon
+yeah I think I will
+Oct 21, 2018, 4:39 PM
+Varun Tekur
+I actually jusy figured out my problem so I prob won't
+Oct 21, 2018, 4:39 PM
+Varun Tekur
+are you gonna go to office hours?
+Oct 21, 2018, 4:39 PM
+Sidharth Menon
+sure haha that works great
+Oct 21, 2018, 4:38 PM
+Varun Tekur
+I'll prob be free later in the evening while I'm doing other hw
+Oct 21, 2018, 4:37 PM
+Sidharth Menon
+just lmk when works for you lol I’m just working today
+Oct 21, 2018, 2:56 PM
+Sidharth Menon
+ok word haha
+Oct 21, 2018, 2:55 PM
+Varun Tekur
+sure, I may be doing to the 7.30 office hours because I realized a problem with mine lol
+Oct 21, 2018, 2:55 PM
+Sidharth Menon
+could I meet up with u sometime today for some help haha?
+Oct 21, 2018, 2:54 PM
+Sidharth Menon
+god damn lol
+Oct 21, 2018, 2:53 PM
+Sidharth Menon
+ok word I definitely have an error
+Oct 21, 2018, 2:53 PM
+Varun Tekur
+I think it is still supposed to work?
+Oct 21, 2018, 2:50 PM
+Sidharth Menon
+seeks
+Oct 21, 2018, 12:59 PM
+Sidharth Menon
+that isn’t supposed to happen right? Or is it because of the seems
+Oct 21, 2018, 12:59 PM
+Sidharth Menon
+Like the out is different from stdio
+Oct 21, 2018, 12:59 PM
+Sidharth Menon
+hey so after doing the write & reads (hopefully like) section, it fails 4 of the tests
+Oct 21, 2018, 12:59 PM
+Sidharth Menon
+ok word
+Oct 21, 2018, 12:02 PM
+Sidharth Menon
+Ohhh
+Oct 21, 2018, 12:02 PM
+Varun Tekur
+you need to change it so that it makes sure that the cache is aligned
+Oct 21, 2018, 9:52 AM
+Sidharth Menon
+that seems like it’s already implemented maybe? idk? besides change the pos_tag stuff and everything
+Oct 21, 2018, 1:22 AM
+Sidharth Menon
+yo what do we need to do for io61_seek?
+Oct 21, 2018, 1:21 AM
+Varun Tekur
+I've basically just done the stuff gone over in section
+Oct 18, 2018, 12:43 AM
+Varun Tekur
+Dang thats rough
+Oct 18, 2018, 12:43 AM
+Sidharth Menon
+I have Ec 1011 midterm tomorrow so gonna do that first lol
+Oct 17, 2018, 11:42 PM
+Sidharth Menon
+exactly none haha
+Oct 17, 2018, 11:41 PM
+Varun Tekur
+How much of the CS pset have you done?
+Oct 17, 2018, 11:30 PM
+Varun Tekur
+np
+Oct 3, 2018, 12:24 AM
+Sidharth Menon
+oh ok dope thanks man
+Oct 2, 2018, 11:17 PM
+Varun Tekur
+Yeah
+Oct 2, 2018, 11:17 PM
+Sidharth Menon
+just spaces between stuff
+Oct 2, 2018, 11:17 PM
+Sidharth Menon
+hey you space out the arguments in the same way for phase 3 rights
+Oct 2, 2018, 11:17 PM
+Varun Tekur
+Np man
+Oct 2, 2018, 4:02 PM
+Sidharth Menon
+Thanks dude!
+Oct 2, 2018, 3:39 PM
+Sidharth Menon
+yeah that worked
+Oct 2, 2018, 3:39 PM
+Sidharth Menon
+ok I’ll give that a try then
+Oct 2, 2018, 3:37 PM
+Varun Tekur
+no they were space separated for me
+Oct 2, 2018, 3:37 PM
+Sidharth Menon
+I think the last few are >9 in mine so idk...would hexadecimal be better?
+Oct 2, 2018, 3:37 PM
+Sidharth Menon
+did you have the values comma separated?
+Oct 2, 2018, 3:36 PM
+Sidharth Menon
+hey when you put in the password for phase 2
+Oct 2, 2018, 3:36 PM
