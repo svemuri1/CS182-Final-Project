@@ -1,6 +1,6 @@
 transition_table = [[0.33]*3, [0.33]*3, [0.33]*3]
 evidence_prob = [{'fun':0.1, 'cool':0.9}, {'fun':0.1, 'cool':0.9}, {'fun':0.1, 'cool':0.9}]
-name = {'Sreya':0, 'Kevin':1, 'Sid':2}
+name = {'Kevin':0, 'Sreya':1, 'Sid':2}
 state_space = [name[key] for key in name.keys()]
 
 # compute belief state for state candidate
