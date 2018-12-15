@@ -36,4 +36,3 @@ def removeFluff(strLst):
     is_fluff = lambda x: x not in ["the", 'hmm', 'like', 'a', 'well', '...']
     lst = filter(is_fluff, lst)
     return lst
-removeFluff(['fun', 'run', 'run?', "fun....", "good!??"])

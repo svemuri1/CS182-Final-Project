@@ -1,0 +1,102 @@
+Sidharth Menon
+or make sure that f is well defined
+May 2, 2018, 3:29 PM
+Sidharth Menon
+I think you have to overwrite the placeholder
+May 2, 2018, 3:29 PM
+Sidharth Menon
+no mine works fine
+May 2, 2018, 3:29 PM
+Krishna Suraj
+we used a placeholder ref
+May 2, 2018, 3:28 PM
+Krishna Suraj
+yo did you get an out_of_memory error in letrec for eval_l if u did it
+May 2, 2018, 3:28 PM
+Sidharth Menon
+from what I understand
+Apr 13, 2018, 1:06 PM
+Sidharth Menon
+Anything is ok
+Apr 13, 2018, 1:06 PM
+Sidharth Menon
+Honestly I think that’s fine
+Apr 13, 2018, 1:06 PM
+Krishna Suraj
+pretty arbitrary
+Apr 13, 2018, 1:04 PM
+Krishna Suraj
+mine is p random, the coordinates of the national parks in california in the order one should visit them
+Apr 13, 2018, 1:04 PM
+Krishna Suraj
+i just copied most of testgraphs and am just implementing something
+Apr 13, 2018, 1:04 PM
+Krishna Suraj
+oh i think i get it now
+Apr 13, 2018, 1:04 PM
+Sidharth Menon
+The difficulty is you can do anything
+Apr 13, 2018, 1:03 PM
+Sidharth Menon
+Oh for example?
+Apr 13, 2018, 1:03 PM
+Krishna Suraj
+or do we make our own
+Apr 13, 2018, 12:52 PM
+Krishna Suraj
+question: for the last part, do we just use the same graph data structure as in testgraphs.ml
+Apr 13, 2018, 12:52 PM
+Krishna Suraj
+Hm ok i think that works thanks!
+Apr 13, 2018, 11:54 AM
+Sidharth Menon
+*from_list
+Apr 13, 2018, 11:51 AM
+Sidharth Menon
+and call Array.to_list
+Apr 13, 2018, 11:51 AM
+Sidharth Menon
+but you’re only trying to draw one, but it still works. You can put the tuple in a list
+Apr 13, 2018, 11:51 AM
+Sidharth Menon
+So what you can do is put them in a list
+Apr 13, 2018, 11:50 AM
+Sidharth Menon
+It draws all of the lines in the array
+Apr 13, 2018, 11:50 AM
+Sidharth Menon
+Tuples
+Apr 13, 2018, 11:50 AM
+Sidharth Menon
+I think part of the problem is that the graphics draw segment thing, if I remember correctly, takes int * int * int * int tooled in an array
+Apr 13, 2018, 11:50 AM
+Krishna Suraj
+for edge, i used a function in the graphics module called draw_segments which takes in a tuple of int * int * int * int (coordinates of the source and target). So did a match to get those coordinates and put those variables into draw_segment - is there a way to make sure ocaml recognizes that those values have to be int? I'm getting a type error because it thinks those variables are 'a * 'b * 'c * 'd
+Apr 13, 2018, 11:48 AM
+Krishna Suraj
+also another quick question
+Apr 13, 2018, 11:46 AM
+Krishna Suraj
+Makes sense thanks
+Apr 13, 2018, 11:46 AM
+Sidharth Menon
+Including the border
+Apr 13, 2018, 11:46 AM
+Krishna Suraj
+Ah ok
+Apr 13, 2018, 11:46 AM
+Sidharth Menon
+So you need to calculate the height and width
+Apr 13, 2018, 11:46 AM
+Sidharth Menon
+Also remember that the draw method takes in x0 y0 w h
+Apr 13, 2018, 11:46 AM
+Sidharth Menon
+Then draw a rectangle (but don’t call fill for this specific one) on that area (after adding borders to each thing)
+Apr 13, 2018, 11:45 AM
+Sidharth Menon
+yeah so what I did is you search for the list of points for the most extreme x values (min and max) and y values (min and max)
+Apr 13, 2018, 11:45 AM
+Krishna Suraj
+Hey how did you go about implementing draw zone? is there a method in graphics that does that for you or do you have to manually search through the list of points to find the extremes?
+Apr 13, 2018, 11:41 AM
