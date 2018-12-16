@@ -155,12 +155,7 @@ for j in range(20000):
 
 # print(np.sum(emissions))
 
-<<<<<<< HEAD
-
-for i in range(4):
-=======
 for i in range(5):
->>>>>>> bc8d21d3fbd0b3f0685f73a53c7f4efb2cbd9427
 	rowSum = 0
 	for j in range(20000):
 		rowSum += emissions[i][j]
