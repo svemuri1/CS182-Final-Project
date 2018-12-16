@@ -22,5 +22,17 @@ def currentBeliefState(evidence_sequence):
         belief_res = computeHighestBeliefState(x, evidence_sequence)
         if (belief_res > highest_belief):
             speaker = x
-            highest_belief = belief_res 
+            highest_belief = belief_res
     return speaker
+
+
+import re
+
+def removeFluff(strLst):
+    lst = []
+    for s in strLst:
+        s = (s.replace("?", "")).replace(" ", "").replace(".", "").replace("!", "")
+        lst.append(s)
+    is_fluff = lambda x: x not in ["the", 'hmm', 'like', 'a', 'well', '...']
+    lst = filter(is_fluff, lst)
+    return lst
