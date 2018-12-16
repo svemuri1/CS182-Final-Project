@@ -61,6 +61,14 @@ greetingwords = ["hello", "hi", "hey", "greetings", "evening", "morning", "after
 farewellwords = ["Goodbye", "Seeya", "goodbye", "cya", "ttyl", "ttfn", "cu", "gtg", "bye", "goodnight", "gn",
 				"goodbye", "later", "ok"]
 
+
+# Seed Word List Generator
+pos_seeds = [word for word in commonwords if word in poswords]
+neg_seeds = [word for word in commonwords if word in negwords]
+greet_seeds = [word for word in commonwords if word in greetingwords]
+farewell_seeds = [word for word in commonwords if word in farewellwords]
+
+# Create Transition Probabilities
 totalCount = 0
 for key in words2:
 	if key in greetingwords:
@@ -154,13 +162,7 @@ for j in range(20000):
 
 
 # print(np.sum(emissions))
-
-<<<<<<< HEAD
-
-for i in range(4):
-=======
 for i in range(5):
->>>>>>> bc8d21d3fbd0b3f0685f73a53c7f4efb2cbd9427
 	rowSum = 0
 	for j in range(20000):
 		rowSum += emissions[i][j]
