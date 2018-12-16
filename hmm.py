@@ -14,6 +14,20 @@ from parse import *
 # buiid on next iteration
 
 # compute belief state for state candidate: forward algorithm
+<<<<<<< HEAD
+=======
+# def computeHighestBeliefState(state, evidence_sequence):
+#     # calculate P(e_t | x_t)
+#     evidence_prob = emission_table[state][evidence_sequence[len(evidence_sequence)-1]]
+#     # calculate sum of joint probabilities of previous states:
+#     transition_weight = 0.0
+#     for x in state_space:
+#         # add probabilities of observing e_{1:t} and x_t from every prev. state
+#         transition_weight += emission_table[x][evidence_sequence[len(evidence_sequence)-2]] \
+#                             * transition_table[x][state]
+#     return evidence_prob * transition_weight
+
+>>>>>>> 452e6f7f4b15ced7f9b8d6e32bc35d196a209eb9
 # forward algorithm... using DP!
 def computeHighestBeliefState(evidence_sequence):
     transition_table = np.zeros([5, len(evidence_sequence) + 1])
@@ -40,7 +54,7 @@ def currentBeliefState(evidence_sequence):
 
 def toBelief(evidence_list):
     evidence_sequence = [wordmapping[word] for word in evidence_list]
-    print evidence_sequence
+    # print evidence_sequence
     return currentBeliefState(evidence_sequence)
 
 import re

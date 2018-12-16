@@ -162,20 +162,19 @@ class TextClassifier:
 		return 0.1
 
 
-if __name__ == '__main__':
-    c = TextClassifier()
-    print "Processing training set..."
-    c.q4('ksmsg1.txt')
-    c.q4('ksmsg2.txt')
-    c.q4('ksmsg3.txt')
-    c.q4('svmsg1.txt')
-    c.q4('svmsg2.txt')
-    c.q4('svmsg3.txt')
-    c.q4('svmsg4.txt')
-    c.q4('smmsg1.txt')
-    c.q4('smmsg2.txt')
-    print len(c.dict), "words in dictionary"
-    print "Fitting model..."
-    c.q5()
-    print "Accuracy on validation set:", c.q6('ksmsg2.txt')
-    print "Good alpha:", c.q7('ksmsg2.txt')
+c = TextClassifier()
+print "Processing training set..."
+c.q4('ksmsg1.txt')
+c.q4('ksmsg2.txt')
+c.q4('ksmsg3.txt')
+c.q4('svmsg1.txt')
+c.q4('svmsg2.txt')
+c.q4('svmsg3.txt')
+c.q4('svmsg4.txt')
+c.q4('smmsg1.txt')
+c.q4('smmsg2.txt')
+print len(c.dict), "words in dictionary"
+print "Fitting model..."
+c.q5()
+print "Accuracy on validation set:", c.q6('ksmsg2.txt')
+print "Good alpha:", c.q7('ksmsg2.txt')
