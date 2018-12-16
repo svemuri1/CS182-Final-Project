@@ -4,6 +4,7 @@ from parse import *
 
 inp = raw_input("Enter your input here:").split()
 
+
 poswords = open("poswords.txt").readlines()
 
 print type(poswords)

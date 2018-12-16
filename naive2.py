@@ -3,10 +3,9 @@ from math import log
 
 class TextClassifier:
 
-	def __init__(self, index=0):
-		self.dict = {"Sreya": 0}
-		self.mastercounts = []
-		
+	self.dict = {}
+	self.counts = [[0] * len(self.dict) for _ in range(3)]
+
 	def q4(self, infile):
 	        """
 	        You'll notice that actual words didn't appear in the last question.
@@ -42,7 +41,6 @@ class TextClassifier:
 	        self.realnames = {0: "Kevin Stephen", 1: "Sreya Vemuri", 2: "Sid Menon"}
 	        self.months = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"}
 
-
 	        f = open(infile, 'r')
 
 	        linecount = 0
@@ -59,9 +57,7 @@ class TextClassifier:
 						self.nnames[lst[0] + " " + lst[1]] += 1
 	        f.close()
 
-	        # print self.dict
-
-	        self.counts = [[0] * len(self.dict) for _ in range(3)]
+	        print self.dict
 
 	        f = open(infile, 'r')
 
@@ -79,16 +75,14 @@ class TextClassifier:
 	        	lst = line.rstrip("\n").split(" ")
 	        	if len(lst) > 1:
 	        		if switch == 1 and lst[0] not in self.months:
-	        			switch = 0
 	        			for word in lst:
-	        				encoding = self.dict[word]
+			                encoding = self.dict[word]
 			                self.counts[l][encoding] += 1
+			            switch = 0
 	        		if (lst[0] + " " + lst[1]) in self.names:
 	        			switch = 1
 		        	# if lst[0] not in self.months and (lst[0] + " " + lst[1]) not in self.names:    
 	        f.close()
-
-	        self.mastercounts.append(self.counts)
 
 	def q5(self, alpha=1):
 	        """
@@ -144,6 +138,14 @@ class TextClassifier:
 	                    totals[name] += self.F[name][encoded]
 	        our_rating = totals.index(max(totals))
 	        
+	        
+	        '''predictions.append(our_rating)
+
+	        if our_rating == realrating:
+	            accuracy += 1 
+
+	        count += 1 
+			'''
 		return self.realnames[our_rating]
 	        # return [predictions, float(accuracy)/count]
 
@@ -161,7 +163,9 @@ class TextClassifier:
 	        """
 		return 0.1
 
+TextClassifier.q4('smmsg1.txt')
 
+'''
 if __name__ == '__main__':
     c = TextClassifier()
     print "Processing training set..."
@@ -172,10 +176,9 @@ if __name__ == '__main__':
     c.q4('svmsg2.txt')
     c.q4('svmsg3.txt')
     c.q4('svmsg4.txt')
-    c.q4('smmsg1.txt')
-    c.q4('smmsg2.txt')
     print len(c.dict), "words in dictionary"
     print "Fitting model..."
     c.q5()
     print "Accuracy on validation set:", c.q6('ksmsg2.txt')
     print "Good alpha:", c.q7('ksmsg2.txt')
+'''
