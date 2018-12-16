@@ -14,8 +14,6 @@ from parse import *
 # buiid on next iteration
 
 # compute belief state for state candidate: forward algorithm
-<<<<<<< HEAD
-=======
 # def computeHighestBeliefState(state, evidence_sequence):
 #     # calculate P(e_t | x_t)
 #     evidence_prob = emission_table[state][evidence_sequence[len(evidence_sequence)-1]]
@@ -27,7 +25,6 @@ from parse import *
 #                             * transition_table[x][state]
 #     return evidence_prob * transition_weight
 
->>>>>>> 452e6f7f4b15ced7f9b8d6e32bc35d196a209eb9
 # forward algorithm... using DP!
 def computeHighestBeliefState(evidence_sequence):
     transition_table = np.zeros([5, len(evidence_sequence) + 1])
