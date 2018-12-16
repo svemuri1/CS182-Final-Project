@@ -3,6 +3,8 @@ evidence_prob = [{'fun':0.1, 'cool':0.9}, {'fun':0.1, 'cool':0.9}, {'fun':0.1, '
 name = {'Kevin':0, 'Sreya':1, 'Sid':2}
 state_space = [name[key] for key in name.keys()]
 
+
+evidence_sequence = [wordmapping[word] for word in evidence]
 # compute belief state for state candidate
 def computeHighestBeliefState(state, evidence_sequence):
     # calculate P(e_t | x_t)
