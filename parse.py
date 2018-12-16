@@ -24,7 +24,7 @@ f_read.close()
 words = {}
 f = open(outfile, "r")
 for line in f:
-	lst = line.rstrip("\n").split(" ") 
+	lst = line.rstrip("\n").split(" ")
 	for i in range(len(lst)-2):
 		key = (lst[i], lst[i+1])
 		value = lst[i+2]
@@ -58,7 +58,7 @@ negwords = map(str.strip, negwords1)
 greetingwords = ["hello", "hi", "hey", "greetings", "evening", "morning", "afternoon", "up", "Pleased"
 				"Hello", "Hi", "Hey", "Greetings", "Evening", "Morning", "Afternoon", "Up"]
 
-farewellwords = ["Goodbye", "Seeya", "goodbye", "cya", "ttyl", "ttfn", "cu", "gtg", "bye", "goodnight", "gn", 
+farewellwords = ["Goodbye", "Seeya", "goodbye", "cya", "ttyl", "ttfn", "cu", "gtg", "bye", "goodnight", "gn",
 				"goodbye", "later", "ok"]
 
 totalCount = 0
@@ -132,6 +132,7 @@ for j in range(20000):
 
 print(np.sum(emissions))
 
+
 for i in range(4):
 	rowSum = 0
 	for j in range(20000):
@@ -139,4 +140,3 @@ for i in range(4):
 	for j in range(20000):
 		if (rowSum != 0):
 			emissions[i][j] = emissions[i][j]/float(rowSum)
-
