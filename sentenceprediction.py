@@ -24,7 +24,8 @@ if inp[0] in questionwords:
 
 	# return chat output from longest two words
 	return chat(sortedwords[0], sortedwords[1])
-elif
+else:
+	
 
 	# HMM to classify input
 	

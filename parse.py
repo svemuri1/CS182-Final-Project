@@ -68,62 +68,61 @@ for key in words2:
 			if value  in greetingwords:
 				transitions[0][0] += 1
 			elif value in poswords:
-				transitions[0][1] += 1
+				transitions[1][0] += 1
 			elif value in negwords:
-				transitions[0][2] += 1
+				transitions[2][0] += 1
 			elif value in farewellwords:
-				transitions[0][3] += 1
+				transitions[3][0] += 1
 			else:
-				transitions[0][4] += 1
+				transitions[4][0] += 1
 	elif key in poswords:
 		for value in words2[key]:
 			if value in greetingwords:
-				transitions[1][0] += 1
+				transitions[0][1] += 1
 			elif value in poswords:
 				transitions[1][1] += 1
 			elif value in negwords:
-				transitions[1][2] += 1
+				transitions[2][1] += 1
 			elif value in farewellwords:
-				transitions[1][3] += 1
+				transitions[3][1] += 1
 			else:
-				transitions[1][4] += 1
+				transitions[4][1] += 1
 	elif key in negwords:
 		for value in words2[key]:
 			if value in greetingwords:
-				transitions[2][0] += 1
+				transitions[0][2] += 1
 			elif value in poswords:
-				transitions[2][1] += 1
+				transitions[1][2] += 1
 			elif value in negwords:
 				transitions[2][2] += 1
 			elif value in farewellwords:
-				transitions[2][3] += 1
+				transitions[3][2] += 1
 			else:
-				transitions[2][4] += 1
+				transitions[4][2] += 1
 	elif key in farewellwords:
 		for value in words2[key]:
 			if value in greetingwords:
-				transitions[3][0] += 1
+				transitions[0][3] += 1
 			elif value in poswords:
-				transitions[3][1] += 1
+				transitions[1][3] += 1
 			elif value in negwords:
-				transitions[3][2] += 1
+				transitions[2][3] += 1
 			elif value in farewellwords:
 				transitions[3][3] += 1
 			else:
-				transitions[3][4] += 1
+				transitions[4][3] += 1
 	else:
 		for value in words2[key]:
 			if value in greetingwords:
-				transitions[4][0] += 1
+				transitions[0][4] += 1
 			elif value in poswords:
-				transitions[4][1] += 1
+				transitions[1][4] += 1
 			elif value in negwords:
-				transitions[4][2] += 1
+				transitions[2][4] += 1
 			elif value in farewellwords:
-				transitions[4][3] += 1
+				transitions[3][4] += 1
 			else:
 				transitions[4][4] += 1
-
 
 for i in range(5):
 	rowSum = 0
@@ -132,7 +131,7 @@ for i in range(5):
 	for j in range(5):
 		if (rowSum != 0):
 			transitions[i][j] = transitions[i][j]/float(rowSum)
-# print transitions
+print transitions
 
 # build dictionary of words and index values to map to emission table
 wordmapping = {}
