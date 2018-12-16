@@ -7,9 +7,13 @@ from hmm import *
 inp1 = raw_input("Enter your input here:").split()
 inp = [x.lower() for x in inp1]
 
-poswords = open("poswords.txt").readlines()
+poswords1 = open("poswords.txt").readlines()
+poswords0 = map(str.strip, poswords1)
+poswords = [x.lower() for x in poswords0]
 
 negwords = open("negwords.txt").readlines()
+negwords0 = map(str.strip, negwords1)
+negwords = [x.lower() for x in negwords0]
 
 questionwords = ["What", "Why", "Where", "When", "How", "Who", "Is", "Are", 
 				"what", "why", "where", "when", "how", "who", "is", "are"]
