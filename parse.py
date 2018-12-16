@@ -5,8 +5,8 @@ commonword = open("20k.txt").readlines()
 commonwords = map(str.strip, commonword)
 
 # Parses messages
-infile = "smmsg2.txt"
-outfile = "smmsg1.txt"
+infile = "smmsg4.txt"
+outfile = "outfile.txt"
 f_read = open(infile, "r")
 f_write = open(outfile, "a")
 name = "Sid"
@@ -50,7 +50,7 @@ f.close()
 
 # Create transition probability matrix
 # indices: greetings = 0, pos = 1, neg = 2, farewell = 3
-transitions = np.ones([4,4])
+transitions = np.ones([5,5])
 poswords1 = open("poswords.txt").readlines()
 poswords = map(str.strip, poswords1)
 negwords1 = open("negwords.txt").readlines()
@@ -68,50 +68,70 @@ for key in words2:
 			if value  in greetingwords:
 				transitions[0][0] += 1
 			elif value in poswords:
-				transitions[0][1] += 1
+				transitions[1][0] += 1
 			elif value in negwords:
-				transitions[0][2] += 1
+				transitions[2][0] += 1
 			elif value in farewellwords:
-				transitions[0][3] += 1
-	if key in poswords:
+				transitions[3][0] += 1
+			else:
+				transitions[4][0] += 1
+	elif key in poswords:
 		for value in words2[key]:
 			if value in greetingwords:
-				transitions[1][0] += 1
+				transitions[0][1] += 1
 			elif value in poswords:
 				transitions[1][1] += 1
 			elif value in negwords:
-				transitions[1][2] += 1
+				transitions[2][1] += 1
 			elif value in farewellwords:
-				transitions[1][3] += 1
-	if key in negwords:
+				transitions[3][1] += 1
+			else:
+				transitions[4][1] += 1
+	elif key in negwords:
 		for value in words2[key]:
 			if value in greetingwords:
-				transitions[2][0] += 1
+				transitions[0][2] += 1
 			elif value in poswords:
-				transitions[2][1] += 1
+				transitions[1][2] += 1
 			elif value in negwords:
 				transitions[2][2] += 1
 			elif value in farewellwords:
-				transitions[2][3] += 1
-	if key in farewellwords:
+				transitions[3][2] += 1
+			else:
+				transitions[4][2] += 1
+	elif key in farewellwords:
 		for value in words2[key]:
 			if value in greetingwords:
-				transitions[3][0] += 1
+				transitions[0][3] += 1
 			elif value in poswords:
-				transitions[3][1] += 1
+				transitions[1][3] += 1
 			elif value in negwords:
-				transitions[3][2] += 1
+				transitions[2][3] += 1
 			elif value in farewellwords:
 				transitions[3][3] += 1
+			else:
+				transitions[4][3] += 1
+	else:
+		for value in words2[key]:
+			if value in greetingwords:
+				transitions[0][4] += 1
+			elif value in poswords:
+				transitions[1][4] += 1
+			elif value in negwords:
+				transitions[2][4] += 1
+			elif value in farewellwords:
+				transitions[3][4] += 1
+			else:
+				transitions[4][4] += 1
 
-for i in range(4):
+for i in range(5):
 	rowSum = 0
-	for j in range(4):
+	for j in range(5):
 		rowSum += transitions[i][j]
-	for j in range(4):
+	for j in range(5):
 		if (rowSum != 0):
 			transitions[i][j] = transitions[i][j]/float(rowSum)
-# print transitions
+print transitions
 
 # build dictionary of words and index values to map to emission table
 wordmapping = {}
@@ -119,21 +139,28 @@ for i, word in enumerate(commonwords):
 	wordmapping[word] = i
 
 # Build emission probability table
-emissions = np.ones([4,20000])
+emissions = np.ones([5,20000])
 for j in range(20000):
 	if commonwords[j] in greetingwords:
 		emissions[0][j] += 10
-	if commonwords[j] in poswords:
+	elif commonwords[j] in poswords:
 		emissions[1][j] += 10
-	if commonwords[j] in negwords:
+	elif commonwords[j] in negwords:
 		emissions[2][j] += 10
-	if commonwords[j] in farewellwords:
+	elif commonwords[j] in farewellwords:
 		emissions[3][j] += 10
+	else:
+		emissions[4][j] += 10
 
-print(np.sum(emissions))
 
+# print(np.sum(emissions))
+
+<<<<<<< HEAD
 
 for i in range(4):
+=======
+for i in range(5):
+>>>>>>> bc8d21d3fbd0b3f0685f73a53c7f4efb2cbd9427
 	rowSum = 0
 	for j in range(20000):
 		rowSum += emissions[i][j]

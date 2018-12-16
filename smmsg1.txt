@@ -2398,6 +2398,7 @@ hmm
 B Bistro?
 good point
 Blue Collar? Not sure if it’s too far
+<<<<<<< HEAD
 Slide into those dms 😉
 I thought you guys were leaving tomorrow for some reason lol
 Oh shit you’re righhhht I totally forgot about that
@@ -2420,3 +2421,6 @@ B Bistro?
 good point
 Blue Collar? Not sure if it’s too far
 Slide into those dms 😉
+=======
+Slide into those dms 😉
+>>>>>>> bc8d21d3fbd0b3f0685f73a53c7f4efb2cbd9427
