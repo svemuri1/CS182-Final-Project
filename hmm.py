@@ -25,9 +25,6 @@ from parse import *
 #                             * transition_table[x][state]
 #     return evidence_prob * transition_weight
 
-
-
-
 # forward algorithm... using DP!
 def computeHighestBeliefState(evidence_sequence):
     transition_table = np.zeros([5, len(evidence_sequence) + 1])
