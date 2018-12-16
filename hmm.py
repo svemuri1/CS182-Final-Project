@@ -5,7 +5,9 @@ state_space = [name[key] for key in name.keys()]
 
 from parse import *
 
-evidence_sequence = [wordmapping[word] for word in evidence]
+# transitions , emissions, wordmap
+
+
 
 # Save the results from the current iteration
 
@@ -23,27 +25,41 @@ evidence_sequence = [wordmapping[word] for word in evidence]
 #                             * transition_table[x][state]
 #     return evidence_prob * transition_weight
 
+
+
+
 # forward algorithm... using DP!
-def computeHighestBeliefState(state, evidence_sequence):
+def computeHighestBeliefState(evidence_sequence):
     transition_table = np.zeros([5, len(evidence_sequence) + 1])
     for i in range(transition_table.shape[0]):
         transition_table[i][0] = 0.20
-    for j in range(transition_table.shape[1], 1):
+    for j in range(1, transition_table.shape[1]):
         for i in range(transition_table.shape[0]):
-            evidence_prob = emission_table[i][evidence_sequence[j - 1]]
+            evidence_prob = emissions[i][evidence_sequence[j - 1]]
+            # print "{0} evidence of at {1} at timestep {2}".format(evidence_prob, i, j)
             to_state_prob = 0.0
             for prev in range(transition_table.shape[0]):
-                to_state_prob += state_transitions[i][prev] * transition_table[prev][j-1]
+                to_state_prob += transitions[i][prev] * transition_table[prev][j-1]
+            # print "{0} evidence of at {1} at timestep {2}".format(transition_table[i][j], i, j)
             transition_table[i][j] = evidence_prob * to_state_prob
+            # print "{0} evidence of at {1} at timestep {2}".format(transition_table[i][j], i, j)
     return [transition_table[x][transition_table.shape[1] - 1] for x in range(transition_table.shape[0])]
 
 
-def currentBeliefState(state, evidence_sequence):
-    state_probs = computeHighestBeliefState(state, evidence_sequence)
+def currentBeliefState(evidence_sequence):
+    state_probs = computeHighestBeliefState(evidence_sequence)
+    print state_probs
     return state_probs.index(max(state_probs))
 
 
+def toBelief(evidence_list):
+    evidence_sequence = [wordmapping[word] for word in evidence_list]
+    print evidence_sequence
+    return currentBeliefState(evidence_sequence)
+
 import re
+
+
 
 def removeFluff(strLst):
     lst = []
@@ -54,6 +70,6 @@ def removeFluff(strLst):
     lst = filter(is_fluff, lst)
     return lst
 
-
+# print toBelief("hi hello how are you".split(" "))
 
 # Note: Baum - Welch Algorithm For Determining Matrix Weights
