@@ -48,8 +48,9 @@ def classifyInput:
 		if beliefindex = 4:
 			seed = random.choice(other_seeds)
 
+	second_seed = random.choice(words2[seed])
 
-	# HMM to classify input
+	chat(seed, second_seed)
 	
 
 
