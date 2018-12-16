@@ -124,16 +124,7 @@ class TextClassifier:
 	        predictions = []
 	        inputwords = []
 
-	        for i in range(10):
-		        inp = raw_input('Enter some one-word input:')
-		        inputwords.append(inp)
-
-	        '''for line in f:
-	            totals = [0,0,0]
-	            lst = line.rstrip("\n").split(" ")
-	            realrating = int(lst[0])
-	            lst.pop(0)
-	        '''
+	        inputwords = infile
 
 	        totals =[0,0,0]
 
@@ -176,5 +167,5 @@ c.q4('smmsg2.txt')
 print len(c.dict), "words in dictionary"
 print "Fitting model..."
 c.q5()
-print "Accuracy on validation set:", c.q6('ksmsg2.txt')
-print "Good alpha:", c.q7('ksmsg2.txt')
+# print "Accuracy on validation set:", c.q6('ksmsg2.txt')
+# print "Good alpha:", c.q7('ksmsg2.txt')
