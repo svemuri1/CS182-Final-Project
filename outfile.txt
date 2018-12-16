@@ -1,0 +1,80 @@
+or make sure that f is well defined
+I think you have to overwrite the placeholder
+no mine works fine
+from what I understand
+Anything is ok
+Honestly I think that’s fine
+The difficulty is you can do anything
+Oh for example?
+*from_list
+and call Array.to_list
+but you’re only trying to draw one, but it still works. You can put the tuple in a list
+So what you can do is put them in a list
+It draws all of the lines in the array
+Tuples
+I think part of the problem is that the graphics draw segment thing, if I remember correctly, takes int * int * int * int tooled in an array
+Including the border
+So you need to calculate the height and width
+Also remember that the draw method takes in x0 y0 w h
+Then draw a rectangle (but don’t call fill for this specific one) on that area (after adding borders to each thing)
+yeah so what I did is you search for the list of points for the most extreme x values (min and max) and y values (min and max)
+or make sure that f is well defined
+I think you have to overwrite the placeholder
+no mine works fine
+from what I understand
+Anything is ok
+Honestly I think that’s fine
+The difficulty is you can do anything
+Oh for example?
+*from_list
+and call Array.to_list
+but you’re only trying to draw one, but it still works. You can put the tuple in a list
+So what you can do is put them in a list
+It draws all of the lines in the array
+Tuples
+I think part of the problem is that the graphics draw segment thing, if I remember correctly, takes int * int * int * int tooled in an array
+Including the border
+So you need to calculate the height and width
+Also remember that the draw method takes in x0 y0 w h
+Then draw a rectangle (but don’t call fill for this specific one) on that area (after adding borders to each thing)
+yeah so what I did is you search for the list of points for the most extreme x values (min and max) and y values (min and max)
+or make sure that f is well defined
+I think you have to overwrite the placeholder
+no mine works fine
+from what I understand
+Anything is ok
+Honestly I think that’s fine
+The difficulty is you can do anything
+Oh for example?
+*from_list
+and call Array.to_list
+but you’re only trying to draw one, but it still works. You can put the tuple in a list
+So what you can do is put them in a list
+It draws all of the lines in the array
+Tuples
+I think part of the problem is that the graphics draw segment thing, if I remember correctly, takes int * int * int * int tooled in an array
+Including the border
+So you need to calculate the height and width
+Also remember that the draw method takes in x0 y0 w h
+Then draw a rectangle (but don’t call fill for this specific one) on that area (after adding borders to each thing)
+yeah so what I did is you search for the list of points for the most extreme x values (min and max) and y values (min and max)
+or make sure that f is well defined
+I think you have to overwrite the placeholder
+no mine works fine
+from what I understand
+Anything is ok
+Honestly I think that’s fine
+The difficulty is you can do anything
+Oh for example?
+*from_list
+and call Array.to_list
+but you’re only trying to draw one, but it still works. You can put the tuple in a list
+So what you can do is put them in a list
+It draws all of the lines in the array
+Tuples
+I think part of the problem is that the graphics draw segment thing, if I remember correctly, takes int * int * int * int tooled in an array
+Including the border
+So you need to calculate the height and width
+Also remember that the draw method takes in x0 y0 w h
+Then draw a rectangle (but don’t call fill for this specific one) on that area (after adding borders to each thing)
+yeah so what I did is you search for the list of points for the most extreme x values (min and max) and y values (min and max)

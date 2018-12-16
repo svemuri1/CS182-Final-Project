@@ -28,28 +28,27 @@ farewell_seeds = [word for word in farewellwords if word in list(c.dict.keys())]
 other_seeds = [word for word in commonwords if word in list(c.dict.keys())]
 
 
-def classifyInput:
+def classifyInput():
 	if inp[0] in questionwords:
 		# find longest two words in the question to seed
 		sortedwords = sorted(inp, key=len).reverse()
 		# return chat output from longest two words
 		return chat(sortedwords[0], sortedwords[1])
 	else:
-		beliefindex = tobelief(inp) # returns index of belief state given input
+		beliefindex = toBelief(inp) # returns index of belief state given input
 		# pick random word in the bucket of seed words
-		if beliefindex = 0:
+		if beliefindex == 0:
 			seed = random.choice(pos_seeds)
-		if beliefindex = 1:
+		if beliefindex == 1:
 			seed = random.choice(neg_seeds)
-		if beliefindex = 2:
+		if beliefindex == 2:
 			seed = random.choice(greet_seeds)
-		if beliefindex = 3:
+		if beliefindex == 3:
 			seed = random.choice(farewell_seeds)
-		if beliefindex = 4:
+		if beliefindex == 4:
 			seed = random.choice(other_seeds)
 
 	second_seed = random.choice(words2[seed])
-
 	chat(seed, second_seed)
 	
 
@@ -71,3 +70,5 @@ def chat(w1, w2):
 		user2 = output
 		key = (user1, user2)
 	print output_string
+
+classifyInput()

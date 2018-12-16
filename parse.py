@@ -139,7 +139,6 @@ for i in range(5):
 	for j in range(5):
 		if (rowSum != 0):
 			transitions[i][j] = transitions[i][j]/float(rowSum)
-print transitions
 
 # build dictionary of words and index values to map to emission table
 wordmapping = {}

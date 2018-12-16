@@ -51,7 +51,7 @@ def currentBeliefState(evidence_sequence):
 
 def toBelief(evidence_list):
     evidence_sequence = [wordmapping[word] for word in evidence_list]
-    print evidence_sequence
+    # print evidence_sequence
     return currentBeliefState(evidence_sequence)
 
 import re
