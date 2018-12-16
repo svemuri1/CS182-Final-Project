@@ -2,12 +2,10 @@ import random
 import re
 from parse import *
 
-inp = raw_input("Enter your input here:").split()
+# inp = raw_input("Enter your input here:").split()
 
 
 poswords = open("poswords.txt").readlines()
-
-print type(poswords)
 
 negwords = open("negwords.txt").readlines()
 
@@ -26,17 +24,15 @@ if inp[0] in questionwords:
 
 	# return chat output from longest two words
 	return chat(sortedwords[0], sortedwords[1])
-else:
+elif
 
 	# HMM to classify input
 	
 
 
-
-
 def chat(w1, w2):
 	output_string = ""
-	output_string += user1 + " " + user2
+	output_string += w1 + " " + w2
 	# output_string += key[0] + " " + key[1]
 	# user1 = key[0]
 	# user2 = key[1]
@@ -51,4 +47,3 @@ def chat(w1, w2):
 		user2 = output
 		key = (user1, user2)
 	print output_string
-
