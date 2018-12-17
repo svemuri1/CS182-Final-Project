@@ -32,11 +32,11 @@ def computeHighestBeliefState(evidence_sequence):
         transition_table[i][0] = 0.20
     for j in range(1, transition_table.shape[1]):
         for i in range(transition_table.shape[0]):
-            evidence_prob = emissions[i][evidence_sequence[j - 1]]
+            evidence_prob = n.emissions[i][evidence_sequence[j - 1]]
             # print "{0} evidence of at {1} at timestep {2}".format(evidence_prob, i, j)
             to_state_prob = 0.0
             for prev in range(transition_table.shape[0]):
-                to_state_prob += transitions[i][prev] * transition_table[prev][j-1]
+                to_state_prob += n.transitions[i][prev] * transition_table[prev][j-1]
             # print "{0} evidence of at {1} at timestep {2}".format(transition_table[i][j], i, j)
             transition_table[i][j] = evidence_prob * to_state_prob
             # print "{0} evidence of at {1} at timestep {2}".format(transition_table[i][j], i, j)
@@ -45,12 +45,11 @@ def computeHighestBeliefState(evidence_sequence):
 
 def currentBeliefState(evidence_sequence):
     state_probs = computeHighestBeliefState(evidence_sequence)
-    print state_probs
     return state_probs.index(max(state_probs))
 
 
 def toBelief(evidence_list):
-    evidence_sequence = [wordmapping[word] for word in evidence_list]
+    evidence_sequence = [n.wordmapping[word] for word in evidence_list]
     # print evidence_sequence
     return currentBeliefState(evidence_sequence)
 
