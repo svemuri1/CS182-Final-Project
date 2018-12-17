@@ -45,7 +45,6 @@ def computeHighestBeliefState(evidence_sequence):
 
 def currentBeliefState(evidence_sequence):
     state_probs = computeHighestBeliefState(evidence_sequence)
-    print state_probs
     return state_probs.index(max(state_probs))
 
 

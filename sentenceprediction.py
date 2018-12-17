@@ -25,19 +25,30 @@ farewellwords = ["Goodbye", "Seeya", "goodbye", "cya", "ttyl", "ttfn", "cu", "gt
 
 # Seed Word List Generator
 pos_seeds = [word for word in poswords if word in list(n.words2.keys())]
-neg_seeds = [word for word in negwords if word in list(c.dict.keys())]
-greet_seeds = [word for word in greetingwords if word in list(c.dict.keys())]
-farewell_seeds = [word for word in farewellwords if word in list(c.dict.keys())]
-other_seeds = [word for word in commonwords if word in list(c.dict.keys())]
+neg_seeds = [word for word in negwords if word in list(n.words2.keys())]
+greet_seeds = [word for word in greetingwords if word in list(n.words2.keys())]
+farewell_seeds = [word for word in farewellwords if word in list(n.words2.keys())]
+other_seeds = [word for word in commonwords if word in list(n.words2.keys())]
 
 
 def classifyInput(inp):
+	if len(inp) == 0:
+		print "Please enter a longer question:"
+		return 1
 	if inp[0] in questionwords:
 		# find longest two words in the question to seed
 		inp.sort(key=len,reverse=True)
-		print inp
 		# return chat output from longest two words
-		return chat(inp[0], inp[1])
+		if len(inp) > 1:
+			if inp[0] in other_seeds and inp[1] in other_seeds:
+				return chat(inp[0], inp[1])
+			else:
+				seed = random.choice(other_seeds)
+				second_seed = random.choice(n.words2[seed])
+				return chat(seed, second_seed)
+		else:
+			print "Please enter a longer question:"
+			return 1
 	else:
 		beliefindex = toBelief(inp) # returns index of belief state given input
 		# pick random word in the bucket of seed words
@@ -51,17 +62,12 @@ def classifyInput(inp):
 			seed = random.choice(farewell_seeds)
 		if beliefindex == 4:
 			seed = random.choice(other_seeds)
-	print(seed)
 	second_seed = random.choice(n.words2[seed])
-	chat(seed, second_seed)
+	return chat(seed, second_seed)
 
 def chat(w1, w2):
 	output_string = ""
 	output_string += w1 + " " + w2
-	# output_string += key[0] + " " + key[1]
-	# user1 = key[0]
-	# user2 = key[1]
-	# (user1, user2) = key
 	words = n.words
 	user1 = w1
 	user2 = w2
@@ -83,4 +89,4 @@ for i in range(10):
 	userwords.append(inp)
 	classifyInput(inp)
 
-print c.q6(userwords)
+print "Based on your responses, you're probably ", c.q6(userwords)
