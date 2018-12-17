@@ -1,34 +1,18 @@
 import re
 import numpy as np
 import util
+from save import *
 
-commonword = open("20k.txt").readlines()
-commonwords = map(str.strip, commonword)
-
-# # Parses messages
-	# infile = "ksmsg1.txt"
-	# outfile = "svmsg1.txt"
-	# f_read = open(infile, "r")
-	# f_write = open(outfile, "a")
-	# name = "Sid"
-	# write = False
-	# for line in f_read:
-	# 	if write == True:
-	# 		f_write.write(line)
-	# 		write = False
-	# 	if re.match(name, line) != None:
-	# 		write = True
-	# f_write.close()
-	# f_read.close()
 
 # Create transition probability matrix
 # indices: greetings = 0, pos = 1, neg = 2, farewell = 3
 
 class DictBuilder:
 
-	def __init__(self, index=0):
+	def __init__(self, index=0, common_words=None):
 		self.words = {}
 		self.words2 = {}
+		self.commonwords = common_words
 
 	def ord2(self,outfile):
 		# Create dictionary of order-2 for markov chain
@@ -70,10 +54,10 @@ class DictBuilder:
 						"goodbye", "later", "ok"]
 
 		# Seed Word List Generator
-		pos_seeds = [word for word in commonwords if word in poswords]
-		neg_seeds = [word for word in commonwords if word in negwords]
-		greet_seeds = [word for word in commonwords if word in greetingwords]
-		farewell_seeds = [word for word in commonwords if word in farewellwords]
+		pos_seeds = [word for word in self.commonwords if word in poswords]
+		neg_seeds = [word for word in self.commonwords if word in negwords]
+		greet_seeds = [word for word in self.commonwords if word in greetingwords]
+		farewell_seeds = [word for word in self.commonwords if word in farewellwords]
 
 		# Create Transition Probabilities
 		totalCount = 0
@@ -149,19 +133,19 @@ class DictBuilder:
 
 		# build dictionary of words and index values to map to emission table
 		self.wordmapping = util.Counter()
-		for i, word in enumerate(commonwords):
+		for i, word in enumerate(self.commonwords):
 			self.wordmapping[word] = i
 
 		# Build emission probability table
 		self.emissions = np.ones([5,20000])
 		for j in range(20000):
-			if commonwords[j] in greetingwords:
+			if self.commonwords[j] in greetingwords:
 				self.emissions[0][j] += 10
-			elif commonwords[j] in poswords:
+			elif self.commonwords[j] in poswords:
 				self.emissions[1][j] += 10
-			elif commonwords[j] in negwords:
+			elif self.commonwords[j] in negwords:
 				self.emissions[2][j] += 10
-			elif commonwords[j] in farewellwords:
+			elif self.commonwords[j] in farewellwords:
 				self.emissions[3][j] += 10
 			else:
 				self.emissions[4][j] += 10
@@ -176,30 +160,35 @@ class DictBuilder:
 					self.emissions[i][j] = self.emissions[i][j]/float(rowSum)
 
 
-n = DictBuilder()
-n.ord2("ksmsg1.txt")
-n.ord2("ksmsg2.txt")
-n.ord2("ksmsg3.txt")
-n.ord2("ksmsg4.txt")
-n.ord2("ksmsg5.txt")
-n.ord2("ksmsg6.txt")
-n.ord2("ksmsg7.txt")
-n.ord2("ksmsg8.txt")
-n.ord2("ksmsg9.txt")
-n.ord2("ksmsg10.txt")
-n.ord2("svmsg1.txt")
-n.ord2("svmsg2.txt")
-n.ord2("svmsg3.txt")
-n.ord2("svmsg4.txt")
-n.ord2("svmsg5.txt")
-n.ord2("svmsg6.txt")
-n.ord2("svmsg7.txt")
-n.ord2("svmsg8.txt")
-n.ord2("svmsg9.txt")
-n.ord2("svmsg10.txt")
-n.ord2("smmsg1.txt")
-n.ord2("smmsg2.txt")
-n.ord2("smmsg3.txt")
-n.ord2("smmsg4.txt")
-
-
+def createDict():
+	commonword = open("20k.txt").readlines()
+	commonwords = map(str.strip, commonword)
+	n = DictBuilder(common_words=commonwords)
+	n.ord2("ksmsg1.txt")
+	n.ord2("ksmsg2.txt")
+	n.ord2("ksmsg3.txt")
+	n.ord2("ksmsg4.txt")
+	n.ord2("ksmsg5.txt")
+	n.ord2("ksmsg6.txt")
+	n.ord2("ksmsg7.txt")
+	n.ord2("ksmsg8.txt")
+	n.ord2("ksmsg9.txt")
+	n.ord2("ksmsg10.txt")
+	n.ord2("svmsg1.txt")
+	n.ord2("svmsg2.txt")
+	n.ord2("svmsg3.txt")
+	n.ord2("svmsg4.txt")
+	n.ord2("svmsg5.txt")
+	n.ord2("svmsg6.txt")
+	n.ord2("svmsg7.txt")
+	n.ord2("svmsg8.txt")
+	n.ord2("svmsg9.txt")
+	n.ord2("svmsg10.txt")
+	n.ord2("smmsg1.txt")
+	n.ord2("smmsg2.txt")
+	n.ord2("smmsg3.txt")
+	n.ord2("smmsg4.txt")
+	save_obj(n.transitions, 'transitions')
+	save_obj(n.emissions, 'emissions')
+	save_obj(n.wordmapping, 'wordmapping')
+	return n

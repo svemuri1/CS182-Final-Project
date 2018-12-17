@@ -6,7 +6,7 @@ class TextClassifier:
 	def __init__(self, index=0):
 		self.dict = {"Sreya": 0}
 		self.mastercounts = []
-		
+
 	def q4(self, infile):
 	        """
 	        You'll notice that actual words didn't appear in the last question.
@@ -36,7 +36,7 @@ class TextClassifier:
 	        # self.nrated = [0,0,1,0,0]
 
 	        # Loop through file and fill dict and nrated
-	       
+
 	        self.names = ["Kevin Stephen", "Sreya Vemuri", "Sid Menon"]
 	        self.nnames = {"Kevin Stephen": 0, "Sreya Vemuri" : 0, "Sid Menon" : 0}
 	        self.realnames = {0: "Kevin Stephen", 1: "Sreya Vemuri", 2: "Sid Menon"}
@@ -46,7 +46,7 @@ class TextClassifier:
 	        f = open(infile, 'r')
 
 	        linecount = 0
-	        
+
 	        for line in f:
 	        	linecount += 1
 	        	lst = line.rstrip("\n").split(" ")
@@ -85,7 +85,7 @@ class TextClassifier:
 			                self.counts[l][encoding] += 1
 	        		if (lst[0] + " " + lst[1]) in self.names:
 	        			switch = 1
-		        	# if lst[0] not in self.months and (lst[0] + " " + lst[1]) not in self.names:    
+		        	# if lst[0] not in self.months and (lst[0] + " " + lst[1]) not in self.names:
 	        f.close()
 
 	        self.mastercounts.append(self.counts)
@@ -119,7 +119,7 @@ class TextClassifier:
 	        Are there any factors that won't affect your prediction?
 	        You'll report both the list of predicted ratings in order and the accuracy.
 	        """
-	        count = 0 
+	        count = 0
 	        accuracy = 0
 	        predictions = []
 	        inputwords = []
@@ -134,7 +134,7 @@ class TextClassifier:
 	                for name in range(0,3):
 	                    totals[name] += self.F[name][encoded]
 	        our_rating = totals.index(max(totals))
-	        
+
 		return self.realnames[our_rating]
 	        # return [predictions, float(accuracy)/count]
 
@@ -153,34 +153,34 @@ class TextClassifier:
 		return 0.1
 
 
-c = TextClassifier()
-print "Processing training set..."
-c.q4('ksmsg1.txt')
-c.q4('ksmsg2.txt')
-c.q4('ksmsg3.txt')
-c.q4('ksmsg4.txt')
-c.q4('ksmsg5.txt')
-c.q4('ksmsg6.txt')
-c.q4('ksmsg7.txt')
-c.q4('ksmsg8.txt')
-c.q4('ksmsg9.txt')
-c.q4('ksmsg10.txt')
-c.q4('svmsg1.txt')
-c.q4('svmsg2.txt')
-c.q4('svmsg3.txt')
-c.q4('svmsg4.txt')
-c.q4('svmsg5.txt')
-c.q4('svmsg6.txt')
-c.q4('svmsg7.txt')
-c.q4('svmsg8.txt')
-c.q4('svmsg9.txt')
-c.q4('svmsg10.txt')
-c.q4('smmsg1.txt')
-c.q4('smmsg2.txt')
-c.q4('smmsg3.txt')
-c.q4('smmsg4.txt')
-print len(c.dict), "words in dictionary"
-print "Fitting model..."
-c.q5()
-# print "Accuracy on validation set:", c.q6('ksmsg2.txt')
-# print "Good alpha:", c.q7('ksmsg2.txt')
+def createClassifier():
+	c = TextClassifier()
+	print "Creating Identifier: Processing training set..."
+	c.q4('ksmsg1.txt')
+	c.q4('ksmsg2.txt')
+	c.q4('ksmsg3.txt')
+	c.q4('ksmsg4.txt')
+	c.q4('ksmsg5.txt')
+	c.q4('ksmsg6.txt')
+	c.q4('ksmsg7.txt')
+	c.q4('ksmsg8.txt')
+	c.q4('ksmsg9.txt')
+	c.q4('ksmsg10.txt')
+	c.q4('svmsg1.txt')
+	c.q4('svmsg2.txt')
+	c.q4('svmsg3.txt')
+	c.q4('svmsg4.txt')
+	c.q4('svmsg5.txt')
+	c.q4('svmsg6.txt')
+	c.q4('svmsg7.txt')
+	c.q4('svmsg8.txt')
+	c.q4('svmsg9.txt')
+	c.q4('svmsg10.txt')
+	c.q4('smmsg1.txt')
+	c.q4('smmsg2.txt')
+	c.q4('smmsg3.txt')
+	c.q4('smmsg4.txt')
+	print len(c.dict), "words in dictionary for identifier"
+	print "Fitting model..."
+	c.q5()
+	return c 
