@@ -40,7 +40,7 @@ def load(n):
 					"what", "why", "where", "when", "how", "who", "is", "are"]
 
 	greetingwords = ["hello", "hi", "hey", "greetings", "evening", "morning", "afternoon", "up", "Pleased"
-					"Hello", "Hi", "Hey", "Greetings", "Evening", "Morning", "Afternoon", "Up"]
+					"Hello", "Hi", "Hey", "Greetings", "Evening", "Morning", "Afternoon", "Up", "pleased", "meet"]
 
 	farewellwords = ["Goodbye", "Seeya", "goodbye", "cya", "ttyl", "ttfn", "cu", "gtg", "bye", "goodnight", "gn",
 					"goodbye", "later", "ok"]
@@ -56,16 +56,22 @@ def load(n):
 
 
 def classifyInput(inp, wordmapping, emissions, transitions):
+	
+	questionwords = ["What", "Why", "Where", "When", "How", "Who", "Is", "Are",
+					"what", "why", "where", "when", "how", "who", "is", "are"]
+
 	if len(inp) == 0:
 		print "Please enter a longer question:"
 		return 1
 	if inp[0] in questionwords:
 		# find longest two words in the question to seed
+		print "This is a question!"
 		inp.sort(key=len,reverse=True)
 		# return chat output from longest two words
 		if len(inp) > 1:
-			if inp[0] in other_seeds and inp[1] in other_seeds:
-				return chat(inp[0], inp[1])
+			if inp[0] in other_seeds:
+				second_seed = random.choice(words2[inp[0]])
+				return chat(inp[0], second_seed)
 			else:
 				seed = random.choice(other_seeds)
 				second_seed = random.choice(words2[seed])
@@ -135,6 +141,7 @@ if __name__ == '__main__':
 		save_obj(greet_seeds, 'greet_seeds')
 		save_obj(farewell_seeds, 'farewell_seeds')
 		save_obj(other_seeds, 'other_seeds')
+		save_obj(questionwords, 'questionwords')
 		save_obj(words, 'words')
 		save_obj(words2, 'words2')
 		emissions = n.emissions
@@ -153,7 +160,10 @@ if __name__ == '__main__':
 		wordmapping = load_obj('wordmapping')
 		words = load_obj('words')
 		words2 = load_obj('words2')
-		c = load_obj('classifier')
+		
+		# c = load_obj('classifier')
+		c = createClassifier()
+		save_obj(c, 'classifier')
 
 
 	print '### Text Bot Ready. Training Took {0} seconds ###'.format(time.time() - start)
@@ -161,7 +171,8 @@ if __name__ == '__main__':
 	for i in range(10):
 		inp1 = raw_input("Enter your input here:").split()
 		inp = [x.lower() for x in inp1]
-		userwords.append(inp)
+		for x in inp:
+			userwords.append(x)
 		classifyInput(inp, wordmapping, emissions, transitions)
 
-	print "Based on your responses, you're probably ", c.q6(userwords)
+	print "Based on your responses, you're probably", c.q6(userwords)

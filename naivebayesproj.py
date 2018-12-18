@@ -6,7 +6,8 @@ class TextClassifier:
 
 	def __init__(self, index=0):
 		self.dict = {"Sreya": 0}
-		self.mastercounts = []
+		self.names = ["Kevin", "Sreya", "Sidharth"]
+		self.counts = [[0] * 50000 for _ in range(3)]
 
 	def q4(self, infile):
 	        """
@@ -38,7 +39,6 @@ class TextClassifier:
 
 	        # Loop through file and fill dict and nrated
 
-	        self.names = ["Kevin Stephen", "Sreya Vemuri", "Sid Menon"]
 	        self.nnames = {"Kevin Stephen": 0, "Sreya Vemuri" : 0, "Sid Menon" : 0}
 	        self.realnames = {0: "Kevin Stephen", 1: "Sreya Vemuri", 2: "Sid Menon"}
 	        self.months = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"}
@@ -60,36 +60,32 @@ class TextClassifier:
 						self.nnames[lst[0] + " " + lst[1]] += 1
 	        f.close()
 
-	        # print self.dict
-
-	        self.counts = [[0] * len(self.dict) for _ in range(3)]
+	def q45(self, infile):
 
 	        f = open(infile, 'r')
 
 	        l = 0
 
-	        switch = 0
-
+	        switch = 1
 	        for line in f:
-	        	if line == "Kevin Stephen":
-	        		l = 0
-	        	if line == "Sreya Vemuri":
-	        		l = 1
-	        	if line == "Sid Menon":
-	        		l = 2
 	        	lst = line.rstrip("\n").split(" ")
+	        	if lst[0] == "Kevin":
+	        		l = 0
+	        	if lst[0] == "Sreya":
+	        		l = 1
+	        	if lst[0] == "Sidharth":
+	        		l = 2
+	        	
 	        	if len(lst) > 1:
 	        		if switch == 1 and lst[0] not in self.months:
 	        			switch = 0
 	        			for word in lst:
 	        				encoding = self.dict[word]
 			                self.counts[l][encoding] += 1
-	        		if (lst[0] + " " + lst[1]) in self.names:
+	        		if lst[0] in self.names:
 	        			switch = 1
 		        	# if lst[0] not in self.months and (lst[0] + " " + lst[1]) not in self.names:
 	        f.close()
-
-	        self.mastercounts.append(self.counts)
 
 	def q5(self, alpha=1):
 	        """
@@ -123,8 +119,7 @@ class TextClassifier:
 	        count = 0
 	        accuracy = 0
 	        predictions = []
-	        inputwords = []
-
+	      
 	        inputwords = infile
 
 	        totals =[0,0,0]
@@ -134,7 +129,7 @@ class TextClassifier:
 	                encoded = self.dict[word]
 	                for name in range(0,3):
 	                    totals[name] += self.F[name][encoded]
-	        our_rating = totals.index(max(totals))
+	        our_rating = totals.index(min(totals))
 
 		return self.realnames[our_rating]
 	        # return [predictions, float(accuracy)/count]
@@ -157,6 +152,7 @@ class TextClassifier:
 def createClassifier():
 	c = TextClassifier()
 	print "Creating Identifier: Processing training set..."
+<<<<<<< HEAD
 	for msg in msg_lst:
 		c.q4(msg)
 	# c.q4('ksmsg1.txt')
@@ -184,6 +180,59 @@ def createClassifier():
 	# c.q4('smmsg3.txt')
 	# c.q4('smmsg4.txt')
 	print len(c.dict), "words in dictionary for identifier"
+=======
+	c.q4('ksmsg1.txt')
+	c.q4('ksmsg2.txt')
+	c.q4('ksmsg3.txt')
+	c.q4('ksmsg4.txt')
+	c.q4('ksmsg5.txt')
+	c.q4('ksmsg6.txt')
+	c.q4('ksmsg7.txt')
+	c.q4('ksmsg8.txt')
+	c.q4('ksmsg9.txt')
+	c.q4('ksmsg10.txt')
+	c.q4('svmsg1.txt')
+	c.q4('svmsg2.txt')
+	c.q4('svmsg3.txt')
+	c.q4('svmsg4.txt')
+	c.q4('svmsg5.txt')
+	c.q4('svmsg6.txt')
+	c.q4('svmsg7.txt')
+	c.q4('svmsg8.txt')
+	c.q4('svmsg9.txt')
+	c.q4('svmsg10.txt')
+	c.q4('smmsg1.txt')
+	c.q4('smmsg2.txt')
+	c.q4('smmsg3.txt')
+	c.q4('smmsg4.txt')
+
+
+>>>>>>> 05785a0896e9cf88052982af9bb7fe7cf29cb1d8
 	print "Fitting model..."
+	c.q45('ksmsg1.txt')
+	c.q45('ksmsg2.txt')
+	c.q45('ksmsg3.txt')
+	c.q45('ksmsg4.txt')
+	c.q45('ksmsg5.txt')
+	c.q45('ksmsg6.txt')
+	c.q45('ksmsg7.txt')
+	c.q45('ksmsg8.txt')
+	c.q45('ksmsg9.txt')
+	c.q45('ksmsg10.txt')
+	c.q45('svmsg1.txt')
+	c.q45('svmsg2.txt')
+	c.q45('svmsg3.txt')
+	c.q45('svmsg4.txt')
+	c.q45('svmsg5.txt')
+	c.q45('svmsg6.txt')
+	c.q45('svmsg7.txt')
+	c.q45('svmsg8.txt')
+	c.q45('svmsg9.txt')
+	c.q45('svmsg10.txt')
+	c.q45('smmsg1.txt')
+	c.q45('smmsg2.txt')
+	c.q45('smmsg3.txt')
+	c.q45('smmsg4.txt')
+
 	c.q5()
 	return c
