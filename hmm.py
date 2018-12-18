@@ -1,4 +1,4 @@
-import numpy as np 
+import numpy as np
 transition_table = [[0.33]*3, [0.33]*3, [0.33]*3]
 evidence_prob = [{'fun':0.1, 'cool':0.9}, {'fun':0.1, 'cool':0.9}, {'fun':0.1, 'cool':0.9}]
 name = {'Kevin':0, 'Sreya':1, 'Sid':2}
@@ -18,19 +18,16 @@ state_space = [name[key] for key in name.keys()]
 
 # forward algorithm... using DP!
 def computeHighestBeliefState(evidence_sequence, emissions, transitions):
-    transition_table = np.zeros([5, len(evidence_sequence) + 1])
+    transition_table = np.zeros([5, len(evidence_sequence) + 1]) # 5 for number of possible states
     for i in range(transition_table.shape[0]):
         transition_table[i][0] = 0.20
     for j in range(1, transition_table.shape[1]):
         for i in range(transition_table.shape[0]):
             evidence_prob = emissions[i][evidence_sequence[j - 1]]
-            # print "{0} evidence of at {1} at timestep {2}".format(evidence_prob, i, j)
             to_state_prob = 0.0
             for prev in range(transition_table.shape[0]):
                 to_state_prob += transitions[i][prev] * transition_table[prev][j-1]
-            # print "{0} evidence of at {1} at timestep {2}".format(transition_table[i][j], i, j)
             transition_table[i][j] = evidence_prob * to_state_prob
-            # print "{0} evidence of at {1} at timestep {2}".format(transition_table[i][j], i, j)
     return [transition_table[x][transition_table.shape[1] - 1] for x in range(transition_table.shape[0])]
 
 

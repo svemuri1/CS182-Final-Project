@@ -1,5 +1,6 @@
 # Naive Bayes Implementation with FB Data
 from math import log
+from save import *
 
 class TextClassifier:
 
@@ -156,31 +157,33 @@ class TextClassifier:
 def createClassifier():
 	c = TextClassifier()
 	print "Creating Identifier: Processing training set..."
-	c.q4('ksmsg1.txt')
-	c.q4('ksmsg2.txt')
-	c.q4('ksmsg3.txt')
-	c.q4('ksmsg4.txt')
-	c.q4('ksmsg5.txt')
-	c.q4('ksmsg6.txt')
-	c.q4('ksmsg7.txt')
-	c.q4('ksmsg8.txt')
-	c.q4('ksmsg9.txt')
-	c.q4('ksmsg10.txt')
-	c.q4('svmsg1.txt')
-	c.q4('svmsg2.txt')
-	c.q4('svmsg3.txt')
-	c.q4('svmsg4.txt')
-	c.q4('svmsg5.txt')
-	c.q4('svmsg6.txt')
-	c.q4('svmsg7.txt')
-	c.q4('svmsg8.txt')
-	c.q4('svmsg9.txt')
-	c.q4('svmsg10.txt')
-	c.q4('smmsg1.txt')
-	c.q4('smmsg2.txt')
-	c.q4('smmsg3.txt')
-	c.q4('smmsg4.txt')
+	for msg in msg_lst:
+		c.q4(msg)
+	# c.q4('ksmsg1.txt')
+	# c.q4('ksmsg2.txt')
+	# c.q4('ksmsg3.txt')
+	# c.q4('ksmsg4.txt')
+	# c.q4('ksmsg5.txt')
+	# c.q4('ksmsg6.txt')
+	# c.q4('ksmsg7.txt')
+	# c.q4('ksmsg8.txt')
+	# c.q4('ksmsg9.txt')
+	# c.q4('ksmsg10.txt')
+	# c.q4('svmsg1.txt')
+	# c.q4('svmsg2.txt')
+	# c.q4('svmsg3.txt')
+	# c.q4('svmsg4.txt')
+	# c.q4('svmsg5.txt')
+	# c.q4('svmsg6.txt')
+	# c.q4('svmsg7.txt')
+	# c.q4('svmsg8.txt')
+	# c.q4('svmsg9.txt')
+	# c.q4('svmsg10.txt')
+	# c.q4('smmsg1.txt')
+	# c.q4('smmsg2.txt')
+	# c.q4('smmsg3.txt')
+	# c.q4('smmsg4.txt')
 	print len(c.dict), "words in dictionary for identifier"
 	print "Fitting model..."
 	c.q5()
-	return c 
+	return c
