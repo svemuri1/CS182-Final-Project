@@ -358,6 +358,8 @@ So you need to calculate the height and width
 Also remember that the draw method takes in x0 y0 w h
 Then draw a rectangle (but don’t call fill for this specific one) on that area (after adding borders to each thing)
 yeah so what I did is you search for the list of points for the most extreme x values (min and max) and y values (min and max)
+<<<<<<< HEAD
+=======
 or make sure that f is well defined
 I think you have to overwrite the placeholder
 no mine works fine
@@ -398,3 +400,4 @@ So you need to calculate the height and width
 Also remember that the draw method takes in x0 y0 w h
 Then draw a rectangle (but don’t call fill for this specific one) on that area (after adding borders to each thing)
 yeah so what I did is you search for the list of points for the most extreme x values (min and max) and y values (min and max)
+>>>>>>> 5b70b5ea129c014059d0ab007e9166218c9c37db
