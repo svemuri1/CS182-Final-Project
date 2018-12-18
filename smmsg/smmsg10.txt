@@ -1,0 +1,428 @@
+Mridu Nanda
+i think milan might have answered my question but thanks!
+Dec 9, 2018, 10:54 PM
+Sidharth Menon
+sure fire away
+Dec 9, 2018, 10:35 PM
+Sidharth Menon
+pset 3?
+Dec 9, 2018, 10:35 PM
+Mridu Nanda
+hey question about pset 3?
+Dec 9, 2018, 10:33 PM
+Mridu Nanda
+okay, good luck!
+Dec 9, 2018, 3:46 PM
+Sidharth Menon
+I’ll look haha
+Dec 9, 2018, 3:46 PM
+Sidharth Menon
+thanks
+Dec 9, 2018, 3:46 PM
+Sidharth Menon
+hmm interesting
+Dec 9, 2018, 3:46 PM
+Mridu Nanda
+nope
+Dec 9, 2018, 3:45 PM
+Sidharth Menon
+Did you do any synchronization at all for part 5?
+Dec 9, 2018, 3:44 PM
+Mridu Nanda
+shouldnt make a difference
+Dec 9, 2018, 3:42 PM
+Mridu Nanda
+and delete
+Dec 9, 2018, 3:42 PM
+Mridu Nanda
+i just used new
+Dec 9, 2018, 3:42 PM
+Mridu Nanda
+ya
+Dec 9, 2018, 3:41 PM
+Mridu Nanda
+oh i mean
+Dec 9, 2018, 3:41 PM
+Sidharth Menon
+I mean how did you resize the array otherwise?
+Dec 9, 2018, 3:41 PM
+Mridu Nanda
+thats what i did
+Dec 9, 2018, 3:41 PM
+Mridu Nanda
+but yes
+Dec 9, 2018, 3:40 PM
+Mridu Nanda
+idk if there is a realloc call or soemtibgn
+Dec 9, 2018, 3:40 PM
+Sidharth Menon
+and everything was fine?
+Dec 9, 2018, 3:40 PM
+Sidharth Menon
+So you just realloced
+Dec 9, 2018, 3:40 PM
+Sidharth Menon
+hmm
+Dec 9, 2018, 3:40 PM
+Mridu Nanda
+might be in a diffrent part of ur code
+Dec 9, 2018, 3:40 PM
+Sidharth Menon
+seems to be the case but I can’t figure out where?
+Dec 9, 2018, 3:40 PM
+Mridu Nanda
+no
+Dec 9, 2018, 3:40 PM
+Sidharth Menon
+Do you have to lock when you realloc?
+Dec 9, 2018, 3:40 PM
+Sidharth Menon
+getting data race?
+Dec 9, 2018, 3:40 PM
+Sidharth Menon
+ok thanks!!
+Dec 9, 2018, 3:08 PM
+Mridu Nanda
+i used an arry
+Dec 9, 2018, 3:03 PM
+Sidharth Menon
+did you use a std::vector or an array
+Dec 9, 2018, 3:03 PM
+Sidharth Menon
+I see so just realloc
+Dec 9, 2018, 3:03 PM
+Sidharth Menon
+ohh
+Dec 9, 2018, 3:02 PM
+Mridu Nanda
+and double the size of the buffer every time it gets full
+Dec 9, 2018, 2:53 PM
+Mridu Nanda
+c
+Dec 9, 2018, 2:53 PM
+Mridu Nanda
+so make the array in the struct dynami
+Dec 9, 2018, 2:53 PM
+Mridu Nanda
+u need to solve a buffer overflow
+Dec 9, 2018, 2:53 PM
+Mridu Nanda
+nice
+Dec 9, 2018, 2:53 PM
+Sidharth Menon
+how did you do 5? since there’s too much stuff for the size of the buffer??
+Dec 9, 2018, 2:29 PM
+Sidharth Menon
+ok I think we got it
+Dec 9, 2018, 2:29 PM
+Sidharth Menon
+oh I see
+Dec 9, 2018, 2:29 PM
+Mridu Nanda
+The same lock I used to get rid of move_done
+Dec 9, 2018, 12:24 AM
+Mridu Nanda
+Well I slept with a lock
+Dec 9, 2018, 12:24 AM
+Mridu Nanda
+I just checked if the result was greater than 0
+Dec 9, 2018, 12:24 AM
+Sidharth Menon
+(If you have a plus in the buffer)?
+Dec 8, 2018, 7:40 PM
+Sidharth Menon
+how do you do phase 4? do you just sleep the amount it tells you to before checking if the connection is good?
+Dec 8, 2018, 7:39 PM
+Sidharth Menon
+getting this thing 9.359 sec: server returned error: -1 request sent to STOPped server (0.218 sec into STOP period, 1.559 sec remaining)
+Dec 8, 2018, 7:39 PM
+Sidharth Menon
+hey Mridu I’m getting this annoying error
+Dec 8, 2018, 7:39 PM
+Mridu Nanda
+possibly idk
+Nov 21, 2018, 7:21 PM
+Sidharth Menon
+I think it’s somethin with the grading server maybe?
+Nov 21, 2018, 7:21 PM
+Sidharth Menon
+oh haha
+Nov 21, 2018, 7:21 PM
+Sidharth Menon
+And it was fine haha
+Nov 21, 2018, 7:21 PM
+Mridu Nanda
+impressive
+Nov 21, 2018, 7:20 PM
+Sidharth Menon
+but I reran it
+Nov 21, 2018, 7:20 PM
+Mridu Nanda
+that was really fast lol
+Nov 21, 2018, 7:20 PM
+Sidharth Menon
+I had a mem leak once
+Nov 21, 2018, 7:20 PM
+Mridu Nanda
+nice
+Nov 21, 2018, 7:20 PM
+Sidharth Menon
+yeah
+Nov 21, 2018, 7:20 PM
+Mridu Nanda
+whatever
+Nov 21, 2018, 7:20 PM
+Mridu Nanda
+but like
+Nov 21, 2018, 7:20 PM
+Mridu Nanda
+i still have two mem leask
+Nov 21, 2018, 7:20 PM
+Mridu Nanda
+are u passing everything else
+Nov 21, 2018, 7:20 PM
+Mridu Nanda
+its fin
+Nov 21, 2018, 7:20 PM
+Sidharth Menon
+hopefully
+Nov 21, 2018, 7:20 PM
+Sidharth Menon
+lol
+Nov 21, 2018, 7:20 PM
+Mridu Nanda
+hopefully its not a secret test
+Nov 21, 2018, 7:18 PM
+Mridu Nanda
+if its passes teh tests im content
+Nov 21, 2018, 7:18 PM
+Mridu Nanda
+ive spent too miuch time on this pset to care
+Nov 21, 2018, 7:18 PM
+Mridu Nanda
+but tbh
+Nov 21, 2018, 7:18 PM
+Mridu Nanda
+haha yea maybe
+Nov 21, 2018, 7:18 PM
+Sidharth Menon
+But it’s definitely wrong loll
+Nov 21, 2018, 7:17 PM
+Mridu Nanda
+ya so we're fien what
+Nov 21, 2018, 7:17 PM
+Sidharth Menon
+loll
+Nov 21, 2018, 7:17 PM
+Sidharth Menon
+No
+Nov 21, 2018, 7:17 PM
+Sidharth Menon
+idk
+Nov 21, 2018, 7:17 PM
+Mridu Nanda
+is that a test
+Nov 21, 2018, 7:17 PM
+Mridu Nanda
+but like
+Nov 21, 2018, 7:17 PM
+Mridu Nanda
+yeah
+Nov 21, 2018, 7:17 PM
+Sidharth Menon
+It just sits there right
+Nov 21, 2018, 7:17 PM
+Sidharth Menon
+we have the same issue
+Nov 21, 2018, 7:17 PM
+Sidharth Menon
+ok interesting haha
+Nov 21, 2018, 7:17 PM
+Mridu Nanda
+let me try again
+Nov 21, 2018, 7:16 PM
+Mridu Nanda
+i just tried it and my terminal just hung
+Nov 21, 2018, 7:16 PM
+Sidharth Menon
+Thank you
+Nov 21, 2018, 7:12 PM
+Sidharth Menon
+ok dope
+Nov 21, 2018, 7:12 PM
+Mridu Nanda
+let me check give me like 5 min im heading home
+Nov 21, 2018, 7:12 PM
+Sidharth Menon
+When you press q
+Nov 21, 2018, 7:12 PM
+Sidharth Menon
+Does it let you quit out
+Nov 21, 2018, 7:12 PM
+Sidharth Menon
+But anyways you run the echo hi | less
+Nov 21, 2018, 7:12 PM
+Sidharth Menon
+(Actually lol you’re a lot smarter than me so you’re definitely already done haha)
+👎Mridu Nanda
+Nov 21, 2018, 7:11 PM
+Sidharth Menon
+(Assuming you’re done with the pset)
+Nov 21, 2018, 7:11 PM
+Sidharth Menon
+and run “echo hi | less”
+Nov 21, 2018, 7:11 PM
+Sidharth Menon
+if you make your shell
+Nov 21, 2018, 7:10 PM
+Mridu Nanda
+ya sup
+Nov 21, 2018, 7:04 PM
+Sidharth Menon
+hey quick question
+Nov 21, 2018, 6:20 PM
+Sidharth Menon
+nvm that was a dumb question I figured it out haha
+👍Mridu Nanda
+Nov 20, 2018, 1:05 PM
+Sidharth Menon
+do you know how to access the file descriptors for another command
+Nov 20, 2018, 12:22 AM
+Sidharth Menon
+hey
+Nov 20, 2018, 12:22 AM
+Mridu Nanda
+yup
+Nov 19, 2018, 7:09 PM
+Sidharth Menon
+do you exit after?
+Nov 19, 2018, 5:50 PM
+Sidharth Menon
+like after you fork and stuff and run it in the background for step 2
+Nov 19, 2018, 5:50 PM
+Sidharth Menon
+did you exit the child process for backgrounded stuff
+Nov 19, 2018, 5:50 PM
+Sidharth Menon
+sorry quick question
+Nov 19, 2018, 5:49 PM
+Sidharth Menon
+I just started with Milan
+Nov 18, 2018, 9:18 PM
+Sidharth Menon
+Hahah I’m sorry I suck with FB messenger
+Nov 18, 2018, 9:18 PM
+Mridu Nanda
+Hey have u started this pset?
+Nov 15, 2018, 9:41 AM
+Mridu Nanda
+(i also reset my counter to 0 but I dont think you will do that in your version)
+Nov 5, 2018, 12:19 AM
+Mridu Nanda
+but if the counter = 1, then set the owner to 0
+Nov 5, 2018, 12:19 AM
+Mridu Nanda
+so if the counter is > 1, just decrement and exit
+Nov 5, 2018, 12:19 AM
+Mridu Nanda
+but in ur case, as long as ur calling it in the correct place, i think that should be fine.
+😠Sidharth Menon
+Nov 5, 2018, 12:19 AM
+Mridu Nanda
+and only called kfree if it was ready to actually be freed
+😮Sidharth Menon
+Nov 5, 2018, 12:18 AM
+Mridu Nanda
+i actually decremented my stuff outside kfree
+Nov 5, 2018, 12:18 AM
+Mridu Nanda
+np, and yea i was talking to milan about this
+Nov 5, 2018, 12:18 AM
+Sidharth Menon
+And then set the owner to 0
+Nov 5, 2018, 12:17 AM
+Sidharth Menon
+(& decrement counter)
+Nov 5, 2018, 12:17 AM
+Sidharth Menon
+did you just check if counter > 1
+Nov 5, 2018, 12:17 AM
+Sidharth Menon
+for kfree
+Nov 5, 2018, 12:16 AM
+Sidharth Menon
+Sorry to bother ya
+Nov 5, 2018, 12:16 AM
+Sidharth Menon
+haha one more question
+Nov 5, 2018, 12:16 AM
+Mridu Nanda
+Idk if that will fix all ur problems
+Nov 4, 2018, 11:30 PM
+Mridu Nanda
+Haha np it took me a while
+Nov 4, 2018, 11:30 PM
+Sidharth Menon
+that’s so smart haha
+Nov 4, 2018, 11:30 PM
+Sidharth Menon
+totally forgot about that
+Nov 4, 2018, 11:30 PM
+Sidharth Menon
+Oh thanks
+Nov 4, 2018, 11:30 PM
+Sidharth Menon
+You: 󰀀
+
+Nov 4, 2018, 11:29 PM
+Mridu Nanda
+But reset that to 0 at the start of every call to kalloc
+Nov 4, 2018, 11:28 PM
+Mridu Nanda
+There is something like next_alloc something idk
+Nov 4, 2018, 11:28 PM
+Mridu Nanda
+And not going backwards to check if there is free mem
+Nov 4, 2018, 11:28 PM
+Mridu Nanda
+So rn kalloc is going in order
+Nov 4, 2018, 11:28 PM
+Mridu Nanda
+Yes! I forgot to do this too
+Nov 4, 2018, 11:28 PM
+Sidharth Menon
+should we have done other stuff
+Nov 4, 2018, 11:27 PM
+Sidharth Menon
+ok all we did with kalloc was increment the “counter” (addition to the pageinfo struct)
+Nov 4, 2018, 11:27 PM
+Sidharth Menon
+oof
+Nov 4, 2018, 11:27 PM
+Mridu Nanda
+Also make sure u fix kalloc
+Nov 4, 2018, 11:26 PM
+Mridu Nanda
+A lot of my bugs were related to not cleaning up ALL the memory
+Nov 4, 2018, 11:26 PM
+Mridu Nanda
+I hit this problem many times
+Nov 4, 2018, 11:25 PM
+Mridu Nanda
+Ah yes
+Nov 4, 2018, 11:25 PM
+Sidharth Menon
+we keep getting “unexpected exception 13”
+Nov 4, 2018, 11:25 PM
+Sidharth Menon
+can I just ask u about what we did
+Nov 4, 2018, 11:25 PM
+Sidharth Menon
+haha I’m stuck on step 7 with Milan
+Nov 4, 2018, 11:24 PM
+Mridu Nanda
+Hey ya! sup?
+Nov 4, 2018, 11:23 PM
+Sidharth Menon
+Mridu are u done with the 61 pset?
+Nov 4, 2018, 11:18 PM

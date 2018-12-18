@@ -33,7 +33,7 @@ def computeHighestBeliefState(evidence_sequence, emissions, transitions):
 
 def currentBeliefState(evidence_sequence, emissions, transitions):
     state_probs = computeHighestBeliefState(evidence_sequence, transitions, emissions)
-    print state_probs.index(max(state_probs))
+    # print state_probs.index(max(state_probs))
     return state_probs.index(max(state_probs))
 
 

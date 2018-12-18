@@ -75,7 +75,7 @@ class TextClassifier:
 	        		l = 1
 	        	if lst[0] == "Sidharth":
 	        		l = 2
-	        	
+
 	        	if len(lst) > 1:
 	        		if switch == 1 and lst[0] not in self.months:
 	        			switch = 0
@@ -119,7 +119,7 @@ class TextClassifier:
 	        count = 0
 	        accuracy = 0
 	        predictions = []
-	      
+
 	        inputwords = infile
 
 	        totals =[0,0,0]
@@ -152,87 +152,10 @@ class TextClassifier:
 def createClassifier():
 	c = TextClassifier()
 	print "Creating Identifier: Processing training set..."
-<<<<<<< HEAD
 	for msg in msg_lst:
 		c.q4(msg)
-	# c.q4('ksmsg1.txt')
-	# c.q4('ksmsg2.txt')
-	# c.q4('ksmsg3.txt')
-	# c.q4('ksmsg4.txt')
-	# c.q4('ksmsg5.txt')
-	# c.q4('ksmsg6.txt')
-	# c.q4('ksmsg7.txt')
-	# c.q4('ksmsg8.txt')
-	# c.q4('ksmsg9.txt')
-	# c.q4('ksmsg10.txt')
-	# c.q4('svmsg1.txt')
-	# c.q4('svmsg2.txt')
-	# c.q4('svmsg3.txt')
-	# c.q4('svmsg4.txt')
-	# c.q4('svmsg5.txt')
-	# c.q4('svmsg6.txt')
-	# c.q4('svmsg7.txt')
-	# c.q4('svmsg8.txt')
-	# c.q4('svmsg9.txt')
-	# c.q4('svmsg10.txt')
-	# c.q4('smmsg1.txt')
-	# c.q4('smmsg2.txt')
-	# c.q4('smmsg3.txt')
-	# c.q4('smmsg4.txt')
-	print len(c.dict), "words in dictionary for identifier"
-=======
-	c.q4('ksmsg1.txt')
-	c.q4('ksmsg2.txt')
-	c.q4('ksmsg3.txt')
-	c.q4('ksmsg4.txt')
-	c.q4('ksmsg5.txt')
-	c.q4('ksmsg6.txt')
-	c.q4('ksmsg7.txt')
-	c.q4('ksmsg8.txt')
-	c.q4('ksmsg9.txt')
-	c.q4('ksmsg10.txt')
-	c.q4('svmsg1.txt')
-	c.q4('svmsg2.txt')
-	c.q4('svmsg3.txt')
-	c.q4('svmsg4.txt')
-	c.q4('svmsg5.txt')
-	c.q4('svmsg6.txt')
-	c.q4('svmsg7.txt')
-	c.q4('svmsg8.txt')
-	c.q4('svmsg9.txt')
-	c.q4('svmsg10.txt')
-	c.q4('smmsg1.txt')
-	c.q4('smmsg2.txt')
-	c.q4('smmsg3.txt')
-	c.q4('smmsg4.txt')
-
-
->>>>>>> 05785a0896e9cf88052982af9bb7fe7cf29cb1d8
 	print "Fitting model..."
-	c.q45('ksmsg1.txt')
-	c.q45('ksmsg2.txt')
-	c.q45('ksmsg3.txt')
-	c.q45('ksmsg4.txt')
-	c.q45('ksmsg5.txt')
-	c.q45('ksmsg6.txt')
-	c.q45('ksmsg7.txt')
-	c.q45('ksmsg8.txt')
-	c.q45('ksmsg9.txt')
-	c.q45('ksmsg10.txt')
-	c.q45('svmsg1.txt')
-	c.q45('svmsg2.txt')
-	c.q45('svmsg3.txt')
-	c.q45('svmsg4.txt')
-	c.q45('svmsg5.txt')
-	c.q45('svmsg6.txt')
-	c.q45('svmsg7.txt')
-	c.q45('svmsg8.txt')
-	c.q45('svmsg9.txt')
-	c.q45('svmsg10.txt')
-	c.q45('smmsg1.txt')
-	c.q45('smmsg2.txt')
-	c.q45('smmsg3.txt')
-	c.q45('smmsg4.txt')
-
+	for msg in msg_lst:
+		c.q45(msg)
 	c.q5()
 	return c

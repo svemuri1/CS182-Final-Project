@@ -56,7 +56,7 @@ def load(n):
 
 
 def classifyInput(inp, wordmapping, emissions, transitions):
-	
+
 	questionwords = ["What", "Why", "Where", "When", "How", "Who", "Is", "Are",
 					"what", "why", "where", "when", "how", "who", "is", "are"]
 
@@ -160,11 +160,7 @@ if __name__ == '__main__':
 		wordmapping = load_obj('wordmapping')
 		words = load_obj('words')
 		words2 = load_obj('words2')
-		
-		# c = load_obj('classifier')
-		c = createClassifier()
-		save_obj(c, 'classifier')
-
+		c = load_obj('classifier')
 
 	print '### Text Bot Ready. Training Took {0} seconds ###'.format(time.time() - start)
 
