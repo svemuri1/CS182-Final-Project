@@ -133,7 +133,7 @@ class TextClassifier:
 	                encoded = self.dict[word]
 	                for name in range(0,3):
 	                    totals[name] += self.F[name][encoded]
-	        our_rating = totals.index(max(totals))
+	        our_rating = totals.index(min(totals))
 	        
 		return self.realnames[our_rating]
 	        # return [predictions, float(accuracy)/count]
